@@ -40,8 +40,8 @@
 			</form>	
 		</div>
 
-	<div class="col-lg-12 p-4">
-				<div class="text-center ">
+	<div class="col-lg-12 ">
+				<div class="text-center p-3">
 					<button type="button" class="btn btn-blue login-buttom but-11" >Sing Up with Email</button>
 				</div>
 				<hr class="blue-hr" style="width: 160px;">
@@ -49,14 +49,14 @@
 
 			<div class="col-lg-12 p-1">
 				<div class="text-center">
-				<button type="button" class="btn btn-blue login-buttom but-11" ><i class="fab fa-facebook-square"></i> Sing Up with Facebook</button>
+				<button type="button" class="btn btn-blue login-buttom but-11 text-left px-5"><i class="fab fa-facebook-square"></i><font class="pl-4">Sing Up with Facebook</font></button>
 					
 				</div>
 			</div>
 
 			<div class="col-lg-12 p-3">
 				<div class="text-center">
-					<button type="button" class="btn btn-blue btn-red login-buttom but-11"  ><i class="fab fa-google"></i>Sing Up with google</button>
+					<button type="button" class="btn btn-blue btn-red login-buttom but-11 text-left px-5"><i class="fab fa-google"></i><font class="pl-4">Sing Up with google</font></button>
 				</div>
 			</div>		
 

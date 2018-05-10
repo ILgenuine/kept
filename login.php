@@ -8,8 +8,6 @@
 
     <?php include_once('inc/navbar.php'); ?>
 
-<div class="wrapper">
-
 
 <div class="container">
 	<div class="row">
@@ -55,21 +53,11 @@
 </div>
 	
 
-</div>
-
-
-
-
-
-
-
-
 
 
     <?php include_once('inc/footer.php'); ?>
 
   </body>
-
 </html>
 
 <?php include_once('inc/footer-script.php'); ?>
