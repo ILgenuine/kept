@@ -640,7 +640,11 @@ td, th {
 				/*-------------- FOOTER 1024 ---------------*/
 
 						.footer{
-							height:518px;
+							height:313px;
+						}
+
+						.wrapper{
+							margin-bottom:313px;
 						}
 
 				/*------------ END FOOTER 1024  -------------*/
@@ -752,6 +756,10 @@ td, th {
 
 				.footer{
 					height:450px;
+				}
+
+				.wrapper{
+					margin-bottom:450px;
 				}
 
 
@@ -874,6 +882,10 @@ td, th {
 
 					.footer{
 						height:0px;
+					}
+
+					.wrapper{
+						margin-bottom:0px;
 					}
 
 

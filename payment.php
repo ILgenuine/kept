@@ -8,9 +8,10 @@
 
     <?php include_once('inc/navbar.php'); ?>
 <!-- ============== Navbar ================== -->
+<div class="wrapper">
 
     <div class="container">
-<!-- ====================== TABLE ======================= -->      
+<!-- ====================== TABLE ======================= -->
       <div class="row px-5 payment-position-responsive">
         <div class="col-md-12 pt-5 pb-4">
             <p class="text-lightblue ">รายการชำระเงินทั้งหมด</p>
@@ -62,7 +63,7 @@
         </div>
       </div>
 <!-- ====================== END-TABLE ======================= -->
-  
+
       <div class="row px-5 my-5 payment-position-responsive">
         <div class="col-md-12 pb-3">
           <h5 class="text-lightblue">ข้อมูลการชำระเงิน</h5>
@@ -75,7 +76,7 @@
             <div class="payment-card-header">
               <div class="row">
                 <div class="col-sm-1 col-2">
-                  <div class="payment-radio-top-5">                  
+                  <div class="payment-radio-top-5">
                     <label class="payment-radio">
                       <input type="radio" checked="checked" name="radio">
                       <span class="payment-checkmark"></span>
@@ -127,10 +128,10 @@
                           <a href="#" style="color: grey;;">Forget your Password?</a>
                         </div>
                       </div>
-                    </div>                     
+                    </div>
                 </form>
               </div>
-            </div> 
+            </div>
           </div>
         </div>
 
@@ -143,7 +144,7 @@
             <div class="payment-card-header">
               <div class="row">
                 <div class="col-sm-1 col-2">
-                  <div class="payment-radio-top-5">                  
+                  <div class="payment-radio-top-5">
                     <label class="payment-radio">
                       <input type="radio" name="radio">
                       <span class="payment-checkmark"></span>
@@ -182,10 +183,10 @@
                       <div class="col-lg-7 col-9 payment-crad-responsive-sm">
                         <input type="text" class="form-control" style="width: 50%;">
                       </div>
-                    </div>                       
+                    </div>
                 </form>
               </div>
-            </div> 
+            </div>
           </div>
         </div>
       </div>
@@ -201,6 +202,8 @@
 
 
     </div>
+
+</div>
 
 <!-- ============== Footet ================== -->
     <?php include_once('inc/footer.php'); ?>
