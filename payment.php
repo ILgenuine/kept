@@ -124,7 +124,7 @@
                       <label class="col-lg-4 col-3 payment-crad-responsive-sm col-form-label text-right"></label>
                       <div class="col-lg-8 col-9 payment-crad-responsive-sm">
                         <div class="text-center payment-loginsize">
-                          <a href="#" class="text-grey">Forget your Password?</a>
+                          <a href="#" style="color: grey;;">Forget your Password?</a>
                         </div>
                       </div>
                     </div>                     
