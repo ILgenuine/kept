@@ -1,9 +1,5 @@
 <footer class="footer">
 
-
-
-
-
       <div class="top-footer px-5">
 
         <div class="row py-5">
