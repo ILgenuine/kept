@@ -8,6 +8,8 @@
 
     <?php include_once('inc/navbar.php'); ?>
 
+    <div class="wrapper">
+
 
       <div class="header-box">
           <div class="row">
@@ -58,6 +60,8 @@
             </div>
           </div>
       </div>
+
+      <div>
 
 
 
