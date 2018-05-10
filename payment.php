@@ -78,7 +78,7 @@
                   <div class="payment-radio-top-5">                  
                     <label class="payment-radio">
                       <input type="radio" checked="checked" name="radio">
-                      <span class="checkmark"></span>
+                      <span class="payment-checkmark"></span>
                     </label>
                   </div>
                 </div>
@@ -146,7 +146,7 @@
                   <div class="payment-radio-top-5">                  
                     <label class="payment-radio">
                       <input type="radio" name="radio">
-                      <span class="checkmark"></span>
+                      <span class="payment-checkmark"></span>
                     </label>
                   </div>
                 </div>

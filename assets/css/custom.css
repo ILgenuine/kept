@@ -497,42 +497,43 @@
 }
 
 /* Create a custom radio button */
-.checkmark {
+.payment-checkmark {
     position: absolute;
     top: 0;
     left: 0;
     height: 25px;
     width: 25px;
-    background-color: #eee;
+    background-color: #eee!important;
     border-radius: 50%;
+    border: 1px solid #24a5bf;
 }
 
 /* On mouse-over, add a grey background color */
-.payment-radio:hover input ~ .checkmark {
+.payment-radio:hover input ~ .payment-checkmark {
     background-color: #ccc;
 }
 
 /* When the radio button is checked, add a blue background */
-.payment-radio input:checked ~ .checkmark {
+.payment-radio input:checked ~ .payment-checkmark {
     background-color: #fff;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
-.checkmark:after {
+.payment-checkmark:after {
     content: "";
     position: absolute;
     display: none;
 }
 
 /* Show the indicator (dot/circle) when checked */
-.payment-radio input:checked ~ .checkmark:after {
+.payment-radio input:checked ~ .payment-checkmark:after {
     display: block;
 }
 
 /* Style the indicator (dot/circle) */
-.payment-radio .checkmark:after {
-	top: 3px;
-    left: 3px;
+.payment-radio .payment-checkmark:after {
+	top: 4px;
+    left: 4px;
     width: 15px;
     height: 15px;
 	border-radius: 50%;
@@ -984,7 +985,7 @@ td, th {
 	/*---------------------------
 	--------#END PAYMENT 375 -----
 	-----------------------------*/
-	
+
 }
 
 
