@@ -640,6 +640,95 @@
 			/*--------------------------
 			-------- END WEBBOARD ------
 			----------------------------*/
+
+
+			/*--------------------------
+			-------- MY BOX ------------
+			----------------------------*/
+
+			.mybox-bnt-size {
+				width: 40px;
+    			height: 40px;
+
+			}
+            .mybox-image-frame{
+			    width: 100px;
+			    height: 100px;
+			    overflow: hidden;
+			    position: relative;
+			    margin: auto;
+			    border: 1px solid #58585a;
+			    border-radius: 5px;
+            }
+
+            .mybox-img-test{
+	            position:absolute;
+	            top: 50%;
+	            left:50%;
+	            transform:translate(-50%,-50%);
+            }
+            .mybox-bnt-close {
+            	border-radius: 50%;
+				background-color: #dcd9d9;
+				border: 1px solid;
+				font-size: 18px;
+				width: 40px;
+				height: 40px;
+				border: none;
+				color: #fff;
+            }
+            .mybox-modal-header {
+			    display: -ms-flexbox;
+			    display: flex;
+			    -ms-flex-align: start;
+			    align-items: flex-start;
+			    -ms-flex-pack: justify;
+			    justify-content: space-between;
+			    padding: 1rem;
+			    border-top-left-radius: .3rem;
+			    border-top-right-radius: .3rem;
+			    padding-top: 30px;
+			}
+			.mybox-modal-body {
+			    position: relative;
+			    -ms-flex: 1 1 auto;
+			    flex: 1 1 auto;
+			    padding: 0rem;
+			    margin-top: -15px;
+			}
+			.mybox-content {
+				border: 2px solid #dee2e6;
+				background-color: #dee2e6
+			}
+			.mybox-modal-lg {
+			    max-width: 1120px;
+			}
+			.myboxfont-size-head {
+				font-size: 18px;
+				padding-top: 15px;
+				padding-bottom: 0px;
+			}
+			.mybox-image-frame-model {
+			    width: 100%;
+			    height: 225px;
+			    overflow: hidden;
+			    position: relative;
+			    margin: auto;
+			    border: 1px solid #58585a;
+			    border-radius: 5px;
+			}
+			.mybox-scroll {
+				overflow-y: scroll;
+    			height: 530px;
+			}
+			.mybox-btn-model {
+				width: 170px;
+    			height: 45px;
+			}
+			/*--------------------------
+			--------END MY BOX ---------
+			----------------------------*/
+
 @media (max-width: 1366px) {
 	/*-------------------------*/
 		/*------  login -------*/
@@ -682,8 +771,6 @@
 	/*----------------------
 	----- END PAYMENT ------
 	------------------------*/
-
-
 }
 
 
