@@ -53,11 +53,14 @@
           <li class="nav-item-r">
               <div class="dropdown">
                   <button class="btn dropdown-toggle logged-in-button" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img class="profile-icon" src="assets/images/avatar.png" alt="">
+                      <div class="profile-icon">
+                        <img class="img-fluid" src="assets/images/avatar.png" alt="">
+                      </div>
                      <!-- string cut  include in footer-script-->
-                      <font class="text-blue profile-name" id="profile-name">
-                       Mana JaideeJaideeJaideeJaideeJaideeJaideeJaidee
-                      </font>
+                       <font class="text-blue profile-name"  id="profile-name">
+                        Mana JaideeJaideeJaideeJaideeJaideeJaideeJaidee
+                       </font>
+
                   </button>
                   <div class="dropdown-menu" aria-labelledby="dropdownMenu">
                       <button class="dropdown-item py-2 text-grey" type="button" onclick="window.location.href='editprofile.php';">Edit Profile</button>
