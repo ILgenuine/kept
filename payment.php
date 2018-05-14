@@ -14,7 +14,7 @@
 <!-- ====================== TABLE ======================= -->
       <div class="row px-5 payment-position-responsive">
         <div class="col-md-12 pt-5 pb-4">
-            <p class="text-lightblue ">รายการชำระเงินทั้งหมด</p>
+            <p class="text-lightblue"> STANDARTรายการชำระเงินทั้งหมด </p>
         </div>
 
         <div class="col-md-12">
@@ -42,7 +42,7 @@
 
                   <tr>
                     <td class="text-lightblue">2.</td>
-                    <td class="text-lightblue">KEPT</td>
+                    <td class="text-lightblue">STANDART</td>
                     <td class="text-lightblue">กล่องหนังสือ</td>
                     <td class="text-lightblue">100</td>
                     <td class="text-lightblue">Confirm Orser</td>
@@ -51,7 +51,7 @@
 
                   <tr>
                     <td class="text-lightblue">3.</td>
-                    <td class="text-lightblue">KEPT</td>
+                    <td class="text-lightblue">STANDART</td>
                     <td class="text-lightblue">กล่องหนังสือ</td>
                     <td class="text-lightblue">100</td>
                     <td class="text-lightblue">Confirm Orser</td>
@@ -94,7 +94,7 @@
                     <div class="form-group row mb-3">
                       <label class="col-sm-4 col-form-label text-right payment-crad-responsive-sm"></label>
                       <div class="col-sm-8 payment-crad-responsive-sm">
-                        <div class="text-grey text-center mb-3">
+                        <div class="text-center"  style="color: grey;">
                           <h5>Login wiht Paypal</h5>
                         </div>
                       </div>
@@ -115,9 +115,9 @@
                     </div>
 
                     <div class="form-group row mb-3">
-                      <label class="col-lg-4 col-3 payment-crad-responsive-sm col-form-label text-right"></label>
+                      <label class="col-lg-4 col-3 payment-crad-responsive-sm  col-form-label text-right"></label>
                       <div class="col-lg-8 col-9 payment-crad-responsive-sm">
-                        <div class="text-center"><button type="button" class="btn btn-blue width100">LOGIN</button></div>
+                        <div class="text-center"><button type="button" class="btn btn-blue w100">LOGIN</button></div>
                       </div>
                     </div>
 
@@ -125,7 +125,7 @@
                       <label class="col-lg-4 col-3 payment-crad-responsive-sm col-form-label text-right"></label>
                       <div class="col-lg-8 col-9 payment-crad-responsive-sm">
                         <div class="text-center payment-loginsize">
-                          <a href="#" class="text-grey">Forget your Password?</a>
+                          <a href="#" style="color: grey;">Forget your Password?</a>
                         </div>
                       </div>
                     </div>
