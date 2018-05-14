@@ -118,10 +118,28 @@
               </div>
 
             </div>
+
+
+            <div class="row mybox-navigation">
+              <div class="col-12">
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination  justify-content-center">
+                    <li class="page-item"><a class="webboard-page-link webboard-bordernone responsive-display-none" href="#">Previous</a></li>
+                    <li class="page-item"><a class="webboard-page-link webboard-bordernone mr-3" href="#"><i class="fa fa-caret-left" aria-hidden="true"></i></a></li>
+                    <li class="page-item"><a class="webboard-page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="webboard-page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="webboard-page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="webboard-page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="webboard-page-link webboard-bordernone ml-3" href="#"><i class="fa fa-caret-right" aria-hidden="true"></i></a></li>
+                    <li class="page-item"><a class="webboard-page-link webboard-bordernone responsive-display-none" href="#">Next</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+
+
+
           </div>
-
-
-
         </div>
 
 

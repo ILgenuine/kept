@@ -252,6 +252,10 @@ img{
 					color:#71c6d8;
 				}
 
+				.active-menu{
+					color:#4b80c2;
+				}
+
 				.nav-item-r{
 					margin-left: 5px;
 					margin-right: 5px;
@@ -280,10 +284,15 @@ img{
 				}
 
 				.profile-icon{
+					margin-top: 5px;
 					width:30px;
-					height:30px;
-					border-radius: 25px;
-					margin-top: 0px;
+					height:20px;
+					position:relative;
+					display:inline-block;
+				}
+
+				.profile-icon img{
+					border-radius: 30px;
 				}
 
 				.logged-in-button{
@@ -761,7 +770,7 @@ th {
 			.mybox-bnt-size {
 				width: 40px;
     			height: 40px;
-
+    			cursor: pointer;
 			}
             .mybox-image-frame{
 			    width: 100px;
@@ -866,6 +875,10 @@ th {
 			    cursor: pointer;
 			    background-color: #4b80c2;
 			    color: #fff!important;
+			}
+			.mybox-navigation {
+				margin-top: 20px;
+    			margin-bottom: 60px;
 			}
 
 			/*--------------------------
@@ -1472,7 +1485,7 @@ td, th {
 	-------- END WEBBOARD 768 ----
 	-----------------------------*/
 	/*---------------------------
-	----------- MYBOX------------
+	----------- MYBOX 768--------
 	-----------------------------*/
 		.mybox-content {
 		    top: 55px;
@@ -1507,7 +1520,7 @@ td, th {
 		    width: 180px;
 		}
 	/*---------------------------
-	-------- END MYBOX-----------
+	-------- END MYBOX 768-------
 	-----------------------------*/
 }
 
@@ -1945,16 +1958,15 @@ td, th {
 	-------- REGISTER  320-------
 	------------------------*/
 
-			.re-tap320 {
-			    margin-left: 1px;
-			    margin-right: 1px;
+		.re-tap320 {
+		    margin-left: 1px;
+		    margin-right: 1px;
 
-			}
-			.re-tap320-2 {
-			    margin-left: -14px;
-			    margin-right: 1px;
+		}
 
-			}
+		.re-tap320-2 {
+		    margin-left: -14px;
+		    margin-right: 1px;
 			.register-bnt-fix-size {
 			    width: 235px;
 			}
@@ -1978,17 +1990,20 @@ td, th {
 		    margin-right: -4px!important;
 		    margin-bottom: 10px;
 		}
+
 		.webboard-content {
 		    border: 2px solid #585859;
 		    border-radius: 5px;
 		    margin-right: 0px;
 		    margin-left: 0px;
 		}
+
 		.webboard-text-time {
 		    padding-right: 20px;
 		    color: grey;
 		    font-size: 16px;
 		}
+
 		.webboard-textarea {
 		    margin-top: 0px;
 		    margin-bottom: 0px;
@@ -1997,6 +2012,11 @@ td, th {
 		    resize: none;
 		    border: 2px solid #585859;
 		}
+
+		.how{
+			font-size: 25px;
+		}
+
 	/*---------------------------
 	----- END WEBBOARD 320-------
 	-----------------------------*/

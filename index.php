@@ -186,6 +186,39 @@
           <div class="col-lg-6 col-md-12 col-12 text-lg-left text-md-center text-center">
             <font class="how text-blue">" KEPT "</font><font class="how">COMMENTS</font>
 
+            <div class="row py-3">
+                <div class="col-lg-3 col-md-12 col-12 webboard-top-414">
+                  <div><p class="text-lightblue text-center webboard-content-top15">คุณแป๋ม</p></div>
+                </div>
+                <div class="col-lg-9 col-md-12 col-12 mb-lg-4 mb-md-2 mb-3">
+                  <div class="webboard-content w-100">
+                    <p class="text-blue px-3 webboard-content-top15 webboard-message-responsive">ราคาถูกมาเลยค่ะ ชอบมาก!!</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-12 col-12 webboard-top-414">
+                  <div><p class="text-lightblue text-center webboard-content-top15">คุณนัท</p></div>
+                </div>
+                <div class="col-lg-9 col-md-12 col-12 mb-lg-4 mb-md-2 mb-3">
+                  <div class="webboard-content w-100">
+                    <p class="text-blue px-3 webboard-content-top15 webboard-message-responsive">สะดวกมากเลยครับ ทำงานรวดเร็วมาก ชอบมากจุฟๆ !!</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-12 col-12 webboard-top-414">
+                  <div><p class="text-lightblue text-center webboard-content-top15">คุณสิริ</p></div>
+                </div>
+                <div class="col-lg-9 col-md-12 col-12 mb-lg-4 mb-md-2 mb-3">
+                  <div class="webboard-content w-100">
+                    <p class="text-blue px-3 webboard-content-top15 webboard-message-responsive">บ้านดูโล่งขึ้นเยอะเลยค่ะ ชอบบริการนี้มาก</p>
+                  </div>
+                </div>
+                <div class="col-12 text-lg-right text-md-center text-center">
+                  <button type="button" class="btn btn-lightblue get-btn">MORE..</button>
+                </div>
+            </div>
+
+
+
+
           </div>
         </div>
 
