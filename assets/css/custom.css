@@ -66,7 +66,9 @@
 			.text-lightblue{
 				color:#7accdd;
 			}
-
+			.w100 {
+				width: 100%;
+			}
 			a:hover{
 				text-decoration:none;
 			}
@@ -297,9 +299,9 @@
 
 				.footer{
 					position: absolute;
-			    bottom: 0;
-			    width: 100%;
-					height: 190px;
+			    	bottom: 0;
+			    	width: 100%;
+					height:313px;
 				}
 
 				.top-footer{
@@ -390,17 +392,17 @@
 		}
 
 		.carousel-indicators li {
-	    position: relative;
-	    -ms-flex: 0 1 auto;
-	    flex: 0 1 auto;
-	    width: 20px;
-	    height: 20px;
-	    margin-right: 3px;
-	    margin-left: 3px;
-	    text-indent: -999px;
-	    cursor: pointer;
+		    position: relative;
+		    -ms-flex: 0 1 auto;
+		    flex: 0 1 auto;
+		    width: 20px;
+		    height: 20px;
+		    margin-right: 3px;
+		    margin-left: 3px;
+		    text-indent: -999px;
+		    cursor: pointer;
 			border-radius: 25px;
-	    background-color: #84ccdd;
+	    	background-color: #84ccdd;
 		}
 
 		.carousel-indicators .active{
@@ -441,130 +443,293 @@
 			th {
 				background-color: #dee2e6;
 			}
-.payment-logosize {
-	width: 20%;
-}
-.payment-card-header {
-   	padding: 20px 0px 5px 10px;
-    margin-bottom: 0;
-    background-color: transparent;
-    border-bottom: none;
-}
-.payment-card-body {
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    padding: 1.25rem;
-}
-.payment-card-footer {
-    padding: .75rem 1.25rem;
-    background-color: transparent;
-    border-top: none;
-}
+			.payment-logosize {
+				width: 20%;
+			}
+			.payment-card-header {
+			   	padding: 20px 0px 5px 10px;
+			    margin-bottom: 0;
+			    background-color: transparent;
+			    border-bottom: none;
+			}
+			.payment-card-body {
+			    -ms-flex: 1 1 auto;
+			    flex: 1 1 auto;
+			    padding: 1.25rem;
+			}
+			.payment-card-footer {
+			    padding: .75rem 1.25rem;
+			    background-color: transparent;
+			    border-top: none;
+			}
 
 
-.payment-radio {
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 22px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-.payment-card {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 2px solid rgba(0,0,0,.125);
-    border-radius: .25rem;
-    height: 400px;
-}
-.payment-my-5 {
-	margin-bottom: 60px;
-   /* margin-top: 60px;*/
-}
-/* radio-box */
-.payment-radio input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-}
+			.payment-radio {
+			    display: block;
+			    position: relative;
+			    padding-left: 35px;
+			    margin-bottom: 12px;
+			    cursor: pointer;
+			    font-size: 22px;
+			    -webkit-user-select: none;
+			    -moz-user-select: none;
+			    -ms-user-select: none;
+			    user-select: none;
+			}
+			.payment-card {
+			    position: relative;
+			    display: -ms-flexbox;
+			    display: flex;
+			    -ms-flex-direction: column;
+			    flex-direction: column;
+			    min-width: 0;
+			    word-wrap: break-word;
+			    background-color: #fff;
+			    background-clip: border-box;
+			    border: 2px solid rgba(0,0,0,.125);
+			    border-radius: .25rem;
+			    height: 400px;
+			}
+			.payment-my-5 {
+				margin-bottom: 60px;
+			   /* margin-top: 60px;*/
+			}
+			/* radio-box */
+			.payment-radio input {
+			    position: absolute;
+			    opacity: 0;
+			    cursor: pointer;
+			}
 
-/* Create a custom radio button */
-.payment-checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 25px;
-    width: 25px;
-    background-color: #eee!important;
-    border-radius: 50%;
-    border: 1px solid #24a5bf;
-}
+			/* Create a custom radio button */
+			.payment-checkmark {
+			    position: absolute;
+			    top: 0;
+			    left: 0;
+			    height: 25px;
+			    width: 25px;
+			    background-color: transparent!important;
+			    border-radius: 50%;
+			    border: 1px solid #24a5bf;
+			}
 
-/* On mouse-over, add a grey background color */
-.payment-radio:hover input ~ .payment-checkmark {
-    background-color: #ccc;
-}
+			/* On mouse-over, add a grey background color */
+			.payment-radio:hover input ~ .payment-checkmark {
+			    background-color: #ccc;
+			}
 
-/* When the radio button is checked, add a blue background */
-.payment-radio input:checked ~ .payment-checkmark {
-    background-color: #fff;
-}
+			/* When the radio button is checked, add a blue background */
+			.payment-radio input:checked ~ .payment-checkmark {
+			    background-color: #fff;
+			}
 
-/* Create the indicator (the dot/circle - hidden when not checked) */
-.payment-checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-}
+			/* Create the indicator (the dot/circle - hidden when not checked) */
+			.payment-checkmark:after {
+			    content: "";
+			    position: absolute;
+			    display: none;
+			}
 
-/* Show the indicator (dot/circle) when checked */
-.payment-radio input:checked ~ .payment-checkmark:after {
-    display: block;
-}
+			/* Show the indicator (dot/circle) when checked */
+			.payment-radio input:checked ~ .payment-checkmark:after {
+			    display: block;
+			}
 
-/* Style the indicator (dot/circle) */
-.payment-radio .payment-checkmark:after {
-	top: 4px;
-    left: 4px;
-    width: 15px;
-    height: 15px;
-	border-radius: 50%;
-	background: #23a5bf;
-}
-.payment-radio-top-5 {
-	padding-top: 7px;
-}
-.payment-bnt-size {
-	width: 215px;
-    font-size: 20px;
-}
-.payment-loginsize {
-	font-size: 14px;
-    margin-top: 0px;
-}
-td, th {
-	 padding: .75rem;
-	 vertical-align: middle!important;
-	 border-top: 1px solid #dee2e6;
-	 font-size: 16px;
-	 font-weight: 350;
-	 text-align: center;
-}
-/*--------------------------
---------- END PAYMENT ------
-----------------------------*/
-@media (min-width: 1366px) {
+			/* Style the indicator (dot/circle) */
+			.payment-radio .payment-checkmark:after {
+				top: 4px;
+			    left: 4px;
+			    width: 15px;
+			    height: 15px;
+				border-radius: 50%;
+				background: #23a5bf;
+			}
+			.payment-radio-top-5 {
+				padding-top: 7px;
+			}
+			.payment-bnt-size {
+				width: 215px;
+			    font-size: 20px;
+			}
+			.payment-loginsize {
+				font-size: 14px;
+			    margin-top: 0px;
+			}
+			.payment-my-5 {
+			    margin-bottom: 100px;
+			    margin-top: 30px;
+			}
+			td, th {
+				padding: .75rem;
+				vertical-align: middle!important;
+				border-top: 1px solid #dee2e6;
+				font-size: 16px;
+				font-weight: 350;
+				text-align: center;
+			}
+			/*--------------------------
+			--------- END PAYMENT ------
+			----------------------------*/
+			/*--------------------------
+			--------- WEBBOARD ---------
+			----------------------------*/
+			.webboard-content {
+			    border: 2px solid #585859;
+			    border-radius: 5px;
+			    margin-right: 90px;
+			    margin-left: 0px;
+			}
+			.webboard-content-top15 {
+				margin-top: 15px;
+			}
+			.webboard-textarea-right {
+			    margin-right: 90px;
+			    margin-left: 0px;
+			}
+			.webboard-content-top10 {
+				margin-top: 10px;
+			}
+			.webboard-text-time {
+				padding-right: 90px;
+			    color: grey;
+			}
+			.webboard-bordernone {
+				border: none!important;
+				background: transparent!important;
+			}
+			.webboard-bordernone:hover {
+			    border: none!important;
+			    background: transparent!important;
+			     color: #37adc5!important;
+			}
+			.webboard-page-link {
+			    position: relative;
+			    display: block;
+			    padding: 5px 13px;
+			    margin-left: -1px;
+			    line-height: 1.25;
+			    color: #37adc5;
+			    border: 2px solid #37adc5;
+			}
+			.webboard-page-link:hover {
+			    z-index: 2;
+			    color: #fff;
+			    text-decoration: none;
+			    background-color: #37adc5;
+			    border-color: #37adc5;
+			}
+			.webboard-textarea {
+				margin-top: 0px;
+			    margin-bottom: 0px;
+			    height: 200px;
+			    border-radius: 5px;
+			    resize: none;
+			    border: 2px solid #585859;
+			}
+			.webboard-bnt-comment-size {
+				width: 160px;
+				height: 45px;
+			}
+			.webboard-navigation {
+				margin-top: 100px;
+			    margin-bottom: 100px;
+			}
+			.webboard-position{
+				padding-top: 80px;
+			}
+			/*--------------------------
+			-------- END WEBBOARD ------
+			----------------------------*/
+
+
+			/*--------------------------
+			-------- MY BOX ------------
+			----------------------------*/
+
+			.mybox-bnt-size {
+				width: 40px;
+    			height: 40px;
+
+			}
+            .mybox-image-frame{
+			    width: 100px;
+			    height: 100px;
+			    overflow: hidden;
+			    position: relative;
+			    margin: auto;
+			    border: 1px solid #58585a;
+			    border-radius: 5px;
+            }
+
+            .mybox-img-test{
+	            position:absolute;
+	            top: 50%;
+	            left:50%;
+	            transform:translate(-50%,-50%);
+            }
+            .mybox-bnt-close {
+            	border-radius: 50%;
+				background-color: #dcd9d9;
+				border: 1px solid;
+				font-size: 18px;
+				width: 40px;
+				height: 40px;
+				border: none;
+				color: #fff;
+            }
+            .mybox-modal-header {
+			    display: -ms-flexbox;
+			    display: flex;
+			    -ms-flex-align: start;
+			    align-items: flex-start;
+			    -ms-flex-pack: justify;
+			    justify-content: space-between;
+			    padding: 1rem;
+			    border-top-left-radius: .3rem;
+			    border-top-right-radius: .3rem;
+			    padding-top: 30px;
+			}
+			.mybox-modal-body {
+			    position: relative;
+			    -ms-flex: 1 1 auto;
+			    flex: 1 1 auto;
+			    padding: 0rem;
+			    margin-top: -15px;
+			}
+			.mybox-content {
+				border: 2px solid #dee2e6;
+				background-color: #dee2e6
+			}
+			.mybox-modal-lg {
+			    max-width: 1120px;
+			}
+			.myboxfont-size-head {
+				font-size: 18px;
+				padding-top: 15px;
+				padding-bottom: 0px;
+			}
+			.mybox-image-frame-model {
+			    width: 100%;
+			    height: 225px;
+			    overflow: hidden;
+			    position: relative;
+			    margin: auto;
+			    border: 1px solid #58585a;
+			    border-radius: 5px;
+			}
+			.mybox-scroll {
+				overflow-y: scroll;
+    			height: 530px;
+			}
+			.mybox-btn-model {
+				width: 170px;
+    			height: 45px;
+			}
+			/*--------------------------
+			--------END MY BOX ---------
+			----------------------------*/
+
+@media (max-width: 1366px) {
 	/*-------------------------*/
 		/*------  login -------*/
 		/*-------------------------*/
@@ -595,7 +760,7 @@ td, th {
 	-------- PAYMENT -------
 	------------------------*/
 	.payment-my-5 {
-	    margin-bottom: 60px;
+	    margin-bottom: 100px;
 	    margin-top: 30px;
 	}
 	.payment-card-body {
@@ -606,33 +771,6 @@ td, th {
 	/*----------------------
 	----- END PAYMENT ------
 	------------------------*/
-
-
-	/*----------------------
-	-------- REGISTER -------
-	------------------------*/
-			.re-tap1366{
-				margin-left: 43px;
-			    margin-right: 16px;
-			}
-			.re-1-tap1366{
-				margin-left: -10px;
-			}
-			.re-2-tap1366{
-				margin-left: -35px;
-			}
-
-
-
-
-
-	/*----------------------
-	-------- END REGISTER -------
-	------------------------*/
-
-
-
-
 }
 
 
@@ -665,7 +803,7 @@ td, th {
 				/*-------------- FOOTER 1024 ---------------*/
 
 						.footer{
-							height:190px;
+							height:313px;
 						}
 
 						.wrapper{
@@ -680,7 +818,19 @@ td, th {
 	/*------  END Structure 1024 -------*/
 	/*-------------------------*/
 
-		
+		/*-------------------------*/
+		/*------  login -------*/
+		/*-------------------------*/
+
+					.login-buttom{
+						width: 268px;
+					}
+
+
+
+		/*-------------------------*/
+		/*----- end login -----*/
+		/*-------------------------*/
 
 
 
@@ -697,35 +847,41 @@ td, th {
 	/*-------------------------*/
 
 
-
-	/*----------------------
-	-------- REGISTER  1024-------
-	------------------------*/
-
-				.re-buttom-tap{
-					width: 265px;
-				}
-				.re-tap1024{
-				margin-left: -10px;
-			    margin-right: 16px;
-			    }
-			    .re-1-tap1024{
-				margin-left: -32px;
-			    margin-right: 16px;
-			}
-
-
-
-
-	/*----------------------
-	--------End REGISTER  -------
-	------------------------*/
-
-
-
-
-
-
+	/*----------------------------
+	--------- WEBBOARD 1024 ------
+	------------------------------*/
+	.webboard-textarea {
+	    margin-top: 0px;
+	    margin-bottom: 0px;
+	    height: 160px;
+	    border-radius: 5px;
+	    resize: none;
+	    border: 2px solid #585859;
+	}
+	.webboard-text-time {
+	    padding-right: 60px;
+	    color: grey;
+	}
+	.webboard-message-responsive {
+		padding-left: 20px!important;
+	}
+	.webboard-navigation {
+	    margin-top: 90px;
+	    margin-bottom: 70px;
+	}
+	.webboard-content {
+	    border: 2px solid #585859;
+	    border-radius: 5px;
+	    margin-right: 60px;
+	    margin-left: 0px;
+	}
+	.webboard-textarea-right {
+	    margin-right: 60px;
+	    margin-left: 0px;
+	}
+	/*----------------------------
+	------ END WEBBOARD 1024 -----
+	------------------------------*/
 }
 
 
@@ -812,21 +968,18 @@ td, th {
 	/*-------------------------*/
 
 		/*-------------------------*/
-		/*------  login 768 -------*/
+		/*------  login -------*/
 		/*-------------------------*/
 
 					.login-buttom{
 						width: 205px;
 					}
-					
 
 
 
 		/*-------------------------*/
-		/*----- end login  768-----*/
+		/*----- end login -----*/
 		/*-------------------------*/
-
-
 
 		/*-------------------------*/
 		/*--------  INDEX 768 -------*/
@@ -834,7 +987,6 @@ td, th {
 					.header-slide{
 						height:400px;
 					}
-
 
 		/*-------------------------*/
 		/*------- END INDEX 768 -------*/
@@ -878,44 +1030,33 @@ td, th {
 			padding-left: 15px!important;
 		}
 	/*---------------------------
-	-------- END-PAYMENT -------
+	-------- END-PAYMENT 768 ----
 	----------------------------*/
 
-	/*----------------------
-	-------- REGISTER  768-------
-	------------------------*/
-			.re-but-1{
-				margin-left: -40px;
-			}
-			.re-width{
-				width: 270px;
-			}
-			.re-width768{
-				width: 269px;
-			}
-
-
-
-
-
-
-
-	/*----------------------
-	--------End REGISTER  768-------
-	------------------------*/
-
-
-
-
-
-
-
+	/*---------------------------
+	------- WEBBOARD 768 -------
+	-----------------------------*/
+		.webboard-content {
+		    border: 2px solid #585859;
+		    border-radius: 5px;
+		    margin-right: 20px;
+		    margin-left: 0px;
+		}
+		.webboard-textarea-right {
+		    margin-right: 20px;
+		    margin-left: 0px;
+		}
+		.webboard-text-time {
+		    padding-right: 20px;
+		    color: grey;
+		}
+		.webboard-position {
+		    padding-top: 70px;
+		}
+	/*---------------------------
+	-------- END WEBBOARD 768 ----
+	-----------------------------*/
 }
-
-
-
-
-
 
 
 @media (max-width: 414px) {
@@ -981,18 +1122,13 @@ td, th {
 		/*-------------------------*/
 
 					.login-text-cen{
-						 text-align: center;
-    					 margin-left: 0px;
+						text-align: left!important;
 					}
 
 					.login-buttom{
 					width: 309px
 
 					}
-					
-
-					
-	
 
 
 		/*-------------------------*/
@@ -1046,44 +1182,30 @@ td, th {
 	-------- END PAYMENT 414 ----
 	----------------------------*/
 
-	/*----------------------
-	-------- REGISTER  414-------
-	------------------------*/
-			
-			.re-width414{
-				width: 100%;
-			}
-			
 
-
-
-
-
-
-	/*----------------------
-	--------End REGISTER  414-------
-	------------------------*/
-
-
-		/*----------------------
-	--------contactus  414-------
-	------------------------*/
-			
-			.con-text414{
-				 line-height: 31px;
-   				 font-size: 1.15rem;
-			}
-			
-
-
-
-
-
-
-	/*----------------------
-	--------End REGISTER  414-------
-	------------------------*/
-
+	/*---------------------------
+	-------- WEBBOARD 414 -------
+	----------------------------*/
+		.responsive-display-none {
+			display: none;
+		}
+		.webboard-message-responsive {
+		    padding-left: 20px!important;
+		    padding-right: 20px!important;
+		}
+		.webboard-top-414 {
+			margin-bottom: 15px;
+		}
+		.webboard-bnt-comment-size {
+		    width: 144px;
+		    height: 45px;
+		}
+		.res-center {
+			text-align: center;
+		}
+	/*---------------------------
+	------ END WEBBOARD 414 -----
+	----------------------------*/
 }
 
 
@@ -1167,6 +1289,16 @@ td, th {
 	--------#END PAYMENT 375 -----
 	-----------------------------*/
 
+	/*----------------------------
+	-------- WEBBOARD 375 --------
+	------------------------------*/
+	.webboard-bnt-comment-size {
+	    width: 124px;
+	    height: 45px;
+	}
+	/*----------------------------
+	------ END WEBBOARD 375 ------
+	------------------------------*/
 }
 
 
@@ -1251,12 +1383,32 @@ td, th {
 			
 			}
 
-
-
-
-	/*----------------------
-	--------End REGISTER 320-------
-	------------------------*/
-
-
+		.webboard-bnt-comment-size {
+		    width: 100%;
+		    height: 45px;
+		    margin-right: -4px!important;
+		    margin-bottom: 10px;
+		}
+		.webboard-content {
+		    border: 2px solid #585859;
+		    border-radius: 5px;
+		    margin-right: 0px;
+		    margin-left: 0px;
+		}
+		.webboard-text-time {
+		    padding-right: 20px;
+		    color: grey;
+		    font-size: 16px;
+		}
+		.webboard-textarea {
+		    margin-top: 0px;
+		    margin-bottom: 0px;
+		    height: 120px;
+		    border-radius: 5px;
+		    resize: none;
+		    border: 2px solid #585859;
+		}
+	/*---------------------------
+	----- END WEBBOARD 320-------
+	-----------------------------*/
 }
