@@ -3,9 +3,7 @@
   <head>
     <?php include_once('inc/header.php'); ?>
   </head>
-
   <body>
-
     <?php include_once('inc/navbar.php'); ?>
 
 
@@ -20,8 +18,8 @@
 
           <div class="col-lg-2 col-12">
             <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-              <a class="nav-link mybox-tab-style text-center">ข้อมูลส่วนตัว</a>
-              <a class="nav-link mybox-tab-style text-center navs-active">กล่องของฉัน</a>
+              <a class="nav-link mybox-tab-style text-center" href="#">ข้อมูลส่วนตัว</a>
+              <a class="nav-link mybox-tab-style text-center navs-active" href="#">กล่องของฉัน</a>
             </div>
           </div>
 
