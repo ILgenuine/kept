@@ -15,6 +15,12 @@
 
       <div class="row">
           <div class="col-lg-3">
+
+          <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <a class="nav-link mybox-tab-style text-center">ข้อมูลการติดต่อ</a>
+              <a class="nav-link mybox-tab-style text-center navs-active">เสียงตอบรับ / ข้อเสนอแนะ</a>
+          </div>
+
           </div>
             <div class="col-lg-8 ">
                 <div class="text-lightblue mb-5" style="margin-top: 50px;">
