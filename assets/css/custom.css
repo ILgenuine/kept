@@ -570,6 +570,9 @@
 			/*--------------------------
 			--------- END PAYMENT ------
 			----------------------------*/
+
+
+
 			/*--------------------------
 			--------- WEBBOARD ---------
 			----------------------------*/
@@ -696,9 +699,12 @@
 			    padding: 0rem;
 			    margin-top: -15px;
 			}
+			.mybox-modal-footer{
+				margin-left: -15px!important;
+				margin-right: -15px!important; 
+			}
 			.mybox-content {
-				border: 2px solid #dee2e6;
-				background-color: #dee2e6
+				top: 35px;
 			}
 			.mybox-modal-lg {
 			    max-width: 1120px;
@@ -720,11 +726,39 @@
 			.mybox-scroll {
 				overflow-y: scroll;
     			height: 530px;
+    			margin-right: 1px;
 			}
 			.mybox-btn-model {
 				width: 170px;
     			height: 45px;
 			}
+			.mybox-t-body {
+				border: 2px solid #dee2e6;
+				margin-top: -18px;
+			}
+			.mybox-model-px-body {
+				padding: 40px;
+			}
+			.border-tab-size {
+				border: 2px solid #37adc5;
+				text-align: left;
+			}
+			.mybox-tab-style {
+			    cursor: pointer;
+			    border: 2px solid #37adc5;
+			    border-radius: 0px!important;
+			    margin-bottom: 0px;
+			    margin-right: 115px;
+			    margin-left: -30px;
+			    margin-top: -2px;
+			    color: #000;
+			}
+			.navs-active {
+			    cursor: pointer;
+			    background-color: #4b80c2;
+			    color: #fff!important;
+			}
+
 			/*--------------------------
 			--------END MY BOX ---------
 			----------------------------*/
@@ -770,6 +804,22 @@
 	}
 	/*----------------------
 	----- END PAYMENT ------
+	------------------------*/
+
+	/*----------------------
+	------- WEBBOARD -------
+	------------------------*/
+	.mybox-tab-style {
+	    cursor: pointer;
+	    border: 2px solid #37adc5;
+	    border-radius: 0px!important;
+	    margin-bottom: 0px;
+	    margin-right: 50px;
+	    margin-left: -30px;
+	    margin-top: -2px;
+	}
+	/*----------------------
+	----- END WEBBOARD -----
 	------------------------*/
 }
 
@@ -881,6 +931,46 @@
 	}
 	/*----------------------------
 	------ END WEBBOARD 1024 -----
+	------------------------------*/
+
+
+	/*----------------------------
+	---------- MYBOX -------------
+	------------------------------*/
+	.mybox-modal-lg {
+	    max-width: 940px;
+	}
+	.mybox-scroll {
+	    overflow-y: scroll;
+	    height: 515px;
+	}
+	.mybox-t-body {
+	    border: 2px solid #dee2e6;
+	    margin-top: -18px;
+	}
+	.mybox-image-frame-model {
+	    width: 100%;
+	    height: 190px;
+	    overflow: hidden;
+	    position: relative;
+	    margin: auto;
+	    border: 1px solid #58585a;
+	    border-radius: 5px;
+	}
+	.mybox-content {
+	    top: 160px;
+	}
+	.mybox-tab-style {
+	    cursor: pointer;
+	    border: 2px solid #37adc5;
+	    border-radius: 0px!important;
+	    margin-bottom: 0px;
+   		margin-right: -5px;
+	    margin-left: -30px;
+	    margin-top: -2px;
+}
+	/*----------------------------
+	---------- END MYBOX ---------
 	------------------------------*/
 }
 
@@ -1055,10 +1145,48 @@
 		    color: grey;
 		}
 		.webboard-position {
-		    padding-top: 70px;
+		    padding-top: 50px;
 		}
 	/*---------------------------
 	-------- END WEBBOARD 768 ----
+	-----------------------------*/
+	/*---------------------------
+	----------- MYBOX------------
+	-----------------------------*/
+		.mybox-content {
+		    top: 55px;
+		}
+		.mybox-modal-lg {
+		    max-width: 720px;
+		}
+		.mybox-model-px-body {
+		    padding: 0px;
+		}
+		.mybox-image-frame-model {
+		    width: 100%;
+			height: 215px;
+		    overflow: hidden;
+		    position: relative;
+		    margin: auto;
+		    border: 1px solid #58585a;
+		    border-radius: 5px;
+		}
+		.mybox-scroll {
+		    overflow-y: scroll;
+		    height: 450px;
+		}
+		.mybox-tab-style {
+		    cursor: pointer;
+		    border: 2px solid #37adc5;
+		    border-radius: 0px!important;
+		    margin-bottom: 0px;
+		    margin-right: -30px;
+		    margin-left: -30px;
+		    margin-top: -2px;
+		    width: 180px;
+		}
+	/*---------------------------
+	-------- END MYBOX-----------
 	-----------------------------*/
 }
 
@@ -1209,6 +1337,33 @@
 		}
 	/*---------------------------
 	------ END WEBBOARD 414 -----
+	----------------------------*/
+
+	/*--------------------------
+	------------ MYBOX ---------
+	----------------------------*/
+
+	.mybox-model-px-body {
+	    padding: 0px;
+	    margin-left: 15px;
+	    margin-right: 0px;
+	}
+	.mybox-scroll {
+	    overflow-y: scroll;
+	    height: 450px;
+	    width: 413px;
+	}
+	.mybox-image-frame-model {
+	    width: 100%;
+	    height: 175px;
+	    overflow: hidden;
+	    position: relative;
+	    margin: auto;
+	    border: 1px solid #58585a;
+	    border-radius: 5px;
+	}
+	/*--------------------------
+	-------- END MYBOX ---------
 	----------------------------*/
 }
 

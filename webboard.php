@@ -13,22 +13,35 @@
       <div class="container-fluid">
 
         <div class="row">
-          <div class="col-lg-3 col-12">sad</div>
-          <div class="col-lg-9 col-12 webboard-position">
+
+
+          <div class="col-lg-2 col-12">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <a class="nav-link mybox-tab-style text-center">ข้อมูลการติดต่อ</a>
+              <a class="nav-link mybox-tab-style text-center navs-active">เสียงตอบรับ / ข้อเสนอแนะ</a>
+            </div>
+          </div>
+
+
+
+
+
+          <div class="col-lg-10 col-12 webboard-position">
             <div class="row">
               <div class="col-md-1 col-4 webboard-top-414">
                 <div class="text-lightblue text-center"><i class="fa fa-user-circle webboard-content-top10" style="font-size: 45px;"></i>
                 </div>
               </div>
-              <div class="col-md-3 col-8 webboard-top-414">
+              <div class="col-md-2 col-8 webboard-top-414">
                 <div><p class="text-lightblue text-center webboard-content-top15">คุณแป๋ม</p></div>
               </div>
-              <div class="col-md-8 col-12">
+              <div class="col-md-9 col-12">
                 <div class="webboard-content">
-                  <p class="text-blue px-5 webboard-content-top15 webboard-message-responsive">ราคาถูกมาเลยค่ะ ชอบมากจุฟๆ !!</p>
+                  <p class="text-blue px-3 webboard-content-top15 webboard-message-responsive">ราคาถูกมาเลยค่ะ ชอบมากจุฟๆ !!</p>
                 </div>
               </div>
-              <div class="col-md-1 col-1"></div>
+
+
               <div class="col-12">
                 <div class="text-right webboard-text-time pt-3">
                   <font>วันที่</font>
@@ -45,15 +58,15 @@
                 <div class="text-lightblue text-center"><i class="fa fa-user-circle webboard-content-top10" style="font-size: 45px;"></i>
                 </div>
               </div>
-              <div class="col-md-3 col-8 webboard-top-414">
+              <div class="col-md-2 col-8 webboard-top-414">
                 <div><p class="text-lightblue text-center webboard-content-top15">คุณนัท</p></div>
               </div>
-              <div class="col-md-8 col-12">
+              <div class="col-md-9 col-12">
                 <div class="webboard-content">
-                  <p class="text-blue px-5 webboard-content-top15 webboard-message-responsive">ราคาถูกมาเลยค่ะ ชอบมากจุฟๆ !!</p>
+                  <p class="text-blue px-3 webboard-content-top15 webboard-message-responsive">ราคาถูกมาเลยค่ะ ชอบมากจุฟๆ !!</p>
                 </div>
               </div>
-              <div class="col-md-1"></div>
+
               <div class="col-12">
                 <div class="text-right webboard-text-time pt-3">
                   <font>วันที่</font>
@@ -70,15 +83,17 @@
                 <div class="text-lightblue text-center"><i class="fa fa-user-circle webboard-content-top10" style="font-size: 45px;"></i>
                 </div>
               </div>
-              <div class="col-md-3 col-8 webboard-top-414">
+              <div class="col-md-2 col-8 webboard-top-414">
                 <div><p class="text-lightblue text-center webboard-content-top15">คุณสิริ</p></div>
               </div>
-              <div class="col-md-8 col-12">
+              <div class="col-md-9 col-12">
                 <div class="webboard-content">
-                  <p class="text-blue px-5 webboard-content-top15 webboard-message-responsive">ราคาถูกมาเลยค่ะ ชอบมากจุฟๆ !!</p>
+                  <p class="text-blue px-3 webboard-content-top15 webboard-message-responsive">ราคาถูกมาเลยค่ะ ชอบมากจุฟๆ !!</p>
                 </div>
               </div>
-              <div class="col-md-1"></div>
+
+
+
               <div class="col-12">
                 <div class="text-right webboard-text-time pt-3">
                   <font>วันที่</font>
@@ -113,10 +128,10 @@
                 <div class="text-lightblue text-center"><i class="fa fa-user-circle webboard-content-top10" style="font-size: 45px;"></i>
                 </div>
               </div>
-              <div class="col-md-3 col-8 webboard-top-414">
+              <div class="col-md-2 col-8 webboard-top-414">
                 <div><p class="text-lightblue text-center webboard-content-top15">คุณมานะ</p></div>
               </div>
-              <div class="col-md-8 col-12">
+              <div class="col-md-9 col-12">
                 <div class="webboard-textarea-right">
                   <div class="form-group">
                     <textarea class="form-control webboard-textarea" id="comment"></textarea>
@@ -133,6 +148,11 @@
                   <button type="button" class="btn btn-lightblue webboard-bnt-comment-size ml-1">ส่งความคิดเห็น</button>
                 </div>
               </div>
+
+
+
+
+
 
 
 
