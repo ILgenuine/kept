@@ -14,7 +14,7 @@
 <!-- ====================== TABLE ======================= -->
       <div class="row px-5 payment-position-responsive">
         <div class="col-md-12 pt-5 pb-4">
-            <p class="text-lightblue"> STANDARTรายการชำระเงินทั้งหมด </p>
+            <p class="text-lightblue">รายการชำระเงินทั้งหมด </p>
         </div>
 
         <div class="col-md-12">
