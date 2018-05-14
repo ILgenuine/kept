@@ -607,6 +607,7 @@ th {
 			    border: 2px solid rgba(0,0,0,.125);
 			    border-radius: .25rem;
 			    height: 400px;
+			    padding-top: 30px;
 			}
 			.payment-my-5 {
 				margin-bottom: 60px;
@@ -756,7 +757,7 @@ th {
 			    margin-bottom: 100px;
 			}
 			.webboard-position{
-				padding-top: 80px;
+				padding-top: 120px;
 			}
 			/*--------------------------
 			-------- END WEBBOARD ------
@@ -866,12 +867,14 @@ th {
 			    cursor: pointer;
 			    border: 2px solid #37adc5;
 			    border-radius: 0px!important;
-			    margin-bottom: 0px;
-			    margin-right: 115px;
-			    margin-left: -30px;
-			    margin-top: -2px;
 			    color: #000;
-			    font-size: 18px
+			    font-size: 18px;
+			    width: 160px;
+			}
+			.mybox-tab-position {
+				position: absolute;
+			   	top:0;
+			   	left: 0;
 			}
 			.navs-active {
 			    cursor: pointer;
@@ -1016,6 +1019,12 @@ td, th {
 	    margin-right: 50px;
 	    margin-left: -30px;
 	    margin-top: -2px;
+	}
+	.mybox-tab-position {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    padding-left: 30px;
 	}
 	/*----------------------
 	----- END WEBBOARD -----
@@ -1455,6 +1464,7 @@ td, th {
 		    border: 2px solid rgba(0,0,0,.125);
 		    border-radius: .25rem;
 		    height: 560px;
+		    padding-top: 30px;
 		}
 		.payment-from-responsive {
 			padding-right: 15px!important;
@@ -1482,7 +1492,7 @@ td, th {
 		    color: grey;
 		}
 		.webboard-position {
-		    padding-top: 50px;
+		    padding-top: 120px;
 		}
 	/*---------------------------
 	-------- END WEBBOARD 768 ----
@@ -1971,6 +1981,7 @@ td, th {
 		.re-tap320-2 {
 		    margin-left: -14px;
 		    margin-right: 1px;
+		  	}
 			.register-bnt-fix-size {
 			    width: 235px;
 			}

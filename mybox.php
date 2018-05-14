@@ -10,21 +10,17 @@
 
     <div class="wrapper">
 
+      <div style="position: relative;">
+        <div class="nav flex-column nav-pills mybox-tab-position" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <a class="nav-link mybox-tab-style text-center">ข้อมูลส่วนตัว</a>
+          <a class="nav-link mybox-tab-style text-center navs-active">กล่องของฉัน</a>
+        </div>
+      </div>
+
+
       <div class="container-fluid">
-
-
         <div class="row">
-
-
-          <div class="col-lg-2 col-12">
-            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-              <a class="nav-link mybox-tab-style text-center" href="#">ข้อมูลส่วนตัว</a>
-              <a class="nav-link mybox-tab-style text-center navs-active" href="#">กล่องของฉัน</a>
-            </div>
-          </div>
-
-
-          <div class="col-lg-10 col-12 webboard-position">
+          <div class="col-12 webboard-position">
             <div class="row">
               <div class="col-md-12">
                 <div class="text-right">
