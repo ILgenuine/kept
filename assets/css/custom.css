@@ -387,6 +387,7 @@ img{
 
 			.text-11{
 				text-align: right;
+
 			}
 			.but-11{
 				width: 320px;
@@ -656,6 +657,7 @@ th {
 			    border: 2px solid rgba(0,0,0,.125);
 			    border-radius: .25rem;
 			    height: 400px;
+			    padding-top: 30px;
 			}
 			.payment-my-5 {
 				margin-bottom: 60px;
@@ -805,7 +807,7 @@ th {
 			    margin-bottom: 100px;
 			}
 			.webboard-position{
-				padding-top: 80px;
+				padding-top: 120px;
 			}
 			/*--------------------------
 			-------- END WEBBOARD ------
@@ -819,7 +821,7 @@ th {
 			.mybox-bnt-size {
 				width: 40px;
     			height: 40px;
-
+    			cursor: pointer;
 			}
             .mybox-image-frame{
 			    width: 100px;
@@ -836,6 +838,7 @@ th {
 	            top: 50%;
 	            left:50%;
 	            transform:translate(-50%,-50%);
+	            width: 100%;
             }
             .mybox-bnt-close {
             	border-radius: 50%;
@@ -914,21 +917,50 @@ th {
 			    cursor: pointer;
 			    border: 2px solid #37adc5;
 			    border-radius: 0px!important;
-			    margin-bottom: 0px;
-			    margin-right: 115px;
-			    margin-left: -30px;
-			    margin-top: -2px;
 			    color: #000;
+			    font-size: 18px;
+			    width: 160px;
+			}
+			.mybox-tab-position {
+				position: absolute;
+			   	top:0;
+			   	left: 0;
 			}
 			.navs-active {
 			    cursor: pointer;
 			    background-color: #4b80c2;
 			    color: #fff!important;
 			}
+			.mybox-navigation {
+				margin-top: 20px;
+    			margin-bottom: 60px;
+			}
 
 			/*--------------------------
 			--------END MY BOX ---------
 			----------------------------*/
+			
+			/*--------------------------
+			--------Register ---------
+			----------------------------*/
+
+
+					.Register-icon{
+						margin-left: -24px;
+					}
+					.register-bnt-fix-size {
+						width: 320px;
+					}
+
+
+			/*--------------------------
+			--------END  Register ---------
+			----------------------------*/
+
+			
+
+
+
 
 @media (max-width: 1366px) {
 	/* Style the indicator (dot/circle) */
@@ -1038,6 +1070,12 @@ td, th {
 	    margin-left: -30px;
 	    margin-top: -2px;
 	}
+	.mybox-tab-position {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    padding-left: 30px;
+	}
 	/*----------------------
 	----- END WEBBOARD -----
 	------------------------*/
@@ -1118,6 +1156,8 @@ td, th {
 	/*------  END Structure 1024 -------*/
 	/*-------------------------*/
 
+
+
 		/*-------------------------*/
 		/*------  login -------*/
 		/*-------------------------*/
@@ -1131,6 +1171,9 @@ td, th {
 		/*-------------------------*/
 		/*----- end login -----*/
 		/*-------------------------*/
+
+
+
 
 
 
@@ -1260,10 +1303,40 @@ td, th {
    		margin-right: -5px;
 	    margin-left: -30px;
 	    margin-top: -2px;
-}
+	}
+
 	/*----------------------------
 	---------- END MYBOX ---------
 	------------------------------*/
+
+
+
+		/*-------------------------*/
+		/*------  Register 1024-------*/
+		/*-------------------------*/
+
+					.Register-icon{
+						margin-left: -22px;
+					}
+					.register-bnt-fix-size {
+						width: 300px;
+					}
+					.register-but-fix{
+						margin-left: -17px;
+					}
+
+
+		/*-------------------------*/
+		/*----- end Register 1024-----*/
+		/*-------------------------*/
+
+
+
+
+
+
+
+
 
 	/*-------------------------*/
 	/*------- NEW BOX 1024 -------*/
@@ -1370,6 +1443,8 @@ td, th {
 	/*------  END Structure 768 -------*/
 	/*-------------------------*/
 
+
+
 		/*-------------------------*/
 		/*------  login -------*/
 		/*-------------------------*/
@@ -1378,15 +1453,37 @@ td, th {
 						width: 205px;
 					}
 
-					.login-1-buttom{
-						margin-bottom: 81px;
-					}
-
+					
 
 
 		/*-------------------------*/
 		/*----- end login -----*/
 		/*-------------------------*/
+		
+
+
+
+		/*-------------------------*/
+		/*------  Register 768-------*/
+		/*-------------------------*/
+
+					.Register-icon1{
+						margin-left: -25px;
+					}
+					.register-but-fix {
+		   			    margin-left: -8px;
+					}
+					.text-11{
+						margin-left: -49px;
+					}
+
+
+		/*-------------------------*/
+		/*----- end Register 768-----*/
+		/*-------------------------*/
+
+
+
 
 		/*-------------------------*/
 		/*--------  INDEX 768 -------*/
@@ -1479,6 +1576,7 @@ td, th {
 		    border: 2px solid rgba(0,0,0,.125);
 		    border-radius: .25rem;
 		    height: 560px;
+		    padding-top: 30px;
 		}
 		.payment-from-responsive {
 			padding-right: 15px!important;
@@ -1506,13 +1604,13 @@ td, th {
 		    color: grey;
 		}
 		.webboard-position {
-		    padding-top: 50px;
+		    padding-top: 120px;
 		}
 	/*---------------------------
 	-------- END WEBBOARD 768 ----
 	-----------------------------*/
 	/*---------------------------
-	----------- MYBOX------------
+	----------- MYBOX 768--------
 	-----------------------------*/
 		.mybox-content {
 		    top: 55px;
@@ -1547,7 +1645,7 @@ td, th {
 		    width: 180px;
 		}
 	/*---------------------------
-	-------- END MYBOX-----------
+	-------- END MYBOX 768-------
 	-----------------------------*/
 }
 
@@ -1750,16 +1848,32 @@ td, th {
 	}
 	.mybox-image-frame-model {
 	    width: 100%;
-	    height: 175px;
+	    height: 155px;
 	    overflow: hidden;
 	    position: relative;
 	    margin: auto;
 	    border: 1px solid #58585a;
 	    border-radius: 5px;
+
 	}
 	/*--------------------------
 	-------- END MYBOX ---------
 	----------------------------*/
+
+
+
+	/*--------------------------
+	-------- REGISTER 414----------
+	----------------------------*/
+
+	.register-bnt-fix-size {
+    	width: 310px;
+	}
+	.register-but-fix {
+    margin-left: 0px;
+    }
+	.text-11 {
+    margin-left: 0px;
 
 
 	/*-------------------------*/
@@ -1790,6 +1904,11 @@ td, th {
 
 
 
+}
+
+	/*--------------------------
+	-------- END REGISTER 414------
+	----------------------------*/
 }
 
 
@@ -1897,6 +2016,26 @@ td, th {
 	/*----------------------------
 	------ END WEBBOARD 375 ------
 	------------------------------*/
+
+
+
+
+			/*----------------------------
+			--------- REGISTER 375 -------
+			------------------------------*/
+			.register-bnt-fix-size {
+			    width: 270px;
+			}
+			.register-but-fix {
+		   	    margin-left: 0px;
+			}
+			.text-11 {
+			    margin-left: 0px;
+			}
+			/*----------------------------
+			---------END REGISTER 375 ----
+			------------------------------*/
+
 }
 
 
@@ -1984,8 +2123,23 @@ td, th {
 		.re-tap320-2 {
 		    margin-left: -14px;
 		    margin-right: 1px;
+		  	}
+			.register-bnt-fix-size {
+			    width: 235px;
+			}
+			.register-but-fix {
+    			margin-left: -8px;
+    		}
 
-		}
+
+			.register{
+				margin-left: 6px;
+    		}
+			
+	/*-----------------------------
+	------------ WEBBOARD 320 -----
+	-------------------------------*/
+
 
 		.webboard-bnt-comment-size {
 		    width: 100%;

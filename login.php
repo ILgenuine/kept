@@ -53,7 +53,7 @@
       			</div>
 
       			<div class="col-lg-12 p-2">
-      				<div class="text-center login-1-buttom">
+      				<div class="text-center ">
       					<button type="button" class="btn btn-blue " style=" width: 170px; margin-bottom: 70px;" >LOGIN</button>
       				</div>
       			</div>

@@ -10,23 +10,19 @@
 
     <div class="wrapper">
 
-      <div class="container-fluid">
+      <div style="position: relative;">
+        <div class="nav flex-column nav-pills mybox-tab-position" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <a class="nav-link mybox-tab-style text-center">ข้อมูลการติดต่อ</a>
+          <a class="nav-link mybox-tab-style text-center navs-active">เสียงตอบรับ / ข้อเสนอแนะ</a>
+        </div>
+      </div>
+
+
+
+      <div class="container-fluid pt-5">
 
         <div class="row">
-
-
-          <div class="col-lg-2 col-12">
-            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-              <a class="nav-link mybox-tab-style text-center">ข้อมูลการติดต่อ</a>
-              <a class="nav-link mybox-tab-style text-center navs-active">เสียงตอบรับ / ข้อเสนอแนะ</a>
-            </div>
-          </div>
-
-
-
-
-
-          <div class="col-lg-10 col-12 webboard-position">
+          <div class="col-12 webboard-position">
             <div class="row">
               <div class="col-md-1 col-4 webboard-top-414">
                 <div class="text-lightblue text-center"><i class="fa fa-user-circle webboard-content-top10" style="font-size: 45px;"></i>
@@ -50,6 +46,11 @@
                 </div>
               </div>
             </div>
+
+
+
+
+
 
             <hr class="my-5">
 
@@ -148,52 +149,7 @@
                   <button type="button" class="btn btn-lightblue webboard-bnt-comment-size ml-1">ส่งความคิดเห็น</button>
                 </div>
               </div>
-
-
-
-
-
-
-
-
-
-<!-- 
-              <div class="col-12">
-                <div class="mx-auto" style="width;100%;">
-                      <div class="image-frame">
-                        <img class="img-test" src="http://via.placeholder.com/350x500" alt="">
-                      </div>
-                </div>
-              </div>
-
-
-                <style>
-                    
-                    .image-frame{
-                      width:300px;
-                      height:300px;
-                      overflow: hidden;
-                      position: relative;
-                    }
-
-                    .img-test{
-                      position:absolute;
-                      top: 50%;
-                      left:50%;
-                      transform:translate(-50%,-50%);
-                    }
-
-
-                </style>
- -->
-
-
-
             </div>
-
-
-
-
           </div>
         </div>
 
