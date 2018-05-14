@@ -24,10 +24,10 @@
                 <a class="text-lightblue <?php if($actual_link == "http://localhost/kept/index.php" || $actual_link == "http://localhost/kept/index.php") echo "active-menu"; else ""; ?>" href="index.php">หน้าแรก</a>
             </li>
             <li class="nav-item">
-                <a class="text-lightblue <?php if($actual_link == "http://localhost/kept/productcategoy.php" || $actual_link == "http://localhost/kept/productcategoy.php") echo "active-menu"; else ""; ?>" href="productcategories.php">หมวดสินค้า</a>
+                <a class="text-lightblue <?php if($actual_link == "http://localhost/kept/newbox.php" || $actual_link == "http://localhost/kept/newbox.php") echo "active-menu"; else ""; ?>" href="newbox.php">สั่งสินค้า</a>
             </li>
             <li class="nav-item">
-                <a class="text-lightblue <?php if($actual_link == "http://localhost/kept/news.php" || $actual_link == "http://localhost/kept/news.php") echo "active-menu"; else ""; ?>" href="news.php">รวมประกาศ</a>
+                <a class="text-lightblue <?php if($actual_link == "http://localhost/kept/payment.php" || $actual_link == "http://localhost/kept/payment.php") echo "active-menu"; else ""; ?>" href="payment.php">ชำระสินค้า</a>
             </li>
             <li class="nav-item">
                 <a class="text-lightblue <?php if($actual_link == "http://localhost/kept/aboutus.php" || $actual_link == "http://localhost/kept/aboutus.php") echo "active-menu"; else ""; ?>" href="aboutus.php">เกี่ยวกับเรา</a>

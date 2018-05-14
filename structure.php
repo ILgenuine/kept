@@ -6,14 +6,13 @@
 
   <body>
 
-   <?php include_once('inc/navbar.php'); 
+   <?php include_once('inc/navbar.php');
     include_once('inc/in.php'); ?>
 
     <div class="wrapper">
 
 
 
-    <img  width='100%' height='auto' src="assets/images/all.jpg" alt="">
 
 
 
