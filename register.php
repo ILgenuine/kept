@@ -45,7 +45,7 @@
 					<button type="button" class="btn btn-blue login-buttom but-11" >Sing Up with Email</button>
 				</div>
 				<hr class="blue-hr" style="width: 160px;">
-</div>
+	</div>
 
 			<div class="col-lg-12 p-1">
 				<div class="text-center">

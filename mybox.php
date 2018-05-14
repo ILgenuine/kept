@@ -14,14 +14,20 @@
 
       <div class="container-fluid">
 
+
         <div class="row">
-          <div class="col-lg-3 col-12">
-            
+
+
+          <div class="col-lg-2 col-12">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <a class="nav-link mybox-tab-style text-center">ข้อมูลส่วนตัว</a>
+              <a class="nav-link mybox-tab-style text-center navs-active">กล่องของฉัน</a>
+            </div>
           </div>
-          <div class="col-lg-9 col-12 webboard-position">
+
+
+          <div class="col-lg-10 col-12 webboard-position">
             <div class="row">
-
-
               <div class="col-md-12">
                 <div class="text-right">
                   <button class="button plus-btn mybox-bnt-size"><i class="fa fa-plus"></i></button>
@@ -115,6 +121,9 @@
 
             </div>
           </div>
+
+
+
         </div>
 
 
@@ -123,7 +132,7 @@
         <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
           <div class="modal-dialog mybox-modal-lg">
 
-            <div class="modal-content">
+            <div class="modal-content mybox-content">
               
               <div class="mybox-modal-header">
                   <div class="col-md-6 text-right">
@@ -164,35 +173,35 @@
                                                            
                           </tbody>
                         </table>  
-                        <div class="text-left mybox-scroll" style="border: 2px solid #dee2e6;margin-top: -18px;">
-                          <div class="row px-5 py-3">
-                            <div class="col-md-4 pt-4 pb-4">
+                        <div class="text-left mybox-scroll mybox-t-body">
+                          <div class="row mybox-model-px-body py-3">
+                            <div class="col-lg-4 col-6 pt-4 pb-4">
                               <div class="mybox-image-frame-model">
                                 <img class="mybox-img-test" src="http://via.placeholder.com/300x300" alt="">
                               </div>
                             </div>
-                            <div class="col-md-4 pt-4 pb-4">
+                            <div class="col-lg-4 col-6 pt-4 pb-4">
                               <div class="mybox-image-frame-model">
                                 <img class="mybox-img-test" src="http://via.placeholder.com/300x300" alt="">
                               </div>
                             </div>
-                            <div class="col-md-4 pt-4 pb-4">
+                            <div class="col-lg-4 col-6 pt-4 pb-4">
                               <div class="mybox-image-frame-model">
                                 <img class="mybox-img-test" src="http://via.placeholder.com/300x300" alt="">
                               </div>
                             </div>
 
-                            <div class="col-md-4 pt-4 pb-4">
+                            <div class="col-lg-4 col-6 pt-4 pb-4">
                               <div class="mybox-image-frame-model">
                                 <img class="mybox-img-test" src="http://via.placeholder.com/300x300" alt="">
                               </div>
                             </div>
-                            <div class="col-md-4 pt-4 pb-4">
+                            <div class="col-lg-4 col-6 pt-4 pb-4">
                               <div class="mybox-image-frame-model">
                                 <img class="mybox-img-test" src="http://via.placeholder.com/300x300" alt="">
                               </div>
                             </div>
-                            <div class="col-md-4 pt-4 pb-4">
+                            <div class="col-lg-4 col-6 pt-4 pb-4">
                               <div class="mybox-image-frame-model">
                                 <img class="mybox-img-test" src="http://via.placeholder.com/300x300" alt="">
                               </div>
@@ -209,7 +218,7 @@
 
               <div class="modal-footer mb-4" style="border-top: none;">
                 <div class="col-1"></div>
-                <div class="col-10">
+                <div class="col-10 mybox-modal-footer">
                   <div class="text-right">
                     <button type="button" class="btn btn-lightblue mybox-btn-model">ตกลง</button>
                   </div>

@@ -14,7 +14,7 @@
 <!-- ====================== TABLE ======================= -->
       <div class="row px-5 payment-position-responsive">
         <div class="col-md-12 pt-5 pb-4">
-            <p class="text-lightblue "STANDARTรายการชำระเงินทั้งหมด</p>
+            <p class="text-lightblue"> STANDARTรายการชำระเงินทั้งหมด </p>
         </div>
 
         <div class="col-md-12">
@@ -94,7 +94,7 @@
                     <div class="form-group row mb-3">
                       <label class="col-sm-4 col-form-label text-right payment-crad-responsive-sm"></label>
                       <div class="col-sm-8 payment-crad-responsive-sm">
-                        <div class="text-center mb-3"  style="color: grey;">
+                        <div class="text-center"  style="color: grey;">
                           <h5>Login wiht Paypal</h5>
                         </div>
                       </div>
@@ -115,7 +115,7 @@
                     </div>
 
                     <div class="form-group row mb-3">
-                      <label class="col-lg-4 col-3 payment-crad-responsive-sm col-form-label text-right"></label>
+                      <label class="col-lg-4 col-3 payment-crad-responsive-sm  col-form-label text-right"></label>
                       <div class="col-lg-8 col-9 payment-crad-responsive-sm">
                         <div class="text-center"><button type="button" class="btn btn-blue w100">LOGIN</button></div>
                       </div>
