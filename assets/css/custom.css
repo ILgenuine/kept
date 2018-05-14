@@ -33,6 +33,26 @@
 /*------  Structure -------*/
 /*-------------------------*/
 
+
+.img-frame{
+  width:500px;
+  height:600px;
+  border:3px solid blue;
+	overflow:hidden;
+	position:relative;
+
+}
+
+img{
+	position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50% ,-50%);
+}
+
+
+
+
 			.row{
 				margin: 0;
 			}
@@ -211,6 +231,8 @@
 				}
 
 				.navbar-brand{
+					position:relative;
+					overflow: hidden;
 					width:220px;
 					height:90px;
 				}
@@ -318,6 +340,8 @@
 				}
 
 				.footer-brand{
+					position:relative;
+					overflow:hidden;
 					width:130px;
 					height:55px;
 				}
@@ -374,7 +398,7 @@
 
 		.header-slide{
 			width:100%;
-			height:700px;
+			height:650px;
 		}
 
 		.carousel-inner{
@@ -425,6 +449,90 @@
 			font-family: 'kanitlight';
 		}
 
+		.how{
+			font-size: 35px;
+		}
+
+		.step-frame{
+			position:relative;
+			overflow:hidden;
+			height:320px;
+			width:320px;
+			border:2px solid #4b7fc1;
+			border-radius: 12px;
+		}
+
+		.step-des{
+			height:120px;
+			overflow:hidden;
+		}
+
+
+		.standard-icon{
+			height:300px;
+			width:300px;
+			position:relative;
+			overflow:hidden;
+		}
+
+		.standard-header{
+			font-size: 25px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			margin-bottom: 20%;
+			text-align: center;
+			border:2 solid #4b80c2;
+			border-radius: 8px;
+			color:white;
+			background-color:#4b80c2;
+		}
+
+		.kept-header{
+			font-size: 25px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			margin-bottom: 20%;
+			text-align: center;
+			border:2 solid #21a4c0;
+			border-radius: 8px;
+			color:white;
+			background-color:#21a4c0;
+		}
+
+		.package-description{
+			width:100%;
+			padding-right: 20%;;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.package-box{
+			border-radius: 8px;
+			border:2px solid #7acee5;
+		}
+
+		.get-btn{
+			width:90px;
+		}
+
+		.package-left{
+			padding:30px 10px 30px 30px;
+		}
+
+		.package-right{
+			padding:30px 30px 30px 10px;
+		}
+
+		.package-cost{
+			font-size:30px;
+		}
+
+		.why-frame{
+			position:relative;
+			overflow: hidden;
+			width: 900px;
+			height:450px;
+		}
 
 /*-------------------------*/
 /*------- END INDEX -------*/
@@ -435,14 +543,14 @@
 /*--------------------------
 ---------- PAYMENT ---------
 ----------------------------*/
-			.table {
-			    margin-bottom: 1rem;
-			    background-color: transparent;
-			    border: 2px solid #dee2e6;
-			}
-			th {
-				background-color: #dee2e6;
-			}
+.table {
+    margin-bottom: 1rem;
+    background-color: transparent;
+    border: 2px solid #dee2e6;
+}
+th {
+	background-color: #dee2e6;
+}
 			.payment-logosize {
 				width: 20%;
 			}
@@ -701,7 +809,7 @@
 			}
 			.mybox-modal-footer{
 				margin-left: -15px!important;
-				margin-right: -15px!important; 
+				margin-right: -15px!important;
 			}
 			.mybox-content {
 				top: 35px;
@@ -764,6 +872,40 @@
 			----------------------------*/
 
 @media (max-width: 1366px) {
+	/* Style the indicator (dot/circle) */
+.payment-radio .payment-checkmark:after {
+	top: 4px;
+    left: 4px;
+    width: 15px;
+    height: 15px;
+	border-radius: 50%;
+	background: #23a5bf;
+}
+.payment-radio-top-5 {
+	padding-top: 7px;
+}
+.payment-bnt-size {
+	width: 215px;
+    font-size: 20px;
+}
+.payment-loginsize {
+	font-size: 14px;
+    margin-top: 0px;
+}
+td, th {
+	 padding: .75rem;
+	 vertical-align: middle!important;
+	 border-top: 1px solid #dee2e6;
+	 font-size: 16px;
+	 font-weight: 350;
+	 text-align: center;
+}
+/*--------------------------
+--------- END PAYMENT ------
+----------------------------*/
+
+
+
 	/*-------------------------*/
 		/*------  login -------*/
 		/*-------------------------*/
@@ -778,6 +920,9 @@
 
 
 
+
+
+
 	/*-------------------------*/
 	/*--------  INDEX 1366 -------*/
 	/*-------------------------*/
@@ -786,9 +931,25 @@
 					height:500px;
 				}
 
+
+				.standard-icon{
+					height:270px;
+					width:270px;
+					position:relative;
+					overflow:hidden;
+				}
+
+				.package-cost{
+					font-size:25px;
+				}
+
 	/*-------------------------*/
 	/*------- END INDEX  1366 -------*/
 	/*-------------------------*/
+
+
+
+
 
 	/*----------------------
 	-------- PAYMENT -------
@@ -890,6 +1051,48 @@
 
 				.header-slide{
 					height:380px;
+				}
+
+				.step-frame{
+					height:160px;
+					width:160px;
+				}
+
+				.step-des{
+					height:unset;
+				}
+
+				.padding-1204{
+						padding-left: 0.5rem !important;
+						padding-right: 0.5rem !important;
+				}
+
+				.standard-icon{
+					height:170px;
+					width:170px;
+					position:relative;
+					overflow:hidden;
+				}
+
+				.package-cost{
+					font-size:18px;
+				}
+
+				.right-package{
+					padding:unset !important;
+				}
+
+				.package-description{
+					padding-right: unset;
+				}
+
+				.package-box{
+					padding: 2rem!important;
+				}
+
+				.why-frame{
+					width:450px;
+					height:450px;
 				}
 
 	/*-------------------------*/
@@ -1098,8 +1301,43 @@
 		/*-------------------------*/
 		/*--------  INDEX 768 -------*/
 		/*-------------------------*/
+
 					.header-slide{
 						height:400px;
+					}
+
+					.padding-1204{
+							padding-left: 2.5rem !important;
+							padding-right: 2.5rem !important;
+					}
+
+					.standard-icon{
+						margin-left:auto;
+						margin-right:auto;
+					}
+
+					.standard-header{
+						margin-bottom: 5%;
+					}
+
+					.kept-header{
+						margin-bottom: 5%;
+					}
+
+					.right-package{
+						text-align: center;
+					}
+
+					.package-cost{
+						font-size: 25px;
+					}
+
+					.package-description{
+						text-align: center;
+					}
+
+					.why-frame{
+						width:700px;
 					}
 
 		/*-------------------------*/
@@ -1312,9 +1550,43 @@
 					font-size: 20px;
 				}
 
+				.padding-1204{
+						padding-left: 1rem !important;
+						padding-right: 1rem !important;
+				}
+
+
+				.package-right{
+						padding-left: 20px;
+						padding-right: 20px;
+						padding-bottom: 30px;
+				}
+
+				.package-left{
+						padding-left: 20px;
+						padding-right: 20px;
+						padding-bottom: 0px;
+				}
+
+				.why-frame{
+					width:336px;
+					height:200px;
+				}
+
+				.why-frame img{
+					height:auto;
+					width:100%;
+				}
+
+				.how{
+					font-size: 30px;
+				}
+
 		/*-------------------------*/
 		/*------- END INDEX 414 -------*/
 		/*-------------------------*/
+
+
 
 	/*---------------------------
 	-------- PAYMENT 414 -------
@@ -1442,6 +1714,10 @@
 		/*----- end login -----*/
 		/*-------------------------*/
 
+
+
+
+
 	/*-------------------------*/
 	/*--------  INDEX-- -------*/
 	/*-------------------------*/
@@ -1450,9 +1726,19 @@
 				height:200px;
 			}
 
+			.why-frame{
+				width:297px;
+			}
+
 	/*-------------------------*/
 	/*------- END INDEX -------*/
 	/*-------------------------*/
+
+
+
+
+
+
 	/*---------------------------
 	-------- PAYMENT 375 --------
 	-----------------------------*/
@@ -1543,6 +1829,11 @@
 				font-size: 20px;
 			}
 
+			.why-frame{
+				width:243px;
+			}
+
+
 	/*-------------------------*/
 	/*------- END INDEX 320 -------*/
 	/*-------------------------*/
@@ -1550,16 +1841,16 @@
 	/*----------------------
 	-------- REGISTER  320-------
 	------------------------*/
-			
+
 			.re-tap320 {
 			    margin-left: 1px;
 			    margin-right: 1px;
-			
+
 			}
 			.re-tap320-2 {
 			    margin-left: -14px;
 			    margin-right: 1px;
-			
+
 			}
 
 		.webboard-bnt-comment-size {

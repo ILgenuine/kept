@@ -8,6 +8,10 @@
     <meta name="author" content="">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
+    <!-- Logo icon -->
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/logo/logo-icon.png">
+    <link rel="icon" type="image/png" href="assets/images/logo/logo-icon.png">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
