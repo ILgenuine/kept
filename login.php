@@ -26,8 +26,10 @@
 
 	      		<div class="col-lg-12">
 	      			<form>
-	      				  <div class="form-group row p-2 " >
-	      				    <label class="col-sm-4 col-form-label text-11 text-lightblue login-text-cen ">Email</label>
+	      				  <div class="form-group row p-2">
+	      				  		<div class="col-lg-4 col-md-3 col-12 text-lg-right text-md-center text-center">
+		      				    	<label class="col-form-label text-11 text-lightblue login-text-cen">Email</label>
+	      				  		</div>
 		      				    <div class="col-lg-4 col-md-6 col-12 ">
 		      				      <input type="text"  class="form-control login-width">
 		      				    </div>
@@ -35,7 +37,9 @@
 
 
 	      				  <div class="form-group row p-2">
-	      				    <label class="col-lg-4 col-md-4 col-12 col-form-label text-11 text-lightblue login-text-cen">Password</label>
+	      				  		<div class="col-lg-4 col-md-3 col-12 text-lg-right text-md-center text-center">
+	      				  	     	<label class="col-form-label text-11 text-lightblue login-text-cen">Password</label>
+	      				  		</div>
 		      				    <div class="col-lg-4 col-md-6 col-12 ">
 		      				      <input type="password" class="form-control">
 		      				    </div>
