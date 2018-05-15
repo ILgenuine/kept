@@ -29,7 +29,8 @@
               </div>
 
               <div class="col-md-12 my-5">
-                   <table class="table flip-scroll">
+                <div class="table-responsive">
+                   <table class="table">
                       <thead>
                         <tr>
                           <th class="text-grey">No.</th>
@@ -109,6 +110,7 @@
                         </tr>                                      
                       </tbody>
                     </table>
+                </div>
               </div>
 
             </div>
