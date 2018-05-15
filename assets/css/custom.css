@@ -833,8 +833,8 @@ td, th {
     			cursor: pointer;
 			}
             .mybox-image-frame{
-			    width: 200px;
-			    height: 200px;
+			    width: 100px;
+			    height: 100px;
 			    overflow: hidden;
 			    position: relative;
 			    margin: auto;
@@ -1009,6 +1009,15 @@ td, th {
 					  cursor: pointer!important;
     				  color: #21a4c0;
 					 }
+					 .profile-image-frame {
+					    width: 200px;
+					    height: 200px;
+					    overflow: hidden;
+					    position: relative;
+					    margin: auto;
+					    border: 1px solid #58585a;
+					    border-radius: 5px;
+					}
 			/*-------------------------
 			------ END PROFILE --------
 			---------------------------*/
@@ -1385,10 +1394,16 @@ td, th {
 		/*-------------------------*/
 
 				/*----------------------------
-				---------- PROFILE-------------
+				---------- PROFILE 1024-------------
 				------------------------------*/
 
-						.
+						.profile-but{
+							width: 100%;
+    						height: 50px;
+						}
+						.profile-l{
+							left: 32px;
+						}
 
 
 
@@ -1397,7 +1412,7 @@ td, th {
 
 
 				/*----------------------------
-				----------END PROFILE -------------
+				----------END PROFILE 1024-------------
 				------------------------------*/
 
 
@@ -1761,6 +1776,15 @@ td, th {
 	/*---------------------------
 	-------- END MYBOX 768-------
 	-----------------------------*/
+
+
+	/*---------------------------
+	---------- PROFILE 768 ------
+	-----------------------------*/
+		.profile-position-top {
+			padding-top: 130px;
+		}
+
 }
 
 
