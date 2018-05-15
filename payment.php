@@ -18,48 +18,60 @@
         </div>
 
         <div class="col-md-12">
-          <div class="table-responsive">
-             <table class="table">
-                <thead>
-                  <tr>
-                    <th class="text-grey">No.</th>
-                    <th class="text-grey">ประเภทกล่อง</th>
-                    <th class="text-grey">ชื่อกล่อง</th>
-                    <th class="text-grey">ราคา</th>
-                    <th class="text-grey">สถานะ</th>
-                    <th class=""></th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="text-lightblue">1.</td>
-                    <td class="text-blue">KEPT</td>
-                    <td class="text-lightblue">กล่องหนังสือ</td>
-                    <td class="text-lightblue">100</td>
-                    <td class="text-lightblue">Confirm Orser</td>
-                    <td class=""><a href="#"><u class="text-lightblue">ดูรายละเอียด</u></a></td>
-                  </tr>
-
-                  <tr>
-                    <td class="text-lightblue">2.</td>
-                    <td class="text-lightblue">STANDART</td>
-                    <td class="text-lightblue">กล่องหนังสือ</td>
-                    <td class="text-lightblue">100</td>
-                    <td class="text-lightblue">Confirm Orser</td>
-                    <td class=""><a href="#"><u class="text-lightblue">ดูรายละเอียด</u></a></td>
-                  </tr>
-
-                  <tr>
-                    <td class="text-lightblue">3.</td>
-                    <td class="text-lightblue">STANDART</td>
-                    <td class="text-lightblue">กล่องหนังสือ</td>
-                    <td class="text-lightblue">100</td>
-                    <td class="text-lightblue">Confirm Orser</td>
-                    <td class=""><a href="#"><u class="text-lightblue">ดูรายละเอียด</u></a></td>
-                  </tr>
-                </tbody>
-              </table>
-          </div>
+            <table class="flip-scroll responsive-table  w100" style="border: 1px solid #dee2e6;">
+              <thead>
+                <tr>
+                  <th class="text-center">No.</th>
+                  <th class="text-center">ประเภทกล่อง</th>
+                  <th class="text-center">ชื่อกล่อง</th>
+                  <th class="text-center">ราคา</th>
+                  <th class="text-center">สถานะ</th>
+                  <th class="text-center"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="text-center text-lightblue">1</td>
+                  <td class="text-center text-blue">KEPT</td>
+                  <td class="text-center text-lightblue">กล่องหนังสือ</td>
+                  <td class="text-center text-lightblue">100</td>
+                  <td class="text-center text-lightblue">Confirm Order</td>
+                  <td class="text-center text-lightblue"><a href="#"><u class="text-lightblue">ดูรายละเอียด</u></a></td>
+                </tr>
+                <tr>
+                  <td class="text-center text-lightblue">2</td>
+                  <td class="text-center text-lightblue">Standart</td>
+                  <td class="text-center text-lightblue">กล่องหนังสือ</td>
+                  <td class="text-center text-lightblue">100</td>
+                  <td class="text-center text-lightblue">Confirm Order</td>
+                  <td class="text-center text-lightblue"><a href="#"><u class="text-lightblue">ดูรายละเอียด</u></a></td>
+                </tr>
+                <tr>
+                  <td class="text-center text-lightblue">3</td>
+                  <td class="text-center text-lightblue">Standart</td>
+                  <td class="text-center text-lightblue">กล่องหนังสือ</td>
+                  <td class="text-center text-lightblue">100</td>
+                  <td class="text-center text-lightblue">Confirm Order</td>
+                  <td class="text-center text-lightblue"><a href="#"><u class="text-lightblue">ดูรายละเอียด</u></a></td>
+                </tr>
+                <tr>
+                  <td class="text-center text-lightblue">4</td>
+                  <td class="text-center text-lightblue">Standart</td>
+                  <td class="text-center text-lightblue">กล่องหนังสือ</td>
+                  <td class="text-center text-lightblue">100</td>
+                  <td class="text-center text-lightblue">Confirm Order</td>
+                  <td class="text-center text-lightblue"><a href="#"><u class="text-lightblue">ดูรายละเอียด</u></a></td>
+                </tr>
+                <tr>
+                  <td class="text-center text-lightblue">5</td>
+                  <td class="text-center text-blue">KEPT</td>
+                  <td class="text-center text-lightblue">กล่องหนังสือ</td>
+                  <td class="text-center text-lightblue">100</td>
+                  <td class="text-center text-lightblue">Confirm Order</td>
+                  <td class="text-center text-lightblue"><a href="#"><u class="text-lightblue">ดูรายละเอียด</u></a></td>
+                </tr>                
+              </tbody>
+            </table>
         </div>
       </div>
 <!-- ====================== END-TABLE ======================= -->

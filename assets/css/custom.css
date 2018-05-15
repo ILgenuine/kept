@@ -608,8 +608,17 @@ img{
     background-color: transparent;
     border: 2px solid #dee2e6;
 }
+
 th {
 	background-color: #dee2e6;
+}
+td, th {
+	 vertical-align: middle!important;
+	 border-bottom: 1px solid #dee2e6;
+	 font-size: 16px;
+	 font-weight: 350;
+	 text-align: center;
+	 height: 45px;
 }
 			.payment-logosize {
 				width: 20%;
@@ -728,14 +737,14 @@ th {
 			    margin-bottom: 100px;
 			    margin-top: 30px;
 			}
-			td, th {
+/*			td, th {
 				padding: .75rem;
 				vertical-align: middle!important;
 				border-top: 1px solid #dee2e6;
 				font-size: 16px;
 				font-weight: 350;
 				text-align: center;
-			}
+			}*/
 			/*--------------------------
 			--------- END PAYMENT ------
 			----------------------------*/
@@ -983,14 +992,14 @@ th {
 	font-size: 14px;
     margin-top: 0px;
 }
-td, th {
+/*td, th {
 	 padding: .75rem;
 	 vertical-align: middle!important;
 	 border-top: 1px solid #dee2e6;
 	 font-size: 16px;
 	 font-weight: 350;
 	 text-align: center;
-}
+}*/
 /*--------------------------
 --------- END PAYMENT ------
 ----------------------------*/
@@ -1367,6 +1376,52 @@ td, th {
 	/*-------------------------*/
 	/*------  Structure 768 -------*/
 	/*-------------------------*/
+
+
+.flip-scroll{
+ display:block;
+ width: 100%; 
+ }
+ .flip-scroll thead{
+ display: block; 
+ float: left;
+ }
+ .flip-scroll thead th, 
+ .flip-scroll tbody td{
+ line-height:20px;
+ text-align:center;
+ }
+ .flip-scroll thead th{
+ display:block;  /* กำหนดให้ th เรียงต่อๆ กันในแนวตั้ง */
+ }
+ .flip-scroll tbody{
+ display: block; 
+ overflow-x: auto;  /* กำหนดให้ tbody สามารถ scroll ได้ในแนวนอน*/ 
+ white-space: nowrap; 
+ }
+ .flip-scroll tbody tr{
+ display:inline-block;  /* กำหนดให้ tr เรียงต่อๆ กันในแนวนอน */
+ }
+ .flip-scroll tbody td{
+ display:block;  /* กำหนดให้ td เรียงต่อๆ กันในแนวตั้ง */
+ }
+td, th {
+    vertical-align: middle!important;
+    border-bottom: none;
+    font-size: 16px;
+    font-weight: 350;
+    text-align: center;
+    height: 45px;
+    border-right: 1px solid #e7eaec;
+    padding-top: 15px;
+}
+
+
+
+
+
+
+
 
 
 				/*-------------- NAVBAR 768 ---------------*/
