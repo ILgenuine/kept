@@ -20,7 +20,7 @@
 
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12 webboard-position">
+          <div class="col-12 mybox-position">
             <div class="row">
               <div class="col-md-12">
                 <div class="text-right">
