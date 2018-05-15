@@ -18,7 +18,8 @@
         </div>
 
         <div class="col-md-12">
-            <table class="flip-scroll responsive-table  w100" style="border: 1px solid #dee2e6;">
+          <div class="table-responsive">
+            <table class="table">
               <thead>
                 <tr>
                   <th class="text-center">No.</th>
@@ -72,6 +73,7 @@
                 </tr>                
               </tbody>
             </table>
+          </div>
         </div>
       </div>
 <!-- ====================== END-TABLE ======================= -->
