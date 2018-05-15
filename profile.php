@@ -10,30 +10,21 @@
 
  <div class="wrapper">
 
-
-
-      <div style="position: relative;">
-        <div class="nav flex-column nav-pills mybox-tab-position" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-          <a class="nav-link mybox-tab-style text-center">ข้อมูลการติดต่อ</a>
-          <a class="nav-link mybox-tab-style text-center navs-active">เสียงตอบรับ / ข้อเสนอแนะ</a>
-        </div>
-      </div>
-
-
-
+<div style="position: relative;">
+<div class="nav flex-column nav-pills mybox-tab-position" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+  <a class="nav-link mybox-tab-style text-center">ข้อมูลการติดต่อ</a>
+  <a class="nav-link mybox-tab-style text-center navs-active">เสียงตอบรับ / ข้อเสนอแนะ</a>
+</div>
+</div>
 
 <div class="row profile-position">
 
 
 
-	<div class="col-lg-2 col-sm-1 col-12"></div>
+	<div class="col-lg-2 col-md-0 col-sm-1 col-12"></div>
 
 
-				
-
-
-
-	<div class="col-lg-6 col-sm-7 col-12 pt-4">
+	<div class="col-lg-6 order-md-1 order-2 col-sm-7 col-12 pt-4">
 			<div class="col-12">
 				<div class="form-group row p-2" >
 					<label class="col-lg-4 col-form-label text-11 text-lightblue login-text-cen text-mail11">คำนำหน้า</label>
@@ -106,7 +97,7 @@
 				<div class="form-group row  p-2" >
 					<label class="col-lg-4 col-form-label text-11 text-lightblue login-text-cen text-mail11">ที่อยุ่ 1</label>
 					<div class="col-lg-8 ">
-						<input type="text"  class="form-control">
+						<textarea type="text" class="form-control" rows="6"></textarea>
 					</div>
 	
 				</div> 
@@ -143,7 +134,7 @@
 
 			<div class="col-12">
 				<div class="form-group row  p-2" >
-					<label class="col-lg-4 col-form-label text-11 text-lightblue login-text-cen text-mail11">ชื่อผู้ใช้งาน</label>
+					<label class="col-lg-4 col-form-label text-11 text-lightblue login-text-cen text-mail11 profile-text-1366" >ชื่อผู้ใช้งาน</label>
 					<div class="col-lg-8 ">
 						<input type="text"  class="form-control " style="margin-top: 35px;">
 					</div>
@@ -166,60 +157,46 @@
 
 
 
-			<div class="col-12 pt-4" style="left:66px;">
+			<div class="col-12 pt-4">
 				<div class="form-s row" >
-					<div class="col-5">
+					<div class="col-5 ">
 					</div>    
-					<div class="col-3">
-							  <button type="button" class="btn btn-ghost" style="width: 100% ">ยกเลิก</button>
+					<div class="col-3  p-4">
+							  <button type="button" class="btn btn-ghost profile-but-1024 profile-but-1024-cansle" >ยกเลิก</button>
 
 					</div>
-					<div class="col-3 pb-4">
-						      <button type="button" class="btn btn-blue" style="width: 100% ">แก้ไขข้อมุล</button>
+					<div class="col-3 p-4 ">
+						      <button type="button" class="btn btn-blue profile-but-1024" >แก้ไขข้อมุล</button>
 					</div>
 					
 				</div>
 			</div>
-		</div>
+	</div>
 
+	<div class="col-lg-4  order-md-2 order-1 col-sm-4 col-12 pt-4">	
+			<div class="profile-img-frame" style="margin: auto;">
+				<div class="profile-img-frame">
 
-		
-
-				<div class="col-lg-4 col-sm-4 col-12 pt-4">	
-					<div class="profile-img-frame" style="margin: auto;">
-						<div class="profile-img-frame">
-
-						<div class="mybox-image-frame">
-				                <img src="assets/images/profile-picture.png" alt="">
-				        </div>		
-                            <div class="edit">
-                              <span class="btn btn-file">
-                              <i class="fas fa-pencil-alt profile-icon-color"></i>
-                              <!--   <span class="flaticon-create-new-pencil-button " aria-hidden="true"></span> -->
-                                <input type="file">
-                              </span>
-                            </div>
-                          </div>
-					</div>
-
-
-
-      	
-				</div>	
+				<div class="profile-image-frame">
+		                <img src="assets/images/profile-picture.png" alt="" width="100%">
+		        </div>		
+	                <div class="edit">
+	                  <span class="btn btn-file">
+	                  <i class="fas fa-pencil-alt profile-icon-color"></i>
+	                  <!--   <span class="flaticon-create-new-pencil-button " aria-hidden="true"></span> -->
+	                    <input type="file">
+	                  </span>
+	                </div>
+	              </div>
+			</div>
+	</div>	
 
 
 
 			
-		
 
 
-
-
-
-
-
-
-		</div>
+	</div>
 
 </div>
 			
