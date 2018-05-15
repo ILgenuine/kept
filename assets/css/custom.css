@@ -608,8 +608,17 @@ img{
     background-color: transparent;
     border: 2px solid #dee2e6;
 }
+
 th {
 	background-color: #dee2e6;
+}
+td, th {
+	 vertical-align: middle!important;
+	 border-bottom: 1px solid #dee2e6;
+	 font-size: 16px;
+	 font-weight: 350;
+	 text-align: center;
+	 height: 45px;
 }
 			.payment-logosize {
 				width: 20%;
@@ -728,14 +737,14 @@ th {
 			    margin-bottom: 100px;
 			    margin-top: 30px;
 			}
-			td, th {
+/*			td, th {
 				padding: .75rem;
 				vertical-align: middle!important;
 				border-top: 1px solid #dee2e6;
 				font-size: 16px;
 				font-weight: 350;
 				text-align: center;
-			}
+			}*/
 			/*--------------------------
 			--------- END PAYMENT ------
 			----------------------------*/
@@ -833,7 +842,7 @@ th {
 			    border-radius: 5px;
             }
 
-            .mybox-img-test{
+            .mybox-image-frame img {
 	            position:absolute;
 	            top: 50%;
 	            left:50%;
@@ -935,7 +944,9 @@ th {
 				margin-top: 20px;
     			margin-bottom: 60px;
 			}
-
+			.mybox-position {
+			    padding-top: 40px;
+			}
 			/*--------------------------
 			--------END MY BOX ---------
 			----------------------------*/
@@ -956,8 +967,83 @@ th {
 			/*--------------------------
 			--------END  Register ---------
 			----------------------------*/
+			/*-------------------------
+			------- PROFILE -----------
+			---------------------------*/
+					.profile-img-frame{
+					    background-color: white;
+					    border: none;
+					    border-radius: 8px;
+					    height: 205px;
+					    width: 205px;
+					    position: relative;
+					    overflow: hidden;
+					 }
 
 
+					 .btn-file input[type=file] {
+					   position: absolute;
+					   top: 0;
+					   right: 10px;
+					   width: 40px;
+					   height: 40px;
+					   font-size: 100px;
+					   text-align: right;
+					   opacity:0;
+					   outline: none;
+					   cursor: pointer;
+					   display: block;
+					 }
+
+					 .edit{
+					  position:absolute;
+					  bottom:0;
+					  right:0;
+					 }
+
+					 .profile-btn{
+					  padding-top:10px;
+					  padding-bottom: 10px;
+					  width:180px;
+					 }
+					 .profile-icon-color {
+					  cursor: pointer!important;
+    				  color: #21a4c0;
+					 }
+					 .profile-position {
+					 	padding-top: 0px;
+					 }
+					  .profile-image-frame {
+					    width: 200px;
+					    height: 200px;
+					    overflow: hidden;
+					    position: relative;
+					    margin: auto;
+					    border: 1px solid #58585a;
+					    border-radius: 5px;
+					}
+
+			/*-------------------------
+			------ END PROFILE --------
+			---------------------------*/
+
+					/*----------------------------
+				---------- PROFILE -------------
+				------------------------------*/
+
+						
+						.profile-but-1024{
+							  width: 110%;
+						}
+
+
+
+
+
+
+				/*----------------------------
+				----------END PROFILE ------------
+				------------------------------*/
 
 
 
@@ -983,14 +1069,14 @@ th {
 	font-size: 14px;
     margin-top: 0px;
 }
-td, th {
+/*td, th {
 	 padding: .75rem;
 	 vertical-align: middle!important;
 	 border-top: 1px solid #dee2e6;
 	 font-size: 16px;
 	 font-weight: 350;
 	 text-align: center;
-}
+}*/
 /*--------------------------
 --------- END PAYMENT ------
 ----------------------------*/
@@ -1105,6 +1191,26 @@ td, th {
 	/*-------------------------*/
 	/*------ END NEW BO 1366 ------*/
 	/*-------------------------*/
+
+				/*----------------------------
+				---------- PROFILE 1366-------------
+				------------------------------*/
+
+						.profile-but-1024{
+							  width: 110%;
+						}
+						.profile-text-1366{
+							margin-top: 32px
+						}
+
+
+
+
+
+
+				/*----------------------------
+				----------END PROFILE 1366-------------
+				------------------------------*/
 
 
 
@@ -1330,7 +1436,29 @@ td, th {
 		/*----- end Register 1024-----*/
 		/*-------------------------*/
 
+				/*----------------------------
+				---------- PROFILE 1024-------------
+				------------------------------*/
 
+						.profile-but{
+							width: 100%;
+    						height: 50px;s
+						}
+						.profile-l{
+							left: 32px;
+						}
+						.profile-but-1024{
+							  width: 120%;
+						}
+
+
+
+
+
+
+				/*----------------------------
+				----------END PROFILE 1024-------------
+				------------------------------*/
 
 
 
@@ -1367,6 +1495,48 @@ td, th {
 	/*-------------------------*/
 	/*------  Structure 768 -------*/
 	/*-------------------------*/
+
+
+				.flip-scroll{
+				 display:block;
+				 width: 100%; 
+				 }
+				 .flip-scroll thead{
+				 display: block; 
+				 float: left;
+				 }
+				 .flip-scroll thead th, 
+				 .flip-scroll tbody td{
+				 line-height:20px;
+				 text-align:center;
+				 }
+				 .flip-scroll thead th{
+				 display:block;  /* กำหนดให้ th เรียงต่อๆ กันในแนวตั้ง */
+				 }
+				 .flip-scroll tbody{
+				 display: block; 
+				 overflow-x: auto;  /* กำหนดให้ tbody สามารถ scroll ได้ในแนวนอน*/ 
+				 white-space: nowrap; 
+				 }
+				 .flip-scroll tbody tr{
+				 display:inline-block;  /* กำหนดให้ tr เรียงต่อๆ กันในแนวนอน */
+				 }
+				 .flip-scroll tbody td{
+				 display:block;  /* กำหนดให้ td เรียงต่อๆ กันในแนวตั้ง */
+				 }
+				td, th {
+				    vertical-align: middle!important;
+				    border-bottom: none;
+				    font-size: 16px;
+				    font-weight: 350;
+				    text-align: center;
+				    border-right: 1px solid #e7eaec;
+				    padding-top: 15px;
+				}
+
+
+
+
 
 
 				/*-------------- NAVBAR 768 ---------------*/
@@ -1647,6 +1817,38 @@ td, th {
 	/*---------------------------
 	-------- END MYBOX 768-------
 	-----------------------------*/
+
+
+	/*---------------------------
+	---------- PROFILE 768 ------
+	-----------------------------*/
+/*		.profile-position-top {
+			padding-top: 130px;
+		}
+*/
+		.profile-position {
+			padding-top: 100px;
+		}
+		.text-11 {
+		     margin-left: 0px; 
+		    text-align: left;
+		}
+
+		.profile-but-1024{
+			 width: 170%;
+   			 margin-left: -60px;
+		}
+		.profile-but-1024-cansle{
+			 width: 170%;
+			 margin-left: -93px;
+   			
+		}
+
+   /*----------------------------
+    ----------END PROFILE -------------
+    ------------------------------*/
+
+
 }
 
 
@@ -1902,14 +2104,18 @@ td, th {
 	/*------ END NEW BO 414 ------*/
 	/*-------------------------*/
 
-
-
-}
-
+	
 	/*--------------------------
-	-------- END REGISTER 414------
+	--------- PROFILE 414 ------
+	----------------------------*/
+			.profile-inputfile-center-respon {
+				margin: auto;
+			}
+	/*--------------------------
+	----- END PROFILE 414 ------
 	----------------------------*/
 }
+
 
 
 @media (max-width: 375px) {
@@ -2035,6 +2241,30 @@ td, th {
 			/*----------------------------
 			---------END REGISTER 375 ----
 			------------------------------*/
+
+
+
+				/*----------------------------
+				---------- PROFILE 375------------
+				------------------------------*/
+
+						
+						.profile-but-1024{
+							  width: 103px;
+						}
+
+
+
+
+
+
+				/*----------------------------
+				----------END PROFILE -------------
+				------------------------------*/
+
+
+
+
 
 }
 
@@ -2195,6 +2425,24 @@ td, th {
 	/*------ END NEW BO 414 ------*/
 	/*-------------------------*/
 
+
+				/*----------------------------
+				---------- PROFILE 375------------
+				------------------------------*/
+
+						
+						.profile-but-1024{
+							  width: 90px;
+						}
+
+
+
+
+
+
+				/*----------------------------
+				----------END PROFILE -------------
+				------------------------------*/
 
 
 }

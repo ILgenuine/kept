@@ -20,7 +20,7 @@
 
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12 webboard-position">
+          <div class="col-12 mybox-position">
             <div class="row">
               <div class="col-md-12">
                 <div class="text-right">
@@ -46,7 +46,7 @@
                           <td class="text-lightblue">1.</td>
                           <td class="text-blue">
                             <div class="mybox-image-frame">
-                              <img class="mybox-img-test" src="http://via.placeholder.com/100x100" alt="">
+                              <img class="mybox-img-test" src="assets/images/hto.jpg" alt="">
                             </div>
                           </td>
                           <td class="text-lightblue">Standart</td>
