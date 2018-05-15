@@ -46,7 +46,7 @@
                           <td class="text-lightblue">1.</td>
                           <td class="text-blue">
                             <div class="mybox-image-frame">
-                              <img class="mybox-img-test" src="assets/images/hto.jpg" alt="">
+                              <img class="mybox-img-test" src="assets/images/avatar.png" alt="">
                             </div>
                           </td>
                           <td class="text-lightblue">Standart</td>
@@ -160,8 +160,7 @@
                           <tbody>
                             <tr>
                               <td class="text-left px-4" colspan="5">รายละเอียด</td>
-                            </tr>
-                                                           
+                            </tr>                        
                           </tbody>
                         </table>  
                         <div class="text-left mybox-scroll mybox-t-body">
