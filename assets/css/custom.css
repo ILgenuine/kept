@@ -975,8 +975,8 @@ td, th {
 					    background-color: white;
 					    border: none;
 					    border-radius: 8px;
-					    height: 205px;
-					    width: 205px;
+					    height: 250px;
+					    width: 250px;
 					    position: relative;
 					    overflow: hidden;
 					 }
@@ -1015,8 +1015,8 @@ td, th {
 					 	padding-top: 0px;
 					 }
 					  .profile-image-frame {
-					    width: 200px;
-					    height: 200px;
+					    width: 250px;
+					    height: 250px;
 					    overflow: hidden;
 					    position: relative;
 					    margin: auto;
@@ -1202,6 +1202,12 @@ td, th {
 						}
 						.profile-text-1366{
 							margin-top: 32px
+						}
+						.profile-gia1{
+							margin-left: 6px;
+						}
+						.profile-gia2{
+							    margin-left: -25px;
 						}
 
 
@@ -1449,7 +1455,13 @@ td, th {
 							left: 32px;
 						}
 						.profile-but-1024{
-							  width: 120%;
+							  width: 110px
+						}
+						.profile-gia1{
+							margin-left: -19px;
+						}
+						.profile-gia2{
+							margin-left: -14px;
 						}
 
 
@@ -1622,6 +1634,9 @@ td, th {
 
 					.login-buttom{
 						width: 205px;
+					}
+					.text-11 {
+			   			 margin-left: 0px;
 					}
 
 					
@@ -1844,7 +1859,35 @@ td, th {
 			 margin-left: -93px;
    			
 		}
+		.profile-but-1024{
+			 width: 110px
+		}
+		.profile-gia1{
+			    margin-left: -108px;
+		}
+		.profile-gia2{
+			    margin-left: -83px;
+		}
+		.profile-img-frame{
+	    background-color: white;
+	    border: none;
+	    border-radius: 8px;
+	    height: 210px;
+	    width: 210px;
+	    position: relative;
+	    overflow: hidden;
+	 }
+	 .profile-image-frame {
+	    width: 210px;
+	    height: 210px;
+	    overflow: hidden;
+	    position: relative;
+	    margin: auto;
+	    border: 1px solid #58585a;
+	    border-radius: 5px;
+	}
 
+		
    /*----------------------------
     ----------END PROFILE -------------
     ------------------------------*/
@@ -1923,6 +1966,7 @@ td, th {
 					width: 309px
 
 					}
+
 
 
 		/*-------------------------*/
@@ -2112,6 +2156,17 @@ td, th {
 			.profile-inputfile-center-respon {
 				margin: auto;
 			}
+
+			.profile-but-1024{
+				 width: 110px
+			}
+			.profile-gia1{
+				margin-left: -19px;
+			}
+			.profile-gia2{
+				margin-left: -14px;
+			}
+			
 	/*--------------------------
 	----- END PROFILE 414 ------
 	----------------------------*/
@@ -2253,7 +2308,13 @@ td, th {
 						.profile-but-1024{
 							  width: 103px;
 						}
-
+						.profile-gia1{
+							  margin-left: -102px;
+						}
+						.profile-gia2{
+							 margin-left: -75px;
+						}
+						
 
 
 
@@ -2435,6 +2496,13 @@ td, th {
 						.profile-but-1024{
 							  width: 90px;
 						}
+						.profile-gia1{
+							 margin-left: -94px;
+						}
+						.profile-gia2{
+							     margin-left: -66px;
+						}
+
 
 
 

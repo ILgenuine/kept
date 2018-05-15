@@ -27,7 +27,7 @@
 	<div class="col-lg-6 order-md-1 order-2 col-sm-7 col-12 pt-4">
 			<div class="col-12">
 				<div class="form-group row p-2" >
-					<label class="col-lg-4 col-form-label text-11 text-lightblue login-text-cen text-mail11">คำนำหน้า</label>
+					<label class="col-lg-4 col-form-label text-11 text-lightblue  text-mail11">คำนำหน้า</label>
 					<div class="col-lg-8 ">
 							<select  class="custom-select" id="inputGroupSelect01" style="width: 200px; ">
 					           <option selected></option>
@@ -45,7 +45,7 @@
 
 			<div class="col-12">
 				<div class="form-group row p-2" >
-					<label class="col-lg-4 col-form-label text-11 text-lightblue login-text-cen text-mail11">ชื่อ</label>
+					<label class="col-lg-4 col-form-label text-11 text-lightblue  text-mail11">ชื่อ</label>
 					<div class="col-lg-8 ">
 						<input type="text"  class="form-control">
 					</div>
@@ -57,7 +57,7 @@
 
 			<div class="col-12">
 				<div class="form-group row  p-2" >
-					<label class="col-lg-4 col-form-label text-11 text-lightblue login-text-cen text-mail11">นามสกุล</label>
+					<label class="col-lg-4 col-form-label text-11 text-lightblue  text-mail11">นามสกุล</label>
 					<div class="col-lg-8 ">
 						<input type="text" class="form-control">
 					</div>
@@ -70,7 +70,7 @@
 
 			<div class="col-12">
 				<div class="form-group row  p-2" >
-					<label class="col-lg-4 col-form-label text-11 text-lightblue login-text-cen text-mail11">เบอร์โทร</label>
+					<label class="col-lg-4 col-form-label text-11 text-lightblue  text-mail11">เบอร์โทร</label>
 					<div class="col-lg-8 ">
 						<input type="text" class="form-control">
 					</div>
@@ -82,7 +82,7 @@
 
 			<div class="col-12">
 				<div class="form-group row  p-2" >
-					<label class="col-lg-4 col-form-label text-11 text-lightblue login-text-cen text-mail11">อีเมล์</label>
+					<label class="col-lg-4 col-form-label text-11 text-lightblue  text-mail11">อีเมล์</label>
 					<div class="col-lg-8 ">
 						<input type="text"  class="form-control">
 					</div>
@@ -95,7 +95,7 @@
 
 			<div class="col-12">
 				<div class="form-group row  p-2" >
-					<label class="col-lg-4 col-form-label text-11 text-lightblue login-text-cen text-mail11">ที่อยุ่ 1</label>
+					<label class="col-lg-4 col-form-label text-11 text-lightblue  text-mail11">ที่อยุ่ 1</label>
 					<div class="col-lg-8 ">
 						<textarea type="text" class="form-control" rows="6"></textarea>
 					</div>
@@ -134,7 +134,7 @@
 
 			<div class="col-12">
 				<div class="form-group row  p-2" >
-					<label class="col-lg-4 col-form-label text-11 text-lightblue login-text-cen text-mail11 profile-text-1366" >ชื่อผู้ใช้งาน</label>
+					<label class="col-lg-4 col-form-label text-11 text-lightblue  text-mail11 profile-text-1366" >ชื่อผู้ใช้งาน</label>
 					<div class="col-lg-8 ">
 						<input type="text"  class="form-control " style="margin-top: 35px;">
 					</div>
@@ -145,7 +145,7 @@
 
 			<div class="col-12">
 				<div class="form-group row  p-2" >
-					<label class="col-lg-4 col-form-label text-11 text-lightblue login-text-cen text-mail11">รหัสผ่าน</label>
+					<label class="col-lg-4 col-form-label text-11 text-lightblue  text-mail11">รหัสผ่าน</label>
 					<div class="col-lg-8 ">
 						<input type="text"  class="form-control">
 					</div>
@@ -162,11 +162,11 @@
 					<div class="col-5 ">
 					</div>    
 					<div class="col-3  p-4">
-							  <button type="button" class="btn btn-ghost profile-but-1024 profile-but-1024-cansle" >ยกเลิก</button>
+							  <button type="button" class="btn btn-ghost profile-but-1024 profile-but-1024-cansle profile-gia1" >ยกเลิก</button>
 
 					</div>
 					<div class="col-3 p-4 ">
-						      <button type="button" class="btn btn-blue profile-but-1024" >แก้ไขข้อมุล</button>
+						      <button type="button" class="btn btn-blue profile-but-1024 profile-gia2" >แก้ไขข้อมุล</button>
 					</div>
 					
 				</div>
@@ -174,7 +174,7 @@
 	</div>
 
 	<div class="col-lg-4  order-md-2 order-1 col-sm-4 col-12 pt-4">	
-			<div class="profile-img-frame" style="margin: auto;">
+			<div class="profile-img-frame " style="margin: auto;">
 				<div class="profile-img-frame">
 
 				<div class="profile-image-frame">
