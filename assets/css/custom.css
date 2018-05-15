@@ -833,8 +833,8 @@ td, th {
     			cursor: pointer;
 			}
             .mybox-image-frame{
-			    width: 100px;
-			    height: 100px;
+			    width: 200px;
+			    height: 200px;
 			    overflow: hidden;
 			    position: relative;
 			    margin: auto;
@@ -842,7 +842,7 @@ td, th {
 			    border-radius: 5px;
             }
 
-            .mybox-img-test{
+            .mybox-image-frame img {
 	            position:absolute;
 	            top: 50%;
 	            left:50%;
@@ -965,8 +965,53 @@ td, th {
 			/*--------------------------
 			--------END  Register ---------
 			----------------------------*/
-
 			
+			/*-------------------------
+			------- PROFILE -----------
+			---------------------------*/
+					.profile-img-frame{
+					    background-color: white;
+					    border: none;
+					    border-radius: 8px;
+					    height: 205px;
+					    width: 205px;
+					    position: relative;
+					    overflow: hidden;
+					 }
+
+
+					 .btn-file input[type=file] {
+					   position: absolute;
+					   top: 0;
+					   right: 10px;
+					   width: 40px;
+					   height: 40px;
+					   font-size: 100px;
+					   text-align: right;
+					   opacity:0;
+					   outline: none;
+					   cursor: pointer;
+					   display: block;
+					 }
+
+					 .edit{
+					  position:absolute;
+					  bottom:0;
+					  right:0;
+					 }
+
+					 .profile-btn{
+					  padding-top:10px;
+					  padding-bottom: 10px;
+					  width:180px;
+					 }
+					 .profile-icon-color {
+					  cursor: pointer!important;
+    				  color: #21a4c0;
+					 }
+			/*-------------------------
+			------ END PROFILE --------
+			---------------------------*/
 
 
 
@@ -1339,7 +1384,21 @@ td, th {
 		/*----- end Register 1024-----*/
 		/*-------------------------*/
 
+				/*----------------------------
+				---------- PROFILE-------------
+				------------------------------*/
 
+						.
+
+
+
+
+
+
+
+				/*----------------------------
+				----------END PROFILE -------------
+				------------------------------*/
 
 
 
