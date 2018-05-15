@@ -18,13 +18,13 @@
                 <a href="index.php"><h4 class="text-blue">หน้าแรก</h4></a>
               </div>
               <div class="col-lg-3 col-md-4 col-12 px-0 text-lg-left text-md-center text-center">
-                <a href="index.php"><h4 class="text-blue">สั่งสินค้า</h4></a>
+                <a href="newbox.php"><h4 class="text-blue">สั่งสินค้า</h4></a>
                 <a href="index.php"><p class="text-lightblue">กล่องใหม่</p></a>
               </div>
               <div class="col-lg-3 col-md-4 col-12 px-0 text-lg-left text-md-center text-center">
-                <a href="index.php"><h4 class="text-blue">เกี่ยวกับเรา</h4></a>
-                <a href="index.php"><p class="text-lightblue">ติดต่อเรา</p></a>
-                <a href="index.php"><p class="text-lightblue">เสี่ยงรอบรับ/ข้อเสนอแนะ</p></a>
+                <a href="aboutus.php"><h4 class="text-blue">เกี่ยวกับเรา</h4></a>
+                <a href="contactus.php"><p class="text-lightblue">ติดต่อเรา</p></a>
+                <a href="webboard.php"><p class="text-lightblue">เสียงรอบรับ/ข้อเสนอแนะ</p></a>
               </div>
             </div>
           </div>
