@@ -57,18 +57,16 @@ img{
 				margin: 0;
 			}
 
-			html{
-					position:relative;
-			    min-height: 100%;
-			}
-
-			body{
+			html,body{
+				display: flex;
+			  min-height: 100vh;
+			  flex-direction: column;
 				font-family: 'kanitmedium';
 				font-size: 20px;
 			}
 
 			.wrapper{
-				margin-bottom:313px;
+				flex: 1;
 			}
 
 			.text-black{
@@ -328,12 +326,6 @@ img{
 
 			/*-------------- FOOTER  ---------------*/
 
-				.footer{
-					position: absolute;
-			    bottom: 0;
-			    width: 100%;
-					height:313px;
-				}
 
 				.top-footer{
 					background-color:#e8fcfd;
@@ -1031,7 +1023,7 @@ td, th {
 				---------- PROFILE -------------
 				------------------------------*/
 
-						
+
 						.profile-but-1024{
 							  width: 110%;
 						}
@@ -1245,10 +1237,6 @@ td, th {
 
 
 				/*-------------- FOOTER 1024 ---------------*/
-
-						.footer{
-							height:313px;
-						}
 
 						.wrapper{
 							margin-bottom:313px;
@@ -1499,13 +1487,13 @@ td, th {
 
 				.flip-scroll{
 				 display:block;
-				 width: 100%; 
+				 width: 100%;
 				 }
 				 .flip-scroll thead{
-				 display: block; 
+				 display: block;
 				 float: left;
 				 }
-				 .flip-scroll thead th, 
+				 .flip-scroll thead th,
 				 .flip-scroll tbody td{
 				 line-height:20px;
 				 text-align:center;
@@ -1514,9 +1502,9 @@ td, th {
 				 display:block;  /* กำหนดให้ th เรียงต่อๆ กันในแนวตั้ง */
 				 }
 				 .flip-scroll tbody{
-				 display: block; 
-				 overflow-x: auto;  /* กำหนดให้ tbody สามารถ scroll ได้ในแนวนอน*/ 
-				 white-space: nowrap; 
+				 display: block;
+				 overflow-x: auto;  /* กำหนดให้ tbody สามารถ scroll ได้ในแนวนอน*/
+				 white-space: nowrap;
 				 }
 				 .flip-scroll tbody tr{
 				 display:inline-block;  /* กำหนดให้ tr เรียงต่อๆ กันในแนวนอน */
@@ -1594,10 +1582,6 @@ td, th {
 					width:100%;
 					padding-left: 10%;
 					padding-right: 10%;
-				}
-
-				.footer{
-					height:450px;
 				}
 
 				.wrapper{
@@ -1830,7 +1814,7 @@ td, th {
 			padding-top: 100px;
 		}
 		.text-11 {
-		     margin-left: 0px; 
+		     margin-left: 0px;
 		    text-align: left;
 		}
 
@@ -1841,7 +1825,7 @@ td, th {
 		.profile-but-1024-cansle{
 			 width: 170%;
 			 margin-left: -93px;
-   			
+
 		}
 
    /*----------------------------
@@ -1890,10 +1874,6 @@ td, th {
 					.footer-address{
 						padding-left: unset;
 						padding-right: unset;
-					}
-
-					.footer{
-						height:0px;
 					}
 
 					.wrapper{
@@ -2104,7 +2084,7 @@ td, th {
 	/*------ END NEW BO 414 ------*/
 	/*-------------------------*/
 
-	
+
 	/*--------------------------
 	--------- PROFILE 414 ------
 	----------------------------*/
@@ -2142,9 +2122,6 @@ td, th {
 
 				/*-------------- FOOTER 375 ---------------*/
 
-				.footer{
-					height:0px;
-				}
 
 				/*------------ END FOOTER 375  -------------*/
 
@@ -2248,7 +2225,7 @@ td, th {
 				---------- PROFILE 375------------
 				------------------------------*/
 
-						
+
 						.profile-but-1024{
 							  width: 103px;
 						}
@@ -2292,9 +2269,6 @@ td, th {
 
 				/*-------------- FOOTER 320 ---------------*/
 
-				.footer{
-					height:0px;
-				}
 
 				/*------------ END FOOTER 320  -------------*/
 
@@ -2430,7 +2404,7 @@ td, th {
 				---------- PROFILE 375------------
 				------------------------------*/
 
-						
+
 						.profile-but-1024{
 							  width: 90px;
 						}
