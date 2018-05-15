@@ -46,7 +46,7 @@
                           <td class="text-lightblue">1.</td>
                           <td class="text-blue">
                             <div class="mybox-image-frame">
-                              <img class="mybox-img-test" src="http://via.placeholder.com/100x100" alt="">
+                              <img class="mybox-img-test" src="assets/images/hto.jpg" alt="">
                             </div>
                           </td>
                           <td class="text-lightblue">Standart</td>
