@@ -740,6 +740,13 @@ td, th {
 			.payment-cvv {
 				width: 50%;
 			}
+			.payment-card-credit {
+			    position: inherit;
+			    top: inherit;
+			    left: inherit;
+			    transform: none;
+			    margin-top: -7px;
+			}
 /*			td, th {
 				padding: .75rem;
 				vertical-align: middle!important;
