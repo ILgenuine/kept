@@ -40,10 +40,10 @@
                         </div>
                         <div class="col-lg-8 px-0">
                           <div class="row">
-                            <div class="col-lg-3 col-md-3 col-12  px-0 mb-4 text-lg-center text-md-left text-center">
+                            <div class="col-lg-3 col-md-3 col-12  px-0 mt-3 mb-4 text-lg-center text-md-left text-center">
                               <fomt class="text-lightblue">ชื่อกล่อง</font>
                             </div>
-                            <div class="col-lg-9 col-md-9 col-12   px-0 mb-4">
+                            <div class="col-lg-9 col-md-9 col-12  px-0 mt-3 mb-4">
                               <input type="text" class="form-control">
                             </div>
                             <div class="col-lg-3 col-md-3 col-12  px-0 mb-4 text-lg-center text-md-left text-center">
@@ -137,13 +137,13 @@
                         </div>
                         <div class="col-lg-8 px-0">
                           <div class="row">
-                            <div class="col-lg-3 col-md-3 col-12  px-0 mb-4 text-lg-center text-md-left text-center">
+                            <div class="col-lg-3 col-md-3 col-12  px-0 mb-4 mt-3 text-lg-center text-md-left text-center">
                               <fomt class="text-lightblue">ชื่อกล่อง</font>
                             </div>
-                            <div class="col-lg-9 col-md-9 col-12   px-0 mb-4">
+                            <div class="col-lg-9 col-md-9 col-12   mt-3 px-0 mb-4">
                               <input type="text" class="form-control">
                             </div>
-                            <div class="col-lg-3 col-md-3 col-12  px-0 mb-4 text-lg-center text-md-left text-center">
+                            <div class="col-lg-3 col-md-3 col-12 px-0 mb-4 text-lg-center text-md-left text-center">
                               <fomt class="text-lightblue">ราคา</font>
                             </div>
                             <div class="col-lg-9 col-md-9 col-12   px-0 mb-4">
@@ -216,10 +216,10 @@
                         </div>
                         <div class="col-lg-8 px-0">
                           <div class="row">
-                            <div class="col-lg-3 col-md-3 col-12  px-0 mb-4 text-lg-center text-md-left text-center">
+                            <div class="col-lg-3 col-md-3 col-12 mt-3 px-0 mb-4 text-lg-center text-md-left text-center">
                               <fomt class="text-lightblue">ชื่อกล่อง</font>
                             </div>
-                            <div class="col-lg-9 col-md-9 col-12   px-0 mb-4">
+                            <div class="col-lg-9 col-md-9 col-12 mt-3 px-0 mb-4">
                               <input type="text" class="form-control">
                             </div>
                             <div class="col-lg-3 col-md-3 col-12  px-0 mb-4 text-lg-center text-md-left text-center">
@@ -274,7 +274,242 @@
           </div>
 
           <div class="col-12 mb-4">
-            <button class="button plus-btn mr-4 mb-3"><i class="fa fa-plus"></i></button><font class="text-blue">อุปกรณ์เพิ่มเติม</font>
+            <button class="button plus-btn mr-4 mb-3" data-toggle="modal" data-target="#myModal"><i class="fa fa-plus"></i></button><font class="text-blue">อุปกรณ์เพิ่มเติม</font>
+
+
+            <!-- Modal -->
+            <div class="modal fade bd-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog mybox-modal-lg">
+                <div class="modal-content mybox-content">
+
+                  <div class="mybox-modal-header">
+                      <div class="col-md-6 text-right">
+                        <div class="text-left text-blue">
+                          <p>รายละเอียดกล่อง</p>
+                        </div>
+                      </div>
+                      <div class="col-md-6 text-right">
+                        <button type="button" class="btn mybox-bnt-close" data-dismiss="modal" aria-hidden="true">
+                          <i class="fa fa-times" aria-hidden="true"></i>
+                        </button>
+                      </div>
+                  </div>
+
+
+                  <div class="mybox-modal-body">
+
+                    <div class="row">
+                      <div class="col-12 px-3 py-3">
+                         <div class="table-responsive">
+                           <table class="table table-modal">
+                              <thead>
+                                <tr>
+                                  <th width="5%" class="text-center px-2"></th>
+                                  <th width="19%" class="text-center px-2">รูปภาพ</th>
+                                  <th width="25.3%" class="text-center px-2">ชื่อ</th>
+                                  <th width="25.3%" class="text-center px-2">ราคา</th>
+                                  <th width="25.3%" class="text-center pr-4">จำนวน</th>
+                                </tr>
+                              </thead>
+                              <tbody class="newbox-modal-body">
+                                <tr>
+                                  <td class="text-left text-center pb-4 px-4">
+                                    <label class="container-1">
+                                      <input type="checkbox">
+                                      <span class="checkmark"></span>
+                                    </label>
+                                  </td>
+                                  <td class="text-left text-center px-4">
+                                    <div class="table-img">
+                                        <img src="http://via.placeholder.com/100x100"></a>
+                                    </div>
+                                  </td>
+                                  <td class="text-left text-center px-4"></td>
+                                  <td class="text-left text-center px-4"></td>
+                                  <td class="text-left text-center px-4">
+                                    <select class="custom-select" id="inputGroupSelect01">
+                                       <option selected>Choose...</option>
+                                       <option value="1">One</option>
+                                       <option value="2">Two</option>
+                                       <option value="3">Three</option>
+                                     </select>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="text-left text-center pb-4 px-4">
+                                    <label class="container-1">
+                                      <input type="checkbox">
+                                      <span class="checkmark"></span>
+                                    </label>
+                                  </td>
+                                  <td class="text-left text-center px-4">
+                                    <div class="table-img">
+                                        <img src="http://via.placeholder.com/100x100"></a>
+                                    </div>
+                                  </td>
+                                  <td class="text-left text-center px-4"></td>
+                                  <td class="text-left text-center px-4"></td>
+                                  <td class="text-left text-center px-4">
+                                    <select class="custom-select" id="inputGroupSelect01">
+                                       <option selected>Choose...</option>
+                                       <option value="1">One</option>
+                                       <option value="2">Two</option>
+                                       <option value="3">Three</option>
+                                     </select>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="text-left text-center pb-4 px-4">
+                                    <label class="container-1">
+                                      <input type="checkbox">
+                                      <span class="checkmark"></span>
+                                    </label>
+                                  </td>
+                                  <td class="text-left text-center px-4">
+                                    <div class="table-img">
+                                        <img src="http://via.placeholder.com/100x100"></a>
+                                    </div>
+                                  </td>
+                                  <td class="text-left text-center px-4"></td>
+                                  <td class="text-left text-center px-4"></td>
+                                  <td class="text-left text-center px-4">
+                                    <select class="custom-select" id="inputGroupSelect01">
+                                       <option selected>Choose...</option>
+                                       <option value="1">One</option>
+                                       <option value="2">Two</option>
+                                       <option value="3">Three</option>
+                                     </select>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="text-left text-center pb-4 px-4">
+                                    <label class="container-1">
+                                      <input type="checkbox">
+                                      <span class="checkmark"></span>
+                                    </label>
+                                  </td>
+                                  <td class="text-left text-center px-4">
+                                    <div class="table-img">
+                                        <img src="http://via.placeholder.com/100x100"></a>
+                                    </div>
+                                  </td>
+                                  <td class="text-left text-center px-4"></td>
+                                  <td class="text-left text-center px-4"></td>
+                                  <td class="text-left text-center px-4">
+                                    <select class="custom-select" id="inputGroupSelect01">
+                                       <option selected>Choose...</option>
+                                       <option value="1">One</option>
+                                       <option value="2">Two</option>
+                                       <option value="3">Three</option>
+                                     </select>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="text-left text-center pb-4 px-4">
+                                    <label class="container-1">
+                                      <input type="checkbox">
+                                      <span class="checkmark"></span>
+                                    </label>
+                                  </td>
+                                  <td class="text-left text-center px-4">
+                                    <div class="table-img">
+                                        <img src="http://via.placeholder.com/100x100"></a>
+                                    </div>
+                                  </td>
+                                  <td class="text-left text-center px-4"></td>
+                                  <td class="text-left text-center px-4"></td>
+                                  <td class="text-left text-center px-4">
+                                    <select class="custom-select" id="inputGroupSelect01">
+                                       <option selected>Choose...</option>
+                                       <option value="1">One</option>
+                                       <option value="2">Two</option>
+                                       <option value="3">Three</option>
+                                     </select>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="text-left text-center pb-4 px-4">
+                                    <label class="container-1">
+                                      <input type="checkbox">
+                                      <span class="checkmark"></span>
+                                    </label>
+                                  </td>
+                                  <td class="text-left text-center px-4">
+                                    <div class="table-img">
+                                        <img src="http://via.placeholder.com/100x100"></a>
+                                    </div>
+                                  </td>
+                                  <td class="text-left text-center px-4"></td>
+                                  <td class="text-left text-center px-4"></td>
+                                  <td class="text-left text-center px-4">
+                                    <select class="custom-select" id="inputGroupSelect01">
+                                       <option selected>Choose...</option>
+                                       <option value="1">One</option>
+                                       <option value="2">Two</option>
+                                       <option value="3">Three</option>
+                                     </select>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                        </div>
+                      </div>
+                    </div>
+
+
+
+
+                  </div>
+
+
+                  <div class="modal-footer mb-4" style="border-top: none;">
+                    <div class="col-1"></div>
+                    <div class="col-10 mybox-modal-footer">
+                      <div class="text-right">
+                        <button type="button" class="btn btn-blue mybox-btn-model">เพิ่มข้อมูล</button>
+                      </div>
+                    </div>
+                    <div class="col-1"></div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <div class="table-responsive ">
                <table class="table">
                   <thead>
