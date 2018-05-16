@@ -781,6 +781,13 @@ td, th {
 			.payment-cvv {
 				width: 50%;
 			}
+			.payment-card-credit {
+			    position: inherit;
+			    top: inherit;
+			    left: inherit;
+			    transform: none;
+			    margin-top: -7px;
+			}
 /*			td, th {
 				padding: .75rem;
 				vertical-align: middle!important;
@@ -994,7 +1001,7 @@ td, th {
 			/*--------------------------
 			--------END MY BOX ---------
 			----------------------------*/
-
+			
 			/*--------------------------
 			--------Register ---------
 			----------------------------*/
@@ -1011,6 +1018,7 @@ td, th {
 			/*--------------------------
 			--------END  Register ---------
 			----------------------------*/
+			
 			/*-------------------------
 			------- PROFILE -----------
 			---------------------------*/
@@ -1564,7 +1572,7 @@ td, th {
 				 .flip-scroll tbody{
 <<<<<<< HEAD
 				 display: block;
-				 overflow-x: auto;  /* กำหนดให้ tbody สามารถ scroll ได้ในแนวนอน*/
+				 overflow-x: auto;  /* ��˹���� tbody ����ö scroll ����ǹ͹*/
 				 white-space: nowrap;
 =======
 				 display: block; 
@@ -1672,7 +1680,7 @@ td, th {
 		/*-------------------------*/
 		/*----- end login -----*/
 		/*-------------------------*/
-
+		
 
 
 
@@ -1684,7 +1692,7 @@ td, th {
 						margin-left: -25px;
 					}
 					.register-but-fix {
-		   			    margin-left: -8px;
+		   			    margin-left: -60px;
 					}
 					.text-11{
 						margin-left: -49px;
@@ -2180,7 +2188,7 @@ td, th {
     	width: 310px;
 	}
 	.register-but-fix {
-    margin-left: 0px;
+    	margin-left: 0px;
     }
 	.text-11 {
     margin-left: 0px;
@@ -2481,7 +2489,7 @@ td, th {
 			.register{
 				margin-left: 6px;
     		}
-
+			
 	/*-----------------------------
 	------------ WEBBOARD 320 -----
 	-------------------------------*/
@@ -2543,12 +2551,18 @@ td, th {
 
 
 				/*----------------------------
-				---------- PROFILE 375------------
+				---------- PROFILE 320--------
 				------------------------------*/
 
 
 						.profile-but-1024{
 							  width: 90px;
+						}
+						.profile-set-bnt-320 {
+						    -ms-flex: 0 0 100%;
+						    flex: 0 0 100%;
+						    max-width: 100%;
+						    padding-bottom: 15px;
 						}
 
 
