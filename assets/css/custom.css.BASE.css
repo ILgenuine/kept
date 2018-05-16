@@ -57,16 +57,18 @@ img{
 				margin: 0;
 			}
 
-			html,body{
-				display: flex;
-			  min-height: 100vh;
-			  flex-direction: column;
+			html{
+					position:relative;
+			    min-height: 100%;
+			}
+
+			body{
 				font-family: 'kanitmedium';
 				font-size: 20px;
 			}
 
 			.wrapper{
-				flex: 1;
+				margin-bottom:313px;
 			}
 
 			.text-black{
@@ -155,18 +157,16 @@ img{
 				box-shadow: 1px 2px 1px 1px #4b80c2;
 			}
 
-			/* The container */
 			.container-1 {
 			    display: block;
 			    position: relative;
-			    padding-left: 35px;
-			    margin-bottom: 12px;
 			    cursor: pointer;
-			    font-size: 22px;
 			    -webkit-user-select: none;
 			    -moz-user-select: none;
 			    -ms-user-select: none;
 			    user-select: none;
+					width:25px;
+					height:25px;
 			}
 
 			/* Hide the browser's default checkbox */
@@ -174,6 +174,7 @@ img{
 			    position: absolute;
 			    opacity: 0;
 			    cursor: pointer;
+
 			}
 
 			/* Create a custom checkbox */
@@ -184,16 +185,16 @@ img{
 			    height: 25px;
 			    width: 25px;
 			    background-color: white;
-					border:2px solid #21a4c0;
+					border:2px solid #7accdd;
 			}
 
 			/* On mouse-over, add a grey background color */
-			.container-1:hover input ~ .checkmark {
+			.container:hover input ~ .checkmark {
 			    background-color: white;
 			}
 
 			/* When the checkbox is checked, add a blue background */
-			.container-1 input:checked ~ .checkmark {
+			.container input:checked ~ .checkmark {
 			    background-color: white;
 			}
 
@@ -205,24 +206,22 @@ img{
 			}
 
 			/* Show the checkmark when checked */
-			.container-1 input:checked ~ .checkmark:after {
+			.container input:checked ~ .checkmark:after {
 			    display: block;
 			}
 
 			/* Style the checkmark/indicator */
-			.container-1 .checkmark:after {
+			.container .checkmark:after {
 			    left: 9px;
 			    top: 5px;
 			    width: 5px;
 			    height: 10px;
-			    border: solid black;
+			    border: solid ;
 			    border-width: 0 3px 3px 0;
 			    -webkit-transform: rotate(45deg);
 			    -ms-transform: rotate(45deg);
 			    transform: rotate(45deg);
 			}
-
-
 
 
 			/*-------------- NAVBAR  ---------------*/
@@ -329,6 +328,12 @@ img{
 
 			/*-------------- FOOTER  ---------------*/
 
+				.footer{
+					position: absolute;
+			    bottom: 0;
+			    width: 100%;
+					height:313px;
+				}
 
 				.top-footer{
 					background-color:#e8fcfd;
@@ -342,7 +347,6 @@ img{
 					margin-top: 24px;
 					width:80%;
 				}
-
 
 				.footer-brand{
 					position:relative;
@@ -549,51 +553,6 @@ img{
 /*------- NEW BOX -------*/
 /*-------------------------*/
 
-		.table-img{
-			position:relative;
-			overflow:hidden;
-			width:100px;
-			height:100px;
-			border:2px solid #CCC;
-			border-radius: 4px;
-		}
-
-		.newbox-modal-body{
-			height:524px;
-			max-height: 524px;
-			overflow-y: scroll;
-		}
-
-		.table-modal {
-		    display: flex;
-		    flex-flow: column;
-		    height: 100%;
-		    width: 100%;
-		}
-
-		.table-modal thead {
-		    /* head takes the height it requires,
-		    and it's not scaled when table is resized */
-		    flex: 0 0 auto;
-		    width: calc(100% - 0.9em);
-		}
-
-		.table-modal tbody {
-		    /* body takes all the remaining available space */
-		    flex: 1 1 auto;
-		    display: block;
-		    overflow-y: auto;
-		}
-
-		.table-modal tbody tr {
-		    width: 100%;
-		}
-
-		.table-modal thead, .table-modal tbody tr {
-		    display: table;
-		    table-layout: fixed;
-		}
-
 
 		.package-img{
 			position:relative;
@@ -778,9 +737,6 @@ td, th {
 			    margin-bottom: 100px;
 			    margin-top: 30px;
 			}
-			.payment-cvv {
-				width: 50%;
-			}
 /*			td, th {
 				padding: .75rem;
 				vertical-align: middle!important;
@@ -860,7 +816,7 @@ td, th {
 			    margin-bottom: 100px;
 			}
 			.webboard-position{
-				padding-top: 80px;
+				padding-top: 120px;
 			}
 			/*--------------------------
 			-------- END WEBBOARD ------
@@ -1018,8 +974,8 @@ td, th {
 					    background-color: white;
 					    border: none;
 					    border-radius: 8px;
-					    height: 205px;
-					    width: 205px;
+					    height: 250px;
+					    width: 250px;
 					    position: relative;
 					    overflow: hidden;
 					 }
@@ -1058,8 +1014,8 @@ td, th {
 					 	padding-top: 0px;
 					 }
 					  .profile-image-frame {
-					    width: 200px;
-					    height: 200px;
+					    width: 250px;
+					    height: 250px;
 					    overflow: hidden;
 					    position: relative;
 					    margin: auto;
@@ -1075,10 +1031,14 @@ td, th {
 				---------- PROFILE -------------
 				------------------------------*/
 
-
+						
 						.profile-but-1024{
 							  width: 110%;
 						}
+
+
+
+
 
 
 				/*----------------------------
@@ -1090,7 +1050,7 @@ td, th {
 
 @media (max-width: 1366px) {
 	/* Style the indicator (dot/circle) */
-.payment-radio .payment-checkmark::after {
+.payment-radio .payment-checkmark:after {
 	top: 4px;
     left: 4px;
     width: 15px;
@@ -1184,10 +1144,6 @@ td, th {
 	----- END PAYMENT ------
 	------------------------*/
 
-
-
-
-
 	/*----------------------
 	------- WEBBOARD -------
 	------------------------*/
@@ -1244,14 +1200,19 @@ td, th {
 							  width: 110%;
 						}
 						.profile-text-1366{
-							margin-top: 32px;
-<<<<<<< HEAD
-=======
+							margin-top: 32px
 						}
 						.profile-gia1{
 							margin-left: 6px;
->>>>>>> 43077b473563b5bd2a126252e4167c5b001bcf8e
 						}
+						.profile-gia2{
+							    margin-left: -25px;
+						}
+
+
+
+
+
 
 				/*----------------------------
 				----------END PROFILE 1366-------------
@@ -1264,8 +1225,6 @@ td, th {
 
 
 @media (max-width: 1024px) {
-
-
 
 
 	/*-------------------------*/
@@ -1293,6 +1252,13 @@ td, th {
 
 				/*-------------- FOOTER 1024 ---------------*/
 
+						.footer{
+							height:313px;
+						}
+
+						.wrapper{
+							margin-bottom:313px;
+						}
 
 				/*------------ END FOOTER 1024  -------------*/
 
@@ -1311,6 +1277,8 @@ td, th {
 					.login-buttom{
 						width: 268px;
 					}
+
+
 
 		/*-------------------------*/
 		/*----- end login -----*/
@@ -1427,6 +1395,7 @@ td, th {
 	    border: 2px solid #dee2e6;
 	    margin-top: -18px;
 	}
+
 	.mybox-image-frame-model {
 	    width: 100%;
 	    height: 190px;
@@ -1436,6 +1405,7 @@ td, th {
 	    border: 1px solid #58585a;
 	    border-radius: 5px;
 	}
+
 	.mybox-content {
 	    top: 160px;
 	}
@@ -1480,23 +1450,19 @@ td, th {
 
 						.profile-but{
 							width: 100%;
-    						height: 50px;
+    						height: 50px;s
 						}
 						.profile-l{
 							left: 32px;
 						}
 						.profile-but-1024{
-<<<<<<< HEAD
-							  width: 120%;
-=======
-							  width: 110px;
+							  width: 110px
 						}
 						.profile-gia1{
 							margin-left: -19px;
 						}
 						.profile-gia2{
 							margin-left: -14px;
->>>>>>> 43077b473563b5bd2a126252e4167c5b001bcf8e
 						}
 
 
@@ -1524,16 +1490,9 @@ td, th {
 				height:100px;
 			}
 
-
-
-
 	/*-------------------------*/
 	/*------ END NEW BO 1024X ------*/
 	/*-------------------------*/
-
-
-
-
 }
 
 
@@ -1547,36 +1506,30 @@ td, th {
 
 				.flip-scroll{
 				 display:block;
-				 width: 100%;
+				 width: 100%; 
 				 }
 				 .flip-scroll thead{
-				 display: block;
+				 display: block; 
 				 float: left;
 				 }
-				 .flip-scroll thead th,
+				 .flip-scroll thead th, 
 				 .flip-scroll tbody td{
 				 line-height:20px;
 				 text-align:center;
 				 }
 				 .flip-scroll thead th{
-				 display:block;
+				 display:block;  /* กำหนดให้ th เรียงต่อๆ กันในแนวตั้ง */
 				 }
 				 .flip-scroll tbody{
-<<<<<<< HEAD
-				 display: block;
-				 overflow-x: auto;  /* กำหนดให้ tbody สามารถ scroll ได้ในแนวนอน*/
-				 white-space: nowrap;
-=======
 				 display: block; 
-				 overflow-x: auto;
+				 overflow-x: auto;  /* กำหนดให้ tbody สามารถ scroll ได้ในแนวนอน*/ 
 				 white-space: nowrap; 
->>>>>>> 43077b473563b5bd2a126252e4167c5b001bcf8e
 				 }
 				 .flip-scroll tbody tr{
-				 display:inline-block;
+				 display:inline-block;  /* กำหนดให้ tr เรียงต่อๆ กันในแนวนอน */
 				 }
 				 .flip-scroll tbody td{
-				 display:block;
+				 display:block;  /* กำหนดให้ td เรียงต่อๆ กันในแนวตั้ง */
 				 }
 				td, th {
 				    vertical-align: middle!important;
@@ -1650,6 +1603,14 @@ td, th {
 					padding-right: 10%;
 				}
 
+				.footer{
+					height:450px;
+				}
+
+				.wrapper{
+					margin-bottom:450px;
+				}
+
 
 				/*------------ END FOOTER 768  -------------*/
 
@@ -1668,6 +1629,12 @@ td, th {
 					.login-buttom{
 						width: 205px;
 					}
+					.text-11 {
+			   			 margin-left: 0px;
+					}
+
+
+
 
 		/*-------------------------*/
 		/*----- end login -----*/
@@ -1770,12 +1737,12 @@ td, th {
 		.payment-logosize {
 			width: 20%;
 		}
-/*		.payment-crad-lg {
+		.payment-crad-responsive-sm {
 		    -ms-flex: 0 0 100%;
 		    flex: 0 0 100%;
 		    max-width: 100%;
 		    text-align: left!important;
-		}*/
+		}
 		.payment-card {
 		    position: relative;
 		    display: -ms-flexbox;
@@ -1792,30 +1759,8 @@ td, th {
 		    padding-top: 30px;
 		}
 		.payment-from-responsive {
-			padding-right: 40px!important;
-			padding-left: 40px!important;
-		}
-		.payment-card-credit {
-			position: inherit;
-		    top: inherit;
-		    left: inherit;
-		    transform: none;
-		    margin-top: -7px;
-		}
-		.payment-loginsize {
-		    font-size: 14px;
-		    margin-top: 0px;
-		}
-		.payment-button-size-respon {
-			width: 35%;
-		}
-		.payment-position-bottom {
-			padding-bottom: 15px;
-		}
-		.payment-card-body {
-		    -ms-flex: 1 1 auto;
-		    flex: 1 1 auto;
-		    padding: 65px 0px 35px 0px;
+			padding-right: 15px!important;
+			padding-left: 15px!important;
 		}
 	/*---------------------------
 	-------- END-PAYMENT 768 ----
@@ -1839,7 +1784,7 @@ td, th {
 		    color: grey;
 		}
 		.webboard-position {
-		    padding-top: 160px;
+		    padding-top: 120px;
 		}
 	/*---------------------------
 	-------- END WEBBOARD 768 ----
@@ -1895,7 +1840,7 @@ td, th {
 			padding-top: 100px;
 		}
 		.text-11 {
-		     margin-left: 0px;
+		     margin-left: 0px; 
 		    text-align: left;
 		}
 
@@ -1906,17 +1851,16 @@ td, th {
 		.profile-but-1024-cansle{
 			 width: 170%;
 			 margin-left: -93px;
+   			
 		}
-<<<<<<< HEAD
-=======
 		.profile-but-1024{
-			 width: 110px;
+			 width: 110px
 		}
 		.profile-gia1{
-			margin-left: -108px;
+			    margin-left: -108px;
 		}
 		.profile-gia2{
-			margin-left: -83px;
+			    margin-left: -83px;
 		}
 		.profile-img-frame{
 	    background-color: white;
@@ -1936,8 +1880,8 @@ td, th {
 	    border: 1px solid #58585a;
 	    border-radius: 5px;
 	}
->>>>>>> 43077b473563b5bd2a126252e4167c5b001bcf8e
 
+		
    /*----------------------------
     ----------END PROFILE -------------
     ------------------------------*/
@@ -1986,6 +1930,14 @@ td, th {
 						padding-right: unset;
 					}
 
+					.footer{
+						height:0px;
+					}
+
+					.wrapper{
+						margin-bottom:0px;
+					}
+
 
 					/*------------ END FOOTER 414  -------------*/
 
@@ -2005,9 +1957,10 @@ td, th {
 					}
 
 					.login-buttom{
-					width: 309px;
+					width: 309px
 
 					}
+
 
 
 		/*-------------------------*/
@@ -2091,28 +2044,6 @@ td, th {
 				    font-size: 14px;
 				    margin-top: -10px;
 				}
-				.payment-card-body {
-				    -ms-flex: 1 1 auto;
-				    flex: 1 1 auto;
-				    padding: 5px 0px 35px 0px;
-				}
-				.payment-from-responsive {
-				    padding-right: 15px!important;
-				    padding-left: 15px!important;
-				}
-				.payment-text-center-414 {
-					text-align: center!important;
-				}
-				.payment-position-bottom {
-				    padding-bottom: 0px;
-				}
-				.payment-loginsize {
-				    font-size: 14px;
-				    margin-top: -30px;
-				}
-				.payment-cvv {
-					width: 100%;
-				}
 	/*---------------------------
 	-------- END PAYMENT 414 ----
 	----------------------------*/
@@ -2180,11 +2111,12 @@ td, th {
     	width: 310px;
 	}
 	.register-but-fix {
-    margin-left: 0px;
+    	margin-left: 0px;
     }
 	.text-11 {
-    margin-left: 0px;
+    	margin-left: 0px;
 	}
+
 
 	/*-------------------------*/
 	/*------- NEW BOX 414 -------*/
@@ -2212,18 +2144,16 @@ td, th {
 	/*------ END NEW BO 414 ------*/
 	/*-------------------------*/
 
-
+	
 	/*--------------------------
 	--------- PROFILE 414 ------
 	----------------------------*/
 			.profile-inputfile-center-respon {
 				margin: auto;
 			}
-<<<<<<< HEAD
-=======
 
 			.profile-but-1024{
-				 width: 110px;
+				 width: 110px
 			}
 			.profile-gia1{
 				margin-left: -19px;
@@ -2232,7 +2162,6 @@ td, th {
 				margin-left: -14px;
 			}
 			
->>>>>>> 43077b473563b5bd2a126252e4167c5b001bcf8e
 	/*--------------------------
 	----- END PROFILE 414 ------
 	----------------------------*/
@@ -2264,6 +2193,9 @@ td, th {
 
 				/*-------------- FOOTER 375 ---------------*/
 
+				.footer{
+					height:0px;
+				}
 
 				/*------------ END FOOTER 375  -------------*/
 
@@ -2367,11 +2299,17 @@ td, th {
 				---------- PROFILE 375------------
 				------------------------------*/
 
-
+						
 						.profile-but-1024{
 							  width: 103px;
 						}
-
+						.profile-gia1{
+							  margin-left: -102px;
+						}
+						.profile-gia2{
+							 margin-left: -75px;
+						}
+						
 
 
 
@@ -2411,6 +2349,9 @@ td, th {
 
 				/*-------------- FOOTER 320 ---------------*/
 
+				.footer{
+					height:0px;
+				}
 
 				/*------------ END FOOTER 320  -------------*/
 
@@ -2546,10 +2487,17 @@ td, th {
 				---------- PROFILE 375------------
 				------------------------------*/
 
-
+						
 						.profile-but-1024{
 							  width: 90px;
 						}
+						.profile-gia1{
+							 margin-left: -94px;
+						}
+						.profile-gia2{
+							     margin-left: -66px;
+						}
+
 
 
 

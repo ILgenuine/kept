@@ -101,7 +101,7 @@
                   </div>
                 </div>
                 <div class="col-sm-11 col-10">
-                  <div><img src="assets/images/paypallogo.png" class="payment-logosize"></div>
+                  <div><img src="assets/images/paypallogo.png" class="payment-logosize payment-card-credit"></div>
                 </div>
               </div>
             </div>
@@ -114,11 +114,11 @@
 
 
 
-                    <div class="form-group row mb-3">
-                      <div class="col-sm-4">
-                        <label class="col-form-label text-right payment-crad-responsive-sm"></label>
+                    <div class="form-group row mb-3 payment-position-bottom">
+                      <div class="col-lg-4 col-md-3">
+                        <label class="col-form-label text-right"></label>
                       </div>
-                      <div class="col-sm-8 payment-crad-responsive-sm">
+                      <div class="col-lg-8 col-md-9">
                         <div class="text-center"  style="color: grey;">
                           <h5>Login wiht Paypal</h5>
                         </div>
@@ -129,11 +129,11 @@
 
 
 
-                    <div class="form-group row mb-3">
-                      <div class="col-lg-4 col-3 text-right">
-                          <label class="payment-crad-responsive-sm col-form-label text-lightblue">Email</label>
+                    <div class="form-group row mb-3 payment-position-bottom">
+                      <div class="col-lg-4 col-md-3 text-right payment-text-center-414">
+                          <label class="col-form-label text-lightblue">Email</label>
                       </div>
-                      <div class="col-lg-8 col-9 payment-crad-responsive-sm">
+                      <div class="col-lg-8 col-md-9">
                         <input type="email" class="form-control">
                       </div>
                     </div>
@@ -142,11 +142,11 @@
 
 
 
-                    <div class="form-group row mb-3">
-                      <div class="col-lg-4 col-3 text-right">
-                        <label class="payment-crad-responsive-sm col-form-label text-lightblue">Password</label>
+                    <div class="form-group row mb-3 payment-position-bottom">
+                      <div class="col-lg-4 col-md-3 text-right payment-text-center-414">
+                        <label class="col-form-label text-lightblue">Password</label>
                       </div>
-                      <div class="col-lg-8 col-9 payment-crad-responsive-sm">
+                      <div class="col-lg-8 col-md-9">
                         <input type="password" class="form-control">
                       </div>
                     </div>
@@ -154,11 +154,11 @@
 
 
 
-                    <div class="form-group row mb-3">
-                      <div class="col-lg-4 col-3 text-right">
-                        <label class="payment-crad-responsive-sm col-form-label"></label>
+                    <div class="form-group row mb-3 payment-position-bottom">
+                      <div class="col-lg-4 col-md-3 text-right payment-text-center-414">
+                        <label class="col-form-label"></label>
                       </div>
-                      <div class="col-lg-8 col-9 payment-crad-responsive-sm">
+                      <div class="col-lg-8 col-md-9">
                         <div class="text-center"><button type="button" class="btn btn-blue w100">LOGIN</button></div>
                       </div>
                     </div>
@@ -166,11 +166,11 @@
 
 
 
-                    <div class="form-group row">
-                      <div class="col-lg-4 col-3 text-right">
-                        <label class="payment-crad-responsive-sm col-form-label"></label>
+                    <div class="form-group row payment-position-bottom">
+                      <div class="col-lg-4 col-md-3 text-right payment-text-center-414">
+                        <label class="col-form-label"></label>
                       </div>
-                      <div class="col-lg-8 col-9 payment-crad-responsive-sm">
+                      <div class="col-lg-8 col-md-9 payment-crad-responsive-sm">
                         <div class="text-center payment-loginsize">
                           <a href="#" style="color: grey;">Forget your Password?</a>
                         </div>
@@ -201,7 +201,7 @@
                   </div>
                 </div>
                 <div class="col-sm-11 col-10">
-                  <div><img src="assets/images/visa-and-mastercard-logo-26.png" class="payment-logosize"></div>
+                  <div><img src="assets/images/visa-and-mastercard-logo-26.png" class="payment-logosize payment-card-credit"></div>
                 </div>
               </div>
             </div>
@@ -213,11 +213,11 @@
                 <form class="pr-4 mb-3 payment-from-responsive">
 
 
-                    <div class="form-group row mb-4">
-                      <div class="col-lg-5 col-3 text-right">
-                        <label class="payment-crad-responsive-sm col-form-label text-lightblue">card number</label>
+                    <div class="form-group row mb-4  payment-position-bottom">
+                      <div class="col-lg-5 col-md-4 text-right payment-text-center-414">
+                        <label class="col-form-label text-lightblue">card number</label>
                       </div>
-                      <div class="col-lg-7 col-9 payment-crad-responsive-sm">
+                      <div class="col-lg-7 col-md-8">
                         <input type="text" class="form-control">
                       </div>
                     </div>
@@ -225,34 +225,34 @@
 
 
 
-                    <div class="form-group row mb-4">
-                      <div class="col-lg-5 col-3 text-right">
-                        <label class="payment-crad-responsive-sm col-form-label text-lightblue">card name</label>
+                    <div class="form-group row mb-4  payment-position-bottom">
+                      <div class="col-lg-5 col-md-4 text-right payment-text-center-414">
+                        <label class="col-form-label text-lightblue">card name</label>
                       </div>
-                      <div class="col-lg-7 col-9 payment-crad-responsive-sm">
+                      <div class="col-lg-7 col-md-8">
                         <input type="text" class="form-control">
                       </div>
                     </div>
 
 
 
-                    <div class="form-group row mb-4">
-                      <div class="col-lg-5 col-3 text-right">
-                        <label class="payment-crad-responsive-sm col-form-label text-lightblue">expired Date</label>
+                    <div class="form-group row mb-4  payment-position-bottom">
+                      <div class="col-lg-5 col-md-4 text-right payment-text-center-414">
+                        <label class="col-form-label text-lightblue">expired Date</label>
                       </div>
-                      <div class="col-lg-7 col-9 payment-crad-responsive-sm">
+                      <div class="col-lg-7 col-md-8">
                         <input type="text" class="form-control">
                       </div>
                     </div>
 
 
 
-                    <div class="form-group row mb-4">
-                      <div class="col-lg-5 col-3 text-right">
-                        <label class="payment-crad-responsive-sm col-form-label text-lightblue">CVV</label>
+                    <div class="form-group row mb-4  payment-position-bottom">
+                      <div class="col-lg-5 col-md-4 text-right payment-text-center-414">
+                        <label class="col-form-label text-lightblue">CVV</label>
                       </div>
-                      <div class="col-lg-7 col-9 payment-crad-responsive-sm">
-                        <input type="text" class="form-control" style="width: 50%;">
+                      <div class="col-lg-7 col-md-8">
+                        <input type="text" class="form-control payment-cvv">
                       </div>
                     </div>
 

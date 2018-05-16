@@ -778,9 +778,6 @@ td, th {
 			    margin-bottom: 100px;
 			    margin-top: 30px;
 			}
-			.payment-cvv {
-				width: 50%;
-			}
 /*			td, th {
 				padding: .75rem;
 				vertical-align: middle!important;
@@ -860,7 +857,7 @@ td, th {
 			    margin-bottom: 100px;
 			}
 			.webboard-position{
-				padding-top: 80px;
+				padding-top: 120px;
 			}
 			/*--------------------------
 			-------- END WEBBOARD ------
@@ -1245,12 +1242,6 @@ td, th {
 						}
 						.profile-text-1366{
 							margin-top: 32px;
-<<<<<<< HEAD
-=======
-						}
-						.profile-gia1{
-							margin-left: 6px;
->>>>>>> 43077b473563b5bd2a126252e4167c5b001bcf8e
 						}
 
 				/*----------------------------
@@ -1264,8 +1255,6 @@ td, th {
 
 
 @media (max-width: 1024px) {
-
-
 
 
 	/*-------------------------*/
@@ -1480,23 +1469,13 @@ td, th {
 
 						.profile-but{
 							width: 100%;
-    						height: 50px;
+    						height: 50px;s
 						}
 						.profile-l{
 							left: 32px;
 						}
 						.profile-but-1024{
-<<<<<<< HEAD
 							  width: 120%;
-=======
-							  width: 110px;
-						}
-						.profile-gia1{
-							margin-left: -19px;
-						}
-						.profile-gia2{
-							margin-left: -14px;
->>>>>>> 43077b473563b5bd2a126252e4167c5b001bcf8e
 						}
 
 
@@ -1559,24 +1538,18 @@ td, th {
 				 text-align:center;
 				 }
 				 .flip-scroll thead th{
-				 display:block;
+				 display:block;  /* กำหนดให้ th เรียงต่อๆ กันในแนวตั้ง */
 				 }
 				 .flip-scroll tbody{
-<<<<<<< HEAD
 				 display: block;
 				 overflow-x: auto;  /* กำหนดให้ tbody สามารถ scroll ได้ในแนวนอน*/
 				 white-space: nowrap;
-=======
-				 display: block; 
-				 overflow-x: auto;
-				 white-space: nowrap; 
->>>>>>> 43077b473563b5bd2a126252e4167c5b001bcf8e
 				 }
 				 .flip-scroll tbody tr{
-				 display:inline-block;
+				 display:inline-block;  /* กำหนดให้ tr เรียงต่อๆ กันในแนวนอน */
 				 }
 				 .flip-scroll tbody td{
-				 display:block;
+				 display:block;  /* กำหนดให้ td เรียงต่อๆ กันในแนวตั้ง */
 				 }
 				td, th {
 				    vertical-align: middle!important;
@@ -1770,12 +1743,12 @@ td, th {
 		.payment-logosize {
 			width: 20%;
 		}
-/*		.payment-crad-lg {
+		.payment-crad-responsive-sm {
 		    -ms-flex: 0 0 100%;
 		    flex: 0 0 100%;
 		    max-width: 100%;
 		    text-align: left!important;
-		}*/
+		}
 		.payment-card {
 		    position: relative;
 		    display: -ms-flexbox;
@@ -1792,30 +1765,8 @@ td, th {
 		    padding-top: 30px;
 		}
 		.payment-from-responsive {
-			padding-right: 40px!important;
-			padding-left: 40px!important;
-		}
-		.payment-card-credit {
-			position: inherit;
-		    top: inherit;
-		    left: inherit;
-		    transform: none;
-		    margin-top: -7px;
-		}
-		.payment-loginsize {
-		    font-size: 14px;
-		    margin-top: 0px;
-		}
-		.payment-button-size-respon {
-			width: 35%;
-		}
-		.payment-position-bottom {
-			padding-bottom: 15px;
-		}
-		.payment-card-body {
-		    -ms-flex: 1 1 auto;
-		    flex: 1 1 auto;
-		    padding: 65px 0px 35px 0px;
+			padding-right: 15px!important;
+			padding-left: 15px!important;
 		}
 	/*---------------------------
 	-------- END-PAYMENT 768 ----
@@ -1839,7 +1790,7 @@ td, th {
 		    color: grey;
 		}
 		.webboard-position {
-		    padding-top: 160px;
+		    padding-top: 120px;
 		}
 	/*---------------------------
 	-------- END WEBBOARD 768 ----
@@ -1907,36 +1858,6 @@ td, th {
 			 width: 170%;
 			 margin-left: -93px;
 		}
-<<<<<<< HEAD
-=======
-		.profile-but-1024{
-			 width: 110px;
-		}
-		.profile-gia1{
-			margin-left: -108px;
-		}
-		.profile-gia2{
-			margin-left: -83px;
-		}
-		.profile-img-frame{
-	    background-color: white;
-	    border: none;
-	    border-radius: 8px;
-	    height: 210px;
-	    width: 210px;
-	    position: relative;
-	    overflow: hidden;
-	 }
-	 .profile-image-frame {
-	    width: 210px;
-	    height: 210px;
-	    overflow: hidden;
-	    position: relative;
-	    margin: auto;
-	    border: 1px solid #58585a;
-	    border-radius: 5px;
-	}
->>>>>>> 43077b473563b5bd2a126252e4167c5b001bcf8e
 
    /*----------------------------
     ----------END PROFILE -------------
@@ -2005,7 +1926,7 @@ td, th {
 					}
 
 					.login-buttom{
-					width: 309px;
+					width: 309px
 
 					}
 
@@ -2090,28 +2011,6 @@ td, th {
 				.payment-loginsize {
 				    font-size: 14px;
 				    margin-top: -10px;
-				}
-				.payment-card-body {
-				    -ms-flex: 1 1 auto;
-				    flex: 1 1 auto;
-				    padding: 5px 0px 35px 0px;
-				}
-				.payment-from-responsive {
-				    padding-right: 15px!important;
-				    padding-left: 15px!important;
-				}
-				.payment-text-center-414 {
-					text-align: center!important;
-				}
-				.payment-position-bottom {
-				    padding-bottom: 0px;
-				}
-				.payment-loginsize {
-				    font-size: 14px;
-				    margin-top: -30px;
-				}
-				.payment-cvv {
-					width: 100%;
 				}
 	/*---------------------------
 	-------- END PAYMENT 414 ----
@@ -2219,20 +2118,6 @@ td, th {
 			.profile-inputfile-center-respon {
 				margin: auto;
 			}
-<<<<<<< HEAD
-=======
-
-			.profile-but-1024{
-				 width: 110px;
-			}
-			.profile-gia1{
-				margin-left: -19px;
-			}
-			.profile-gia2{
-				margin-left: -14px;
-			}
-			
->>>>>>> 43077b473563b5bd2a126252e4167c5b001bcf8e
 	/*--------------------------
 	----- END PROFILE 414 ------
 	----------------------------*/

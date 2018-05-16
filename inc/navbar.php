@@ -64,7 +64,6 @@
                   </button>
                   <div class="dropdown-menu" aria-labelledby="dropdownMenu">
                       <button class="dropdown-item py-2 text-grey" type="button" onclick="window.location.href='profile.php';">Edit Profile</button>
-                      <button class="dropdown-item py-2 text-grey" type="button" onclick="window.location.href='reset-password.php';">Reset Password</button>
                       <button class="dropdown-item py-2 text-grey" type="button">Logout</button>
                   </div>
               </div>
