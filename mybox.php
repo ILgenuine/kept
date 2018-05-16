@@ -150,8 +150,7 @@
                 <div class="row">
                   <div class="col-1"></div>
                   <div class="col-10 px-3 py-3">
-                     <div class="table-responsive">
-                       <table class="table">
+                       <table class="table mybox-header">
                           <thead>
                             <tr>
                               <th width="17.5%" class="text-center px-2">กล่องหนังสือ</th>
@@ -162,14 +161,60 @@
                                 <a href="#"><i class="fa fa-cog text-lightblue" aria-hidden="true" style="font-size: 30px;"></i></a>
                               </th>
                             </tr>
+                            <tr>
+                              <th class="text-left px-4" colspan="5" style="background-color: #fff;">รายละเอียด</th>
+                            </tr>
                           </thead>
+
+
                           <tbody>
                             <tr>
-                              <td class="text-left px-4" colspan="5">รายละเอียด</td>
+                              
+                            </tr>
+                            <tr>
+                              <td class="text-left px-4" colspan="5">
+                                <div class="row mybox-model-px-body py-3">
+                                  <div class="col-lg-4 col-6 pt-4 pb-4">
+                                    <div class="mybox-image-frame-model">
+                                      <img class="mybox-img-test" src="http://via.placeholder.com/300x300" alt="">
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-4 col-6 pt-4 pb-4">
+                                    <div class="mybox-image-frame-model">
+                                      <img class="mybox-img-test" src="assets/images/box1.jpg" alt="">
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-4 col-6 pt-4 pb-4">
+                                    <div class="mybox-image-frame-model">
+                                      <img class="mybox-img-test" src="http://via.placeholder.com/300x300" alt="">
+                                    </div>
+                                  </div>
+
+                                  <div class="col-lg-4 col-6 pt-4 pb-4">
+                                    <div class="mybox-image-frame-model">
+                                      <img class="mybox-img-test" src="http://via.placeholder.com/300x300" alt="">
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-4 col-6 pt-4 pb-4">
+                                    <div class="mybox-image-frame-model">
+                                      <img class="mybox-img-test" src="http://via.placeholder.com/300x300" alt="">
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-4 col-6 pt-4 pb-4">
+                                    <div class="mybox-image-frame-model">
+                                      <img class="mybox-img-test" src="http://via.placeholder.com/300x300" alt="">
+                                    </div>
+                                  </div>
+                                </div>
+                              </td>
                             </tr>                        
                           </tbody>
                         </table>  
-                        <div class="text-left mybox-scroll mybox-t-body">
+
+
+
+
+<!--                         <div class="text-left mybox-scroll mybox-t-body">
                           <div class="row mybox-model-px-body py-3">
                             <div class="col-lg-4 col-6 pt-4 pb-4">
                               <div class="mybox-image-frame-model">
@@ -204,8 +249,7 @@
                             </div>
 
                           </div>
-                        </div>      
-                    </div>
+                        </div> -->      
                   </div>
                   <div class="col-1"></div>
                 </div>
