@@ -157,20 +157,34 @@
 
 
 
-			<div class="col-12 pt-4">
-				<div class="form-s row" >
-					<div class="col-5 ">
-					</div>    
-					<div class="col-3  p-4">
-							  <button type="button" class="btn btn-ghost profile-but-1024 profile-but-1024-cansle profile-gia1" >ยกเลิก</button>
 
+
+
+
+
+			<div class="col-12 pt-4">
+				<div class="form-s row px-2 pt-5 pb-5">
+					<div class="col-lg-4 col-md-12">
+					</div>  
+
+
+					<div class="col-lg-4 col-md-6 col-6 profile-set-bnt-320">
+						<button type="button" class="btn btn-ghost" style="width: 100%;">ยกเลิก</button>
 					</div>
-					<div class="col-3 p-4 ">
-						      <button type="button" class="btn btn-blue profile-but-1024 profile-gia2" >แก้ไขข้อมุล</button>
+					<div class="col-lg-4 col-md-6 col-6 profile-set-bnt-320">
+						<button type="button" class="btn btn-blue" style="width: 100%;">แก้ไขข้อมุล</button>
 					</div>
 					
 				</div>
 			</div>
+
+
+
+
+
+
+
+
 	</div>
 
 	<div class="col-lg-4  order-md-2 order-1 col-sm-4 col-12 pt-4">	
