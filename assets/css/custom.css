@@ -737,6 +737,9 @@ td, th {
 			    margin-bottom: 100px;
 			    margin-top: 30px;
 			}
+			.payment-cvv {
+				width: 50%;
+			}
 /*			td, th {
 				padding: .75rem;
 				vertical-align: middle!important;
@@ -816,7 +819,7 @@ td, th {
 			    margin-bottom: 100px;
 			}
 			.webboard-position{
-				padding-top: 120px;
+				padding-top: 80px;
 			}
 			/*--------------------------
 			-------- END WEBBOARD ------
@@ -1051,7 +1054,7 @@ td, th {
 
 @media (max-width: 1366px) {
 	/* Style the indicator (dot/circle) */
-.payment-radio .payment-checkmark:after {
+.payment-radio .payment-checkmark::after {
 	top: 4px;
     left: 4px;
     width: 15px;
@@ -1201,7 +1204,7 @@ td, th {
 							  width: 110%;
 						}
 						.profile-text-1366{
-							margin-top: 32px
+							margin-top: 32px;
 						}
 						.profile-gia1{
 							margin-left: 6px;
@@ -1226,6 +1229,8 @@ td, th {
 
 
 @media (max-width: 1024px) {
+
+
 
 
 	/*-------------------------*/
@@ -1449,13 +1454,13 @@ td, th {
 
 						.profile-but{
 							width: 100%;
-    						height: 50px;s
+    						height: 50px;
 						}
 						.profile-l{
 							left: 32px;
 						}
 						.profile-but-1024{
-							  width: 110px
+							  width: 110px;
 						}
 						.profile-gia1{
 							margin-left: -19px;
@@ -1524,18 +1529,18 @@ td, th {
 				 text-align:center;
 				 }
 				 .flip-scroll thead th{
-				 display:block;  /* กำหนดให้ th เรียงต่อๆ กันในแนวตั้ง */
+				 display:block;
 				 }
 				 .flip-scroll tbody{
 				 display: block; 
-				 overflow-x: auto;  /* กำหนดให้ tbody สามารถ scroll ได้ในแนวนอน*/ 
+				 overflow-x: auto;
 				 white-space: nowrap; 
 				 }
 				 .flip-scroll tbody tr{
-				 display:inline-block;  /* กำหนดให้ tr เรียงต่อๆ กันในแนวนอน */
+				 display:inline-block;
 				 }
 				 .flip-scroll tbody td{
-				 display:block;  /* กำหนดให้ td เรียงต่อๆ กันในแนวตั้ง */
+				 display:block;
 				 }
 				td, th {
 				    vertical-align: middle!important;
@@ -1743,12 +1748,12 @@ td, th {
 		.payment-logosize {
 			width: 20%;
 		}
-		.payment-crad-responsive-sm {
+/*		.payment-crad-lg {
 		    -ms-flex: 0 0 100%;
 		    flex: 0 0 100%;
 		    max-width: 100%;
 		    text-align: left!important;
-		}
+		}*/
 		.payment-card {
 		    position: relative;
 		    display: -ms-flexbox;
@@ -1765,8 +1770,30 @@ td, th {
 		    padding-top: 30px;
 		}
 		.payment-from-responsive {
-			padding-right: 15px!important;
-			padding-left: 15px!important;
+			padding-right: 40px!important;
+			padding-left: 40px!important;
+		}
+		.payment-card-credit {
+			position: inherit;
+		    top: inherit;
+		    left: inherit;
+		    transform: none;
+		    margin-top: -7px;
+		}
+		.payment-loginsize {
+		    font-size: 14px;
+		    margin-top: 0px;
+		}
+		.payment-button-size-respon {
+			width: 35%;
+		}
+		.payment-position-bottom {
+			padding-bottom: 15px;
+		}
+		.payment-card-body {
+		    -ms-flex: 1 1 auto;
+		    flex: 1 1 auto;
+		    padding: 65px 0px 35px 0px;
 		}
 	/*---------------------------
 	-------- END-PAYMENT 768 ----
@@ -1790,7 +1817,7 @@ td, th {
 		    color: grey;
 		}
 		.webboard-position {
-		    padding-top: 120px;
+		    padding-top: 160px;
 		}
 	/*---------------------------
 	-------- END WEBBOARD 768 ----
@@ -1860,13 +1887,13 @@ td, th {
    			
 		}
 		.profile-but-1024{
-			 width: 110px
+			 width: 110px;
 		}
 		.profile-gia1{
-			    margin-left: -108px;
+			margin-left: -108px;
 		}
 		.profile-gia2{
-			    margin-left: -83px;
+			margin-left: -83px;
 		}
 		.profile-img-frame{
 	    background-color: white;
@@ -1963,7 +1990,7 @@ td, th {
 					}
 
 					.login-buttom{
-					width: 309px
+					width: 309px;
 
 					}
 
@@ -2049,6 +2076,28 @@ td, th {
 				.payment-loginsize {
 				    font-size: 14px;
 				    margin-top: -10px;
+				}
+				.payment-card-body {
+				    -ms-flex: 1 1 auto;
+				    flex: 1 1 auto;
+				    padding: 5px 0px 35px 0px;
+				}
+				.payment-from-responsive {
+				    padding-right: 15px!important;
+				    padding-left: 15px!important;
+				}
+				.payment-text-center-414 {
+					text-align: center!important;
+				}
+				.payment-position-bottom {
+				    padding-bottom: 0px;
+				}
+				.payment-loginsize {
+				    font-size: 14px;
+				    margin-top: -30px;
+				}
+				.payment-cvv {
+					width: 100%;
 				}
 	/*---------------------------
 	-------- END PAYMENT 414 ----
@@ -2158,7 +2207,7 @@ td, th {
 			}
 
 			.profile-but-1024{
-				 width: 110px
+				 width: 110px;
 			}
 			.profile-gia1{
 				margin-left: -19px;

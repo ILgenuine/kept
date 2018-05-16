@@ -28,7 +28,13 @@
                 </div>
               </div>
 
-              <div class="col-md-12 my-5">
+
+              <div class="col-lg-2">
+                
+              </div>
+
+
+              <div class="col-lg-10 my-5">
                 <div class="table-responsive">
                    <table class="table">
                       <thead>
