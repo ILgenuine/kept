@@ -25,7 +25,7 @@
 
 
 	<div class="col-lg-6 order-md-1 order-2 col-sm-7 col-12 pt-4">
-			<div class="col-12">
+			<div class="col-12 pt-2">
 				<div class="form-group row p-2" >
 					<label class="col-lg-4 col-form-label text-11 text-lightblue  text-mail11">คำนำหน้า</label>
 					<div class="col-lg-8 ">
@@ -43,7 +43,7 @@
 
 
 
-			<div class="col-12">
+			<div class="col-12 pt-2">
 				<div class="form-group row p-2">
 					<label class="col-lg-4 col-form-label text-11 text-lightblue  text-mail11">ชื่อ</label>
 					<div class="col-lg-8 ">
@@ -55,7 +55,7 @@
 
 
 
-			<div class="col-12">
+			<div class="col-12 pt-2">
 				<div class="form-group row  p-2">
 					<label class="col-lg-4 col-form-label text-11 text-lightblue  text-mail11">นามสกุล</label>
 					<div class="col-lg-8 ">
@@ -68,7 +68,7 @@
 
 
 
-			<div class="col-12">
+			<div class="col-12 pt-2">
 				<div class="form-group row  p-2">
 					<label class="col-lg-4 col-form-label text-11 text-lightblue  text-mail11">เบอร์โทร</label>
 					<div class="col-lg-8 ">
@@ -80,7 +80,7 @@
 
 
 
-			<div class="col-12">
+			<div class="col-12 pt-2">
 				<div class="form-group row  p-2">
 					<label class="col-lg-4 col-form-label text-11 text-lightblue  text-mail11">อีเมล์</label>
 					<div class="col-lg-8 ">
@@ -93,7 +93,7 @@
 
 
 
-			<div class="col-12">
+			<div class="col-12 pt-2">
 				<div class="form-group row  p-2">
 					<label class="col-lg-4 col-form-label text-11 text-lightblue  text-mail11">ที่อยุ่ 1</label>
 					<div class="col-lg-8 ">
@@ -105,7 +105,7 @@
 
 
 					
-			<div class="col-12">
+			<div class="col-12 pt-2">
 				<form>
 				  <div class="form-group row pt-3">
 				    <label for="colFormLabelSm" class="col-lg-4 col-form-label col-form-label-sm"></label>
@@ -120,7 +120,7 @@
 				</form>
 			</div>
 
-			<div class="col-12">
+			<div class="col-12 pt-1">
 				  <div class="form-group row">
 				  	<div class="col-lg-4">
 				    	<label for="colFormLabelSm" class="col-form-label col-form-label-sm"></label>
@@ -134,9 +134,9 @@
 			</div>
 
 
-			<div class="col-12">
+			<div class="col-12 pt-2">
 				<div class="form-group row  p-2">
-					<div class="col-lg-4 text-right">
+					<div class="col-lg-4 text-11">
 						<label class="col-form-label text-lightblue  text-mail11 profile-text-1366">ชื่อผู้ใช้งาน</label>
 					</div>
 					<div class="col-lg-8 ">
@@ -147,7 +147,7 @@
 
 
 
-			<div class="col-12">
+			<div class="col-12 pt-2">
 				<div class="form-group row  p-2" >
 					<label class="col-lg-4 col-form-label text-11 text-lightblue  text-mail11">รหัสผ่าน</label>
 					<div class="col-lg-8 ">
@@ -167,7 +167,7 @@
 
 
 			<div class="col-12 pt-4">
-				<div class="form-s row px-2 pt-5 pb-5">
+				<div class="form-s row px-2 pb-5">
 					<div class="col-lg-4 col-md-12">
 					</div>  
 
