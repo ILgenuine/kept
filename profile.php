@@ -44,7 +44,7 @@
 
 
 			<div class="col-12">
-				<div class="form-group row p-2" >
+				<div class="form-group row p-2">
 					<label class="col-lg-4 col-form-label text-11 text-lightblue  text-mail11">ชื่อ</label>
 					<div class="col-lg-8 ">
 						<input type="text"  class="form-control">
@@ -56,7 +56,7 @@
 
 
 			<div class="col-12">
-				<div class="form-group row  p-2" >
+				<div class="form-group row  p-2">
 					<label class="col-lg-4 col-form-label text-11 text-lightblue  text-mail11">นามสกุล</label>
 					<div class="col-lg-8 ">
 						<input type="text" class="form-control">
@@ -69,7 +69,7 @@
 
 
 			<div class="col-12">
-				<div class="form-group row  p-2" >
+				<div class="form-group row  p-2">
 					<label class="col-lg-4 col-form-label text-11 text-lightblue  text-mail11">เบอร์โทร</label>
 					<div class="col-lg-8 ">
 						<input type="text" class="form-control">
@@ -81,7 +81,7 @@
 
 
 			<div class="col-12">
-				<div class="form-group row  p-2" >
+				<div class="form-group row  p-2">
 					<label class="col-lg-4 col-form-label text-11 text-lightblue  text-mail11">อีเมล์</label>
 					<div class="col-lg-8 ">
 						<input type="text"  class="form-control">
@@ -94,7 +94,7 @@
 
 
 			<div class="col-12">
-				<div class="form-group row  p-2" >
+				<div class="form-group row  p-2">
 					<label class="col-lg-4 col-form-label text-11 text-lightblue  text-mail11">ที่อยุ่ 1</label>
 					<div class="col-lg-8 ">
 						<textarea type="text" class="form-control" rows="6"></textarea>
@@ -107,10 +107,12 @@
 					
 			<div class="col-12">
 				<form>
-				  <div class="form-group row">
+				  <div class="form-group row pt-3">
 				    <label for="colFormLabelSm" class="col-lg-4 col-form-label col-form-label-sm"></label>
 				    <div class="col-lg-8 text-right">
-				      <button class="button plus-btn mr-2"><i class="fa fa-plus"></i></button>
+				    	<div class="">
+				      		<button class="button plus-btn mr-2" style="background-color: #21a4c0;"><i class="fa fa-plus"></i></button>
+				      	</div>
 				    </div>
 				    	
 				
@@ -119,24 +121,26 @@
 			</div>
 
 			<div class="col-12">
-				<form>
 				  <div class="form-group row">
-				    <label for="colFormLabelSm" class="col-lg-4 col-form-label col-form-label-sm"></label>
+				  	<div class="col-lg-4">
+				    	<label for="colFormLabelSm" class="col-form-label col-form-label-sm"></label>
+					</div>
 				    <div class="col-lg-8 text-right">
-						<div style="width: 257px;  margin-right: 316px;margin: auto;">
+						<div class="profile-hr-size">
 							<hr class="blue-hr">
 						</div>				   
 				    </div>
 				  </div>
-				</form>
 			</div>
 
 
 			<div class="col-12">
-				<div class="form-group row  p-2" >
-					<label class="col-lg-4 col-form-label text-11 text-lightblue  text-mail11 profile-text-1366" >ชื่อผู้ใช้งาน</label>
+				<div class="form-group row  p-2">
+					<div class="col-lg-4 text-right">
+						<label class="col-form-label text-lightblue  text-mail11 profile-text-1366">ชื่อผู้ใช้งาน</label>
+					</div>
 					<div class="col-lg-8 ">
-						<input type="text"  class="form-control " style="margin-top: 35px;">
+						<input type="text"  class="form-control ">
 					</div>
 				</div>
 			</div>

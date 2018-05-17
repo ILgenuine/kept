@@ -926,7 +926,9 @@ td, th {
 				margin-top: -18px;
 			}
 			.mybox-model-px-body {
-				padding: 40px;
+				margin: -13px;
+			    overflow-y: scroll;
+			    height: 540px;
 			}
 			.border-tab-size {
 				border: 2px solid #37adc5;
@@ -957,6 +959,7 @@ td, th {
 			.mybox-position {
 			    padding-top: 40px;
 			}
+
 			/*--------------------------
 			--------END MY BOX ---------
 			----------------------------*/
@@ -1032,7 +1035,10 @@ td, th {
 					    border: 1px solid #58585a;
 					    border-radius: 5px;
 					}
-
+					.profile-hr-size {
+						width: 200px;
+    					margin: auto;
+					}
 			/*-------------------------
 			------ END PROFILE --------
 			---------------------------*/
@@ -2153,6 +2159,23 @@ td, th {
 	    border-radius: 5px;
 
 	}
+	.mybox-content {
+	    top: 0px;
+	}
+/*	.mybox-modal-body {
+	    position: relative;
+	    -ms-flex: 1 1 auto;
+	    flex: 1 1 auto;
+	    padding: 0rem;
+	    margin-top: -15px;
+	    overflow: hidden;
+	    height: 540px;
+	}*/
+	.mybox-modal-footer-responsive {
+		text-align: center!important;
+	    margin-top: 30px;
+	    margin-bottom: 15px;
+	}
 	/*--------------------------
 	-------- END MYBOX ---------
 	----------------------------*/
@@ -2217,7 +2240,9 @@ td, th {
 			.profile-gia2{
 				margin-left: -14px;
 			}
-			
+			.profile-position {
+			    padding-top: 170px;
+			}
 	/*--------------------------
 	----- END PROFILE 414 ------
 	----------------------------*/
@@ -2376,7 +2401,22 @@ td, th {
 				------------------------------*/
 
 
+				/*-----------------------------
+				---------- MYBOX --------------
+				-------------------------------*/
+/*				.mybox-modal-body {
+				    position: relative;
+				    -ms-flex: 1 1 auto;
+				    flex: 1 1 auto;
+				    padding: 0rem;
+				    margin-top: -15px;
+				    overflow: hidden;
+				    height: 440px;
+				}*/
 
+				/*-----------------------------
+				---------- END MYBOX ----------
+				-------------------------------*/
 
 
 }
@@ -2564,5 +2604,25 @@ td, th {
 				----------END PROFILE -------------
 				------------------------------*/
 
+				/*----------------------------
+				---------- MYBOX 320 ---------
+				------------------------------*/
+/*				.mybox-modal-body {
+				    position: relative;
+				    -ms-flex: 1 1 auto;
+				    flex: 1 1 auto;
+				    padding: 0rem;
+				    margin-top: -15px;
+				    overflow: hidden;
+				    height: 342px;
+				}*/				
+
+				.mybox-head-font-responsive {
+					    font-size: 15px;
+    					padding-top: 15px;
+				}
+				/*----------------------------
+				------ END MYBOX 320 ---------
+				------------------------------*/
 
 }
