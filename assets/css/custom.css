@@ -2243,6 +2243,9 @@ td, th {
 			.profile-position {
 			    padding-top: 170px;
 			}
+			.profile-input-responsive {
+				width: 100%!important;
+			}
 	/*--------------------------
 	----- END PROFILE 414 ------
 	----------------------------*/

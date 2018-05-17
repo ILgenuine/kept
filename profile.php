@@ -29,7 +29,7 @@
 				<div class="form-group row p-2" >
 					<label class="col-lg-4 col-form-label text-11 text-lightblue  text-mail11">คำนำหน้า</label>
 					<div class="col-lg-8 ">
-							<select  class="custom-select" id="inputGroupSelect01" style="width: 200px; ">
+							<select  class="custom-select profile-input-responsive" id="inputGroupSelect01" style="width: 200px; ">
 					           <option selected></option>
 					           <option value="1">One</option>
 					           <option value="2">Two</option>
