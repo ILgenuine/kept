@@ -21,7 +21,7 @@
               <div class="col-lg-6 px-0">
                 <div class="row">
                     <div class="col-lg-4 col-md-3 col-12  px-0 mb-4 text-lg-center text-md-left text-center">
-                      <fomt class="text-lightblue">ประเภทกล่อง</font>
+                      <font class="text-lightblue">ประเภทกล่อง</font>
                     </div>
                     <div class="col-lg-8 col-md-9 col-12   px-0">
                       <select class="custom-select" id="inputGroupSelect01">
@@ -41,19 +41,19 @@
                         <div class="col-lg-8 px-0">
                           <div class="row">
                             <div class="col-lg-3 col-md-3 col-12  px-0 mt-3 mb-4 text-lg-center text-md-left text-center">
-                              <fomt class="text-lightblue">ชื่อกล่อง</font>
+                              <font class="text-lightblue">ชื่อกล่อง</font>
                             </div>
                             <div class="col-lg-9 col-md-9 col-12  px-0 mt-3 mb-4">
                               <input type="text" class="form-control">
                             </div>
                             <div class="col-lg-3 col-md-3 col-12  px-0 mb-4 text-lg-center text-md-left text-center">
-                              <fomt class="text-lightblue">ราคา</font>
+                              <font class="text-lightblue">ราคา</font>
                             </div>
                             <div class="col-lg-9 col-md-9 col-12   px-0 mb-4">
                               <input type="text" class="form-control">
                             </div>
                             <div class="col-lg-3 col-md-3 col-12  px-0 mb-4 text-lg-center text-md-left text-center">
-                              <fomt class="text-lightblue">จำนวน</font>
+                              <font class="text-lightblue">จำนวน</font>
                             </div>
                             <div class="col-lg-9 col-md-9 col-12   px-0 mb-4">
                               <select class="custom-select" id="inputGroupSelect01">
@@ -75,13 +75,13 @@
               <div class="col-lg-6 px-0">
                 <div class="row">
                   <div class="col-lg-3 col-md-3 col-12  px-0 mb-4 text-lg-center text-md-left text-center">
-                    <fomt class="text-lightblue">ขนาด</font>
+                    <font class="text-lightblue">ขนาด</font>
                   </div>
                   <div class="col-lg-9 col-md-9 col-12  px-0 mb-4">
                     <input type="text" class="form-control">
                   </div>
                   <div class="col-lg-3 col-md-3 col-12  px-0 mb-43 text-lg-center text-md-left text-center">
-                    <fomt class="text-lightblue">รายละเอียด</font>
+                    <font class="text-lightblue">รายละเอียด</font>
                   </div>
                   <div class="col-lg-9 col-md-9 col-12  px-0 mb-4">
                     <textarea type="text" class="form-control" rows="6"></textarea>
@@ -118,7 +118,7 @@
               <div class="col-lg-6 px-0">
                 <div class="row">
                     <div class="col-lg-4 col-md-3 col-12  px-0 mb-4 text-lg-center text-md-left text-center">
-                      <fomt class="text-lightblue">ประเภทกล่อง</font>
+                      <font class="text-lightblue">ประเภทกล่อง</font>
                     </div>
                     <div class="col-lg-8 col-md-9 col-12   px-0">
                       <select class="custom-select" id="inputGroupSelect01">
@@ -138,19 +138,19 @@
                         <div class="col-lg-8 px-0">
                           <div class="row">
                             <div class="col-lg-3 col-md-3 col-12  px-0 mb-4 mt-3 text-lg-center text-md-left text-center">
-                              <fomt class="text-lightblue">ชื่อกล่อง</font>
+                              <font class="text-lightblue">ชื่อกล่อง</font>
                             </div>
                             <div class="col-lg-9 col-md-9 col-12   mt-3 px-0 mb-4">
                               <input type="text" class="form-control">
                             </div>
                             <div class="col-lg-3 col-md-3 col-12 px-0 mb-4 text-lg-center text-md-left text-center">
-                              <fomt class="text-lightblue">ราคา</font>
+                              <font class="text-lightblue">ราคา</font>
                             </div>
                             <div class="col-lg-9 col-md-9 col-12   px-0 mb-4">
                               <input type="text" class="form-control">
                             </div>
                             <div class="col-lg-3 col-md-3 col-12  px-0 mb-4 text-lg-center text-md-left text-center">
-                              <fomt class="text-lightblue">จำนวน</font>
+                              <font class="text-lightblue">จำนวน</font>
                             </div>
                             <div class="col-lg-9 col-md-9 col-12   px-0 mb-4">
                               <select class="custom-select" id="inputGroupSelect01">
@@ -172,13 +172,13 @@
               <div class="col-lg-6 px-0">
                 <div class="row">
                   <div class="col-lg-3 col-md-3 col-12  px-0 mb-4 text-lg-center text-md-left text-center">
-                    <fomt class="text-lightblue">ขนาด</font>
+                    <font class="text-lightblue">ขนาด</font>
                   </div>
                   <div class="col-lg-9 col-md-9 col-12  px-0 mb-4">
                     <input type="text" class="form-control">
                   </div>
                   <div class="col-lg-3 col-md-3 col-12  px-0 mb-43 text-lg-center text-md-left text-center">
-                    <fomt class="text-lightblue">รายละเอียด</font>
+                    <font class="text-lightblue">รายละเอียด</font>
                   </div>
                   <div class="col-lg-9 col-md-9 col-12  px-0 mb-4">
                     <textarea type="text" class="form-control" rows="6"></textarea>
@@ -197,7 +197,7 @@
               <div class="col-lg-6 px-0">
                 <div class="row">
                     <div class="col-lg-4 col-md-3 col-12  px-0 mb-4 text-lg-center text-md-left text-center">
-                      <fomt class="text-lightblue">ประเภทกล่อง</font>
+                      <font class="text-lightblue">ประเภทกล่อง</font>
                     </div>
                     <div class="col-lg-8 col-md-9 col-12   px-0">
                       <select class="custom-select" id="inputGroupSelect01">
@@ -217,19 +217,19 @@
                         <div class="col-lg-8 px-0">
                           <div class="row">
                             <div class="col-lg-3 col-md-3 col-12 mt-3 px-0 mb-4 text-lg-center text-md-left text-center">
-                              <fomt class="text-lightblue">ชื่อกล่อง</font>
+                              <font class="text-lightblue">ชื่อกล่อง</font>
                             </div>
                             <div class="col-lg-9 col-md-9 col-12 mt-3 px-0 mb-4">
                               <input type="text" class="form-control">
                             </div>
                             <div class="col-lg-3 col-md-3 col-12  px-0 mb-4 text-lg-center text-md-left text-center">
-                              <fomt class="text-lightblue">ราคา</font>
+                              <font class="text-lightblue">ราคา</font>
                             </div>
                             <div class="col-lg-9 col-md-9 col-12   px-0 mb-4">
                               <input type="text" class="form-control">
                             </div>
                             <div class="col-lg-3 col-md-3 col-12  px-0 mb-4 text-lg-center text-md-left text-center">
-                              <fomt class="text-lightblue">จำนวน</font>
+                              <font class="text-lightblue">จำนวน</font>
                             </div>
                             <div class="col-lg-9 col-md-9 col-12   px-0 mb-4">
                               <select class="custom-select" id="inputGroupSelect01">
@@ -249,13 +249,13 @@
               <div class="col-lg-6 px-0">
                 <div class="row">
                   <div class="col-lg-3 col-md-3 col-12  px-0 mb-4 text-lg-center text-md-left text-center">
-                    <fomt class="text-lightblue">ขนาด</font>
+                    <font class="text-lightblue">ขนาด</font>
                   </div>
                   <div class="col-lg-9 col-md-9 col-12  px-0 mb-4">
                     <input type="text" class="form-control">
                   </div>
                   <div class="col-lg-3 col-md-3 col-12  px-0 mb-43 text-lg-center text-md-left text-center">
-                    <fomt class="text-lightblue">รายละเอียด</font>
+                    <font class="text-lightblue">รายละเอียด</font>
                   </div>
                   <div class="col-lg-9 col-md-9 col-12  px-0 mb-4">
                     <textarea type="text" class="form-control" rows="6"></textarea>
@@ -321,7 +321,7 @@
                                   </td>
                                   <td class="text-left text-center px-4">
                                     <div class="table-img">
-                                        <img src="http://via.placeholder.com/100x100"></a>
+                                        <img src="http://via.placeholder.com/100x100">
                                     </div>
                                   </td>
                                   <td class="text-left text-center px-4"></td>
@@ -344,7 +344,7 @@
                                   </td>
                                   <td class="text-left text-center px-4">
                                     <div class="table-img">
-                                        <img src="http://via.placeholder.com/100x100"></a>
+                                        <img src="http://via.placeholder.com/100x100">
                                     </div>
                                   </td>
                                   <td class="text-left text-center px-4"></td>
@@ -367,7 +367,7 @@
                                   </td>
                                   <td class="text-left text-center px-4">
                                     <div class="table-img">
-                                        <img src="http://via.placeholder.com/100x100"></a>
+                                        <img src="http://via.placeholder.com/100x100">
                                     </div>
                                   </td>
                                   <td class="text-left text-center px-4"></td>
@@ -390,7 +390,7 @@
                                   </td>
                                   <td class="text-left text-center px-4">
                                     <div class="table-img">
-                                        <img src="http://via.placeholder.com/100x100"></a>
+                                        <img src="http://via.placeholder.com/100x100">
                                     </div>
                                   </td>
                                   <td class="text-left text-center px-4"></td>
@@ -413,7 +413,7 @@
                                   </td>
                                   <td class="text-left text-center px-4">
                                     <div class="table-img">
-                                        <img src="http://via.placeholder.com/100x100"></a>
+                                        <img src="http://via.placeholder.com/100x100">
                                     </div>
                                   </td>
                                   <td class="text-left text-center px-4"></td>
@@ -436,7 +436,7 @@
                                   </td>
                                   <td class="text-left text-center px-4">
                                     <div class="table-img">
-                                        <img src="http://via.placeholder.com/100x100"></a>
+                                        <img src="http://via.placeholder.com/100x100">
                                     </div>
                                   </td>
                                   <td class="text-left text-center px-4"></td>

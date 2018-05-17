@@ -179,33 +179,33 @@
                                 <div class="row mybox-model-px-body">
                                   <div class="col-lg-4 col-6 pt-4 pb-4">
                                     <div class="mybox-image-frame-model">
-                                      <img class="mybox-img-test" src="http://via.placeholder.com/300x300" alt="">
+                                      <img class="mybox-img-test w100" src="http://via.placeholder.com/300x300" alt="">
                                     </div>
                                   </div>
                                   <div class="col-lg-4 col-6 pt-4 pb-4">
                                     <div class="mybox-image-frame-model">
-                                      <img class="mybox-img-test" src="assets/images/box1.jpg" alt="">
+                                      <img class="mybox-img-test w100" src="assets/images/box1.jpg" alt="">
                                     </div>
                                   </div>
                                   <div class="col-lg-4 col-6 pt-4 pb-4">
                                     <div class="mybox-image-frame-model">
-                                      <img class="mybox-img-test" src="http://via.placeholder.com/300x300" alt="">
+                                      <img class="mybox-img-test w100" src="http://via.placeholder.com/300x300" alt="">
                                     </div>
                                   </div>
 
                                   <div class="col-lg-4 col-6 pt-4 pb-4">
                                     <div class="mybox-image-frame-model">
-                                      <img class="mybox-img-test" src="http://via.placeholder.com/300x300" alt="">
+                                      <img class="mybox-img-test w100" src="http://via.placeholder.com/300x300" alt="">
                                     </div>
                                   </div>
                                   <div class="col-lg-4 col-6 pt-4 pb-4">
                                     <div class="mybox-image-frame-model">
-                                      <img class="mybox-img-test" src="http://via.placeholder.com/300x300" alt="">
+                                      <img class="mybox-img-test w100" src="http://via.placeholder.com/300x300" alt="">
                                     </div>
                                   </div>
                                   <div class="col-lg-4 col-6 pt-4 pb-4">
                                     <div class="mybox-image-frame-model">
-                                      <img class="mybox-img-test" src="http://via.placeholder.com/300x300" alt="">
+                                      <img class="mybox-img-test w100" src="http://via.placeholder.com/300x300" alt="">
                                     </div>
                                   </div>
                                 </div>

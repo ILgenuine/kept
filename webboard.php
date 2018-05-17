@@ -45,7 +45,7 @@
               </div>
               <div class="col-md-9 col-12">
                 <div class="webboard-content">
-                  <p class="text-blue px-3 webboard-content-top15 webboard-message-responsive">ราคาถูกมาเลยค่ะ ชอบมากจุฟๆ !!</p>
+                  <p class="text-blue px-3 webboard-content-top15 webboard-message-responsive">ราคาถูกมาเลยค่ะ ชอบมาก!!</p>
                 </div>
               </div>
 
@@ -76,7 +76,7 @@
               </div>
               <div class="col-md-9 col-12">
                 <div class="webboard-content">
-                  <p class="text-blue px-3 webboard-content-top15 webboard-message-responsive">ราคาถูกมาเลยค่ะ ชอบมากจุฟๆ !!</p>
+                  <p class="text-blue px-3 webboard-content-top15 webboard-message-responsive">สะดวกมากเลยครับ ทำงานรวดเร็วมาก ชอบมากจุฟๆ !!</p>
                 </div>
               </div>
 
@@ -105,7 +105,7 @@
               </div>
               <div class="col-md-9 col-12">
                 <div class="webboard-content">
-                  <p class="text-blue px-3 webboard-content-top15 webboard-message-responsive">ราคาถูกมาเลยค่ะ ชอบมากจุฟๆ !!</p>
+                  <p class="text-blue px-3 webboard-content-top15 webboard-message-responsive">บ้านดูโล่งขึ้นเยอะเลยค่ะ ชอบบริการนี้มาก</p>
                 </div>
               </div>
 
