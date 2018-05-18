@@ -1,8 +1,6 @@
 /*--------------------------
 --------   General ---------
 --------------------------*/
-
-
 /*------   Font -------*/
 
 		@font-face {
@@ -50,23 +48,33 @@ img{
     transform:translate(-50% ,-50%);
 }
 
-
+.gm-style .place-card div, .gm-style .place-card a, .gm-style .default-card div, .gm-style .default-card a {
+    color: #5B5B5B;
+    font-family: 'Kanit', sans-serif;
+    font-size: 12px;
+    -moz-user-select: text;
+    -webkit-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
 
 
 			.row{
 				margin: 0;
 			}
 
-			html,body{
-				display: flex;
-			  min-height: 100vh;
-			  flex-direction: column;
+			html{
+					position:relative;
+			    min-height: 100%;
+			}
+
+			body{
 				font-family: 'kanitmedium';
 				font-size: 20px;
 			}
 
 			.wrapper{
-				flex: 1;
+				margin-bottom:313px;
 			}
 
 			.text-black{
@@ -155,25 +163,32 @@ img{
 				box-shadow: 1px 2px 1px 1px #4b80c2;
 			}
 
-			/* The container */
 			.container-1 {
 			    display: block;
 			    position: relative;
-			    padding-left: 35px;
-			    margin-bottom: 12px;
 			    cursor: pointer;
-			    font-size: 22px;
 			    -webkit-user-select: none;
 			    -moz-user-select: none;
 			    -ms-user-select: none;
 			    user-select: none;
+				width:25px;
+				height:25px;
 			}
-
+			.spacing {
+			    line-height: 35px;
+			    word-spacing: 15px;
+			    font-size: 23px;
+			    letter-spacing: 1px;
+			}
+			.w-spacing-10px {
+				word-spacing: 10px;
+			}
 			/* Hide the browser's default checkbox */
 			.container-1 input {
 			    position: absolute;
 			    opacity: 0;
 			    cursor: pointer;
+
 			}
 
 			/* Create a custom checkbox */
@@ -184,16 +199,16 @@ img{
 			    height: 25px;
 			    width: 25px;
 			    background-color: white;
-					border:2px solid #21a4c0;
+					border:2px solid #7accdd;
 			}
 
 			/* On mouse-over, add a grey background color */
-			.container-1:hover input ~ .checkmark {
+			.container:hover input ~ .checkmark {
 			    background-color: white;
 			}
 
 			/* When the checkbox is checked, add a blue background */
-			.container-1 input:checked ~ .checkmark {
+			.container input:checked ~ .checkmark {
 			    background-color: white;
 			}
 
@@ -205,24 +220,22 @@ img{
 			}
 
 			/* Show the checkmark when checked */
-			.container-1 input:checked ~ .checkmark:after {
+			.container input:checked ~ .checkmark:after {
 			    display: block;
 			}
 
 			/* Style the checkmark/indicator */
-			.container-1 .checkmark:after {
+			.container .checkmark:after {
 			    left: 9px;
 			    top: 5px;
 			    width: 5px;
 			    height: 10px;
-			    border: solid black;
+			    border: solid ;
 			    border-width: 0 3px 3px 0;
 			    -webkit-transform: rotate(45deg);
 			    -ms-transform: rotate(45deg);
 			    transform: rotate(45deg);
 			}
-
-
 
 
 			/*-------------- NAVBAR  ---------------*/
@@ -329,6 +342,12 @@ img{
 
 			/*-------------- FOOTER  ---------------*/
 
+				.footer{
+					position: absolute;
+			    bottom: 0;
+			    width: 100%;
+					height:313px;
+				}
 
 				.top-footer{
 					background-color:#e8fcfd;
@@ -342,7 +361,6 @@ img{
 					margin-top: 24px;
 					width:80%;
 				}
-
 
 				.footer-brand{
 					position:relative;
@@ -549,51 +567,6 @@ img{
 /*------- NEW BOX -------*/
 /*-------------------------*/
 
-		.table-img{
-			position:relative;
-			overflow:hidden;
-			width:100px;
-			height:100px;
-			border:2px solid #CCC;
-			border-radius: 4px;
-		}
-
-		.newbox-modal-body{
-			height:524px;
-			max-height: 524px;
-			overflow-y: scroll;
-		}
-
-		.table-modal {
-		    display: flex;
-		    flex-flow: column;
-		    height: 100%;
-		    width: 100%;
-		}
-
-		.table-modal thead {
-		    /* head takes the height it requires,
-		    and it's not scaled when table is resized */
-		    flex: 0 0 auto;
-		    width: calc(100% - 0.9em);
-		}
-
-		.table-modal tbody {
-		    /* body takes all the remaining available space */
-		    flex: 1 1 auto;
-		    display: block;
-		    overflow-y: auto;
-		}
-
-		.table-modal tbody tr {
-		    width: 100%;
-		}
-
-		.table-modal thead, .table-modal tbody tr {
-		    display: table;
-		    table-layout: fixed;
-		}
-
 
 		.package-img{
 			position:relative;
@@ -603,7 +576,14 @@ img{
 			margin-left: auto;
 			margin-right: auto;
 		}
-
+		.table-img {
+		    width: 100px;
+		    height: 100px;
+			overflow: hidden;
+			position: relative;
+			margin: auto;
+			border-radius: 5px;
+		}
 		.package-img img{
 			position:absolute;
 			width:auto;
@@ -645,9 +625,10 @@ img{
 ---------- PAYMENT ---------
 ----------------------------*/
 .table {
-    margin-bottom: 1rem;
+    margin-bottom: 0px;
     background-color: transparent;
-    border: 2px solid #dee2e6;
+    /*border: 2px solid #dee2e6;*/
+    border: none;
 }
 
 th {
@@ -967,7 +948,9 @@ td, th {
 				margin-top: -18px;
 			}
 			.mybox-model-px-body {
-				padding: 40px;
+				margin: -13px;
+			    overflow-y: scroll;
+			    height: 540px;
 			}
 			.border-tab-size {
 				border: 2px solid #37adc5;
@@ -998,10 +981,11 @@ td, th {
 			.mybox-position {
 			    padding-top: 40px;
 			}
+
 			/*--------------------------
 			--------END MY BOX ---------
 			----------------------------*/
-			
+
 			/*--------------------------
 			--------Register ---------
 			----------------------------*/
@@ -1018,7 +1002,6 @@ td, th {
 			/*--------------------------
 			--------END  Register ---------
 			----------------------------*/
-			
 			/*-------------------------
 			------- PROFILE -----------
 			---------------------------*/
@@ -1026,8 +1009,8 @@ td, th {
 					    background-color: white;
 					    border: none;
 					    border-radius: 8px;
-					    height: 205px;
-					    width: 205px;
+					    height: 250px;
+					    width: 250px;
 					    position: relative;
 					    overflow: hidden;
 					 }
@@ -1066,15 +1049,18 @@ td, th {
 					 	padding-top: 0px;
 					 }
 					  .profile-image-frame {
-					    width: 200px;
-					    height: 200px;
+					    width: 250px;
+					    height: 250px;
 					    overflow: hidden;
 					    position: relative;
 					    margin: auto;
 					    border: 1px solid #58585a;
 					    border-radius: 5px;
 					}
-
+					.profile-hr-size {
+						width: 200px;
+    					margin: auto;
+					}
 			/*-------------------------
 			------ END PROFILE --------
 			---------------------------*/
@@ -1083,17 +1069,29 @@ td, th {
 				---------- PROFILE -------------
 				------------------------------*/
 
-
+						
 						.profile-but-1024{
 							  width: 110%;
 						}
+
+
+
+
 
 
 				/*----------------------------
 				----------END PROFILE ------------
 				------------------------------*/
 
-
+				/*---------------------------
+				--------- CONTACTUS ---------
+				-----------------------------*/
+				.contact-top {
+					margin-top: 50px;
+				}
+				.contact-font-size-head {
+					font-size: 40px;
+				}
 
 
 @media (max-width: 1366px) {
@@ -1192,10 +1190,6 @@ td, th {
 	----- END PAYMENT ------
 	------------------------*/
 
-
-
-
-
 	/*----------------------
 	------- WEBBOARD -------
 	------------------------*/
@@ -1253,13 +1247,18 @@ td, th {
 						}
 						.profile-text-1366{
 							margin-top: 32px;
-<<<<<<< HEAD
-=======
 						}
 						.profile-gia1{
 							margin-left: 6px;
->>>>>>> 43077b473563b5bd2a126252e4167c5b001bcf8e
 						}
+						.profile-gia2{
+							    margin-left: -25px;
+						}
+
+
+
+
+
 
 				/*----------------------------
 				----------END PROFILE 1366-------------
@@ -1301,6 +1300,13 @@ td, th {
 
 				/*-------------- FOOTER 1024 ---------------*/
 
+						.footer{
+							height:313px;
+						}
+
+						.wrapper{
+							margin-bottom:313px;
+						}
 
 				/*------------ END FOOTER 1024  -------------*/
 
@@ -1319,6 +1325,8 @@ td, th {
 					.login-buttom{
 						width: 268px;
 					}
+
+
 
 		/*-------------------------*/
 		/*----- end login -----*/
@@ -1416,6 +1424,9 @@ td, th {
 	    margin-right: 60px;
 	    margin-left: 0px;
 	}
+	.webboard-position {
+    	padding-top: 40px;
+	}
 	/*----------------------------
 	------ END WEBBOARD 1024 -----
 	------------------------------*/
@@ -1435,6 +1446,7 @@ td, th {
 	    border: 2px solid #dee2e6;
 	    margin-top: -18px;
 	}
+
 	.mybox-image-frame-model {
 	    width: 100%;
 	    height: 190px;
@@ -1444,6 +1456,7 @@ td, th {
 	    border: 1px solid #58585a;
 	    border-radius: 5px;
 	}
+
 	.mybox-content {
 	    top: 160px;
 	}
@@ -1494,9 +1507,6 @@ td, th {
 							left: 32px;
 						}
 						.profile-but-1024{
-<<<<<<< HEAD
-							  width: 120%;
-=======
 							  width: 110px;
 						}
 						.profile-gia1{
@@ -1504,7 +1514,6 @@ td, th {
 						}
 						.profile-gia2{
 							margin-left: -14px;
->>>>>>> 43077b473563b5bd2a126252e4167c5b001bcf8e
 						}
 
 
@@ -1532,16 +1541,9 @@ td, th {
 				height:100px;
 			}
 
-
-
-
 	/*-------------------------*/
 	/*------ END NEW BO 1024X ------*/
 	/*-------------------------*/
-
-
-
-
 }
 
 
@@ -1555,13 +1557,13 @@ td, th {
 
 				.flip-scroll{
 				 display:block;
-				 width: 100%;
+				 width: 100%; 
 				 }
 				 .flip-scroll thead{
-				 display: block;
+				 display: block; 
 				 float: left;
 				 }
-				 .flip-scroll thead th,
+				 .flip-scroll thead th, 
 				 .flip-scroll tbody td{
 				 line-height:20px;
 				 text-align:center;
@@ -1570,15 +1572,9 @@ td, th {
 				 display:block;
 				 }
 				 .flip-scroll tbody{
-<<<<<<< HEAD
-				 display: block;
-				 overflow-x: auto;  /* กำหนดให้ tbody สามารถ scroll ได้ในแนวนอน*/
-				 white-space: nowrap;
-=======
 				 display: block; 
 				 overflow-x: auto;
 				 white-space: nowrap; 
->>>>>>> 43077b473563b5bd2a126252e4167c5b001bcf8e
 				 }
 				 .flip-scroll tbody tr{
 				 display:inline-block;
@@ -1658,6 +1654,14 @@ td, th {
 					padding-right: 10%;
 				}
 
+				.footer{
+					height:450px;
+				}
+
+				.wrapper{
+					margin-bottom:450px;
+				}
+
 
 				/*------------ END FOOTER 768  -------------*/
 
@@ -1676,11 +1680,17 @@ td, th {
 					.login-buttom{
 						width: 205px;
 					}
+					.text-11 {
+			   			 margin-left: 0px;
+					}
+
+
+
 
 		/*-------------------------*/
 		/*----- end login -----*/
 		/*-------------------------*/
-		
+
 
 
 
@@ -1692,7 +1702,7 @@ td, th {
 						margin-left: -25px;
 					}
 					.register-but-fix {
-		   			    margin-left: -60px;
+		   			    margin-left: -8px;
 					}
 					.text-11{
 						margin-left: -49px;
@@ -1903,7 +1913,7 @@ td, th {
 			padding-top: 100px;
 		}
 		.text-11 {
-		     margin-left: 0px;
+		     margin-left: 0px; 
 		    text-align: left;
 		}
 
@@ -1914,9 +1924,8 @@ td, th {
 		.profile-but-1024-cansle{
 			 width: 170%;
 			 margin-left: -93px;
+   			
 		}
-<<<<<<< HEAD
-=======
 		.profile-but-1024{
 			 width: 110px;
 		}
@@ -1944,13 +1953,26 @@ td, th {
 	    border: 1px solid #58585a;
 	    border-radius: 5px;
 	}
->>>>>>> 43077b473563b5bd2a126252e4167c5b001bcf8e
 
+		
    /*----------------------------
     ----------END PROFILE -------------
     ------------------------------*/
-
-
+    /*----------------------------
+    ---------- CONTACT -----------
+    ------------------------------*/
+    .contact-top {
+    	margin-top: 135px;
+    }
+	.spacing {
+	    line-height: 35px;
+	    word-spacing: 5px;
+	    font-size: 20px;
+	    letter-spacing: 1px;
+	}
+	/*----------------------------
+	-------- END CONTACT ---------
+	------------------------------*/
 }
 
 
@@ -1994,6 +2016,14 @@ td, th {
 						padding-right: unset;
 					}
 
+					.footer{
+						height:0px;
+					}
+
+					.wrapper{
+						margin-bottom:0px;
+					}
+
 
 					/*------------ END FOOTER 414  -------------*/
 
@@ -2016,6 +2046,7 @@ td, th {
 					width: 309px;
 
 					}
+
 
 
 		/*-------------------------*/
@@ -2174,6 +2205,23 @@ td, th {
 	    border-radius: 5px;
 
 	}
+	.mybox-content {
+	    top: 0px;
+	}
+/*	.mybox-modal-body {
+	    position: relative;
+	    -ms-flex: 1 1 auto;
+	    flex: 1 1 auto;
+	    padding: 0rem;
+	    margin-top: -15px;
+	    overflow: hidden;
+	    height: 540px;
+	}*/
+	.mybox-modal-footer-responsive {
+		text-align: center!important;
+	    margin-top: 30px;
+	    margin-bottom: 15px;
+	}
 	/*--------------------------
 	-------- END MYBOX ---------
 	----------------------------*/
@@ -2191,8 +2239,9 @@ td, th {
     	margin-left: 0px;
     }
 	.text-11 {
-    margin-left: 0px;
+    	margin-left: 0px;
 	}
+
 
 	/*-------------------------*/
 	/*------- NEW BOX 414 -------*/
@@ -2220,15 +2269,13 @@ td, th {
 	/*------ END NEW BO 414 ------*/
 	/*-------------------------*/
 
-
+	
 	/*--------------------------
 	--------- PROFILE 414 ------
 	----------------------------*/
 			.profile-inputfile-center-respon {
 				margin: auto;
 			}
-<<<<<<< HEAD
-=======
 
 			.profile-but-1024{
 				 width: 110px;
@@ -2239,10 +2286,33 @@ td, th {
 			.profile-gia2{
 				margin-left: -14px;
 			}
-			
->>>>>>> 43077b473563b5bd2a126252e4167c5b001bcf8e
+			.profile-position {
+			    padding-top: 170px;
+			}
+			.profile-input-responsive {
+				width: 100%!important;
+			}
 	/*--------------------------
 	----- END PROFILE 414 ------
+	----------------------------*/
+	/*--------------------------
+	------- CONTACT ------------
+	----------------------------*/
+			.contact-font-size-head {
+			    font-size: 30px;
+			}
+			.spacing {
+			    line-height: 35px;
+			    word-spacing: 3px;
+			    font-size: 16px;
+			    letter-spacing: 1px;
+			}
+			.contact-top {
+			    margin-top: 150px;
+			    text-align: center;
+			}
+	/*--------------------------
+	--------- END CONTACT ------
 	----------------------------*/
 }
 
@@ -2272,6 +2342,9 @@ td, th {
 
 				/*-------------- FOOTER 375 ---------------*/
 
+				.footer{
+					height:0px;
+				}
 
 				/*------------ END FOOTER 375  -------------*/
 
@@ -2375,11 +2448,17 @@ td, th {
 				---------- PROFILE 375------------
 				------------------------------*/
 
-
+						
 						.profile-but-1024{
 							  width: 103px;
 						}
-
+						.profile-gia1{
+							  margin-left: -102px;
+						}
+						.profile-gia2{
+							 margin-left: -75px;
+						}
+						
 
 
 
@@ -2390,8 +2469,34 @@ td, th {
 				------------------------------*/
 
 
-
-
+				/*-----------------------------
+				---------- M YBOX --------------
+				-------------------------------*/
+/*				.mybox-modal-body {
+				    position: relative;
+				    -ms-flex: 1 1 auto;
+				    flex: 1 1 auto;
+				    padding: 0rem;
+				    margin-top: -15px;
+				    overflow: hidden;
+				    height: 440px;
+				}*/
+					.mybox-head-font-responsive {
+					    font-size: 17px;
+					    padding-top: 10px;
+					}
+				/*-----------------------------
+				---------- END MYBOX ----------
+				-------------------------------*/
+				/*-----------------------------
+				--------- CONTACT -------------
+				-------------------------------*/
+				.spacing {
+				    line-height: 35px;
+				    word-spacing: 3px;
+				    font-size: 19px;
+				    letter-spacing: 1px;
+				}
 
 }
 
@@ -2419,6 +2524,9 @@ td, th {
 
 				/*-------------- FOOTER 320 ---------------*/
 
+				.footer{
+					height:0px;
+				}
 
 				/*------------ END FOOTER 320  -------------*/
 
@@ -2489,7 +2597,7 @@ td, th {
 			.register{
 				margin-left: 6px;
     		}
-			
+
 	/*-----------------------------
 	------------ WEBBOARD 320 -----
 	-------------------------------*/
@@ -2551,19 +2659,20 @@ td, th {
 
 
 				/*----------------------------
-				---------- PROFILE 320--------
+				---------- PROFILE 375------------
 				------------------------------*/
 
-
+						
 						.profile-but-1024{
 							  width: 90px;
 						}
-						.profile-set-bnt-320 {
-						    -ms-flex: 0 0 100%;
-						    flex: 0 0 100%;
-						    max-width: 100%;
-						    padding-bottom: 15px;
+						.profile-gia1{
+							 margin-left: -94px;
 						}
+						.profile-gia2{
+							     margin-left: -66px;
+						}
+
 
 
 
@@ -2571,8 +2680,50 @@ td, th {
 
 
 				/*----------------------------
-				----------END PROFILE -------------
+				----------END PROFILE --------
 				------------------------------*/
 
+				/*----------------------------
+				---------- MYBOX 320 ---------
+				------------------------------*/
+/*				.mybox-modal-body {
+				    position: relative;
+				    -ms-flex: 1 1 auto;
+				    flex: 1 1 auto;
+				    padding: 0rem;
+				    margin-top: -15px;
+				    overflow: hidden;
+				    height: 342px;
+				}*/				
+
+				.mybox-head-font-responsive {
+					font-size: 15px;
+    				padding-top: 15px;
+				}
+				.mybox-image-frame-model {
+				    width: 100%;
+				    height: 148px;
+				    overflow: hidden;
+				    position: relative;
+				    margin: auto;
+				    border: 1px solid #58585a;
+				    border-radius: 5px;
+				}
+				/*----------------------------
+				------ END MYBOX 320 ---------
+				------------------------------*/
+
+				/*----------------------------
+				---------- CONTACT -----------
+				------------------------------*/
+				.spacing {
+				    line-height: 30px;
+				    word-spacing: 3px;
+				    font-size: 17px;
+				    letter-spacing: 1px;
+				}
+				/*----------------------------
+				--------- END CONTACT --------
+				------------------------------*/
 
 }

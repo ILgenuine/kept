@@ -35,7 +35,8 @@
 
 
               <div class="col-lg-10 my-5">
-                <div class="table-responsive">
+
+                <div class="table-responsive" style="border: 1px solid #dee2e6;">
                    <table class="table">
                       <thead>
                         <tr>
@@ -113,7 +114,7 @@
                           <td class="text-lightblue">กล่องหนังสือ</td>
                           <td class="text-lightblue">Confirm Order</td>
                           <td class=""><a href="#"  data-toggle="modal" data-target=".bd-example-modal-lg"><u class="text-lightblue">ดูรายละเอียด</u></a></td>
-                        </tr>
+
                       </tbody>
                     </table>
                 </div>
@@ -133,7 +134,7 @@
 
               <div class="mybox-modal-header">
                   <div class="col-md-6 text-right">
-                    <div class="text-left text-blue">
+                    <div class="text-left text-blue mybox-head-font-responsive">
                       <p>รายละเอียดกล่อง</p>
                     </div>
                   </div>
@@ -150,43 +151,75 @@
                 <div class="row">
                   <div class="col-1"></div>
                   <div class="col-10 px-3 py-3">
-                     <div class="table-responsive">
-                       <table class="table">
+                    <div class="table-responsive" style="border: 1px solid #dee2e6;">
+                       <table class="table mybox-header">
                           <thead>
+
                             <tr>
-                              <th width="17.5%" class="text-center px-2">กล่องหนังสือ</th>
-                              <th width="17.5%" class="text-center px-2">ประเภท Standart</th>
-                              <th width="17.5%" class="text-center px-2">กล่อง กกXยยXสส</th>
-                              <th width="17.5%" class="text-center px-2">2018/03/03</th>
+                              <th width="17.5%" class="text-center px-2 mybox-head-font-responsive">กล่องหนังสือ</th>
+                              <th width="17.5%" class="text-center px-2 mybox-head-font-responsive">ประเภท Standart</th>
+                              <th width="17.5%" class="text-center px-2 mybox-head-font-responsive">กล่อง กกXยยXสส</th>
+                              <th width="17.5%" class="text-center px-2 mybox-head-font-responsive">2018/03/03</th>
                               <th width="30%" class="text-right pr-4">
                                 <a href="#"><i class="fa fa-cog text-lightblue" aria-hidden="true" style="font-size: 30px;"></i></a>
                               </th>
                             </tr>
+
+                            <tr>
+                              <th class="text-left px-4 mybox-head-font-responsive" colspan="5" style="background-color: #fff;">รายละเอียด</th>
+                            </tr>
+
                           </thead>
+
+
                           <tbody>
                             <tr>
-                              <td class="text-left px-4" colspan="5">รายละเอียด</td>
+                              <td class="text-left" colspan="5">
+
+                                <!-- mybox-model-px-bod -->
+                                <div class="row mybox-model-px-body">
+                                  <div class="col-lg-4 col-6 pt-4 pb-4">
+                                    <div class="mybox-image-frame-model">
+                                      <img class="mybox-img-test w100" src="http://via.placeholder.com/300x300" alt="">
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-4 col-6 pt-4 pb-4">
+                                    <div class="mybox-image-frame-model">
+                                      <img class="mybox-img-test w100" src="assets/images/box1.jpg" alt="">
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-4 col-6 pt-4 pb-4">
+                                    <div class="mybox-image-frame-model">
+                                      <img class="mybox-img-test w100" src="http://via.placeholder.com/300x300" alt="">
+                                    </div>
+                                  </div>
+
+                                  <div class="col-lg-4 col-6 pt-4 pb-4">
+                                    <div class="mybox-image-frame-model">
+                                      <img class="mybox-img-test w100" src="http://via.placeholder.com/300x300" alt="">
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-4 col-6 pt-4 pb-4">
+                                    <div class="mybox-image-frame-model">
+                                      <img class="mybox-img-test w100" src="http://via.placeholder.com/300x300" alt="">
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-4 col-6 pt-4 pb-4">
+                                    <div class="mybox-image-frame-model">
+                                      <img class="mybox-img-test w100" src="http://via.placeholder.com/300x300" alt="">
+                                    </div>
+                                  </div>
+                                </div>
+
+
+                              </td>
+
                             </tr>
                           </tbody>
-                        </table>
-                        <div class="text-left mybox-scroll mybox-t-body">
-                          <div class="row mybox-model-px-body py-3">
-                            <div class="col-lg-4 col-6 pt-4 pb-4">
-                              <div class="mybox-image-frame-model">
-                                <img class="mybox-img-test" src="http://via.placeholder.com/300x300" alt="">
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 pt-4 pb-4">
-                              <div class="mybox-image-frame-model">
-                                <img class="mybox-img-test" src="assets/images/box1.jpg" alt="">
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 pt-4 pb-4">
-                              <div class="mybox-image-frame-model">
-                                <img class="mybox-img-test" src="http://via.placeholder.com/300x300" alt="">
-                              </div>
-                            </div>
 
+                        </table>
+
+                      </div> 
                             <div class="col-lg-4 col-6 pt-4 pb-4">
                               <div class="mybox-image-frame-model">
                                 <img class="mybox-img-test" src="http://via.placeholder.com/300x300" alt="">
@@ -215,7 +248,8 @@
               <div class="modal-footer mb-4" style="border-top: none;">
                 <div class="col-1"></div>
                 <div class="col-10 mybox-modal-footer">
-                  <div class="text-right">
+
+                  <div class="text-right mybox-modal-footer-responsive">
                     <button type="button" class="btn btn-lightblue mybox-btn-model">ตกลง</button>
                   </div>
                 </div>

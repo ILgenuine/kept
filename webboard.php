@@ -35,6 +35,9 @@
 
 
           <div class="col-lg-10 webboard-position">
+
+
+
             <div class="row">
               <div class="col-md-1 col-4 webboard-top-414">
                 <div class="text-lightblue text-center"><i class="fa fa-user-circle webboard-content-top10" style="font-size: 45px;"></i>
@@ -45,16 +48,14 @@
               </div>
               <div class="col-md-9 col-12">
                 <div class="webboard-content">
-                  <p class="text-blue px-3 webboard-content-top15 webboard-message-responsive">ราคาถูกมาเลยค่ะ ชอบมากจุฟๆ !!</p>
+                  <p class="text-blue px-3 webboard-content-top15 webboard-message-responsive">ราคาถูกมาเลยค่ะ ชอบมาก!!</p>
                 </div>
               </div>
 
 
               <div class="col-12">
                 <div class="text-right webboard-text-time pt-3">
-                  <font>วันที่</font>
-                  <font>25/03/2561</font>
-                  <font>14.00 น.</font>
+                  <font class="w-spacing-10px">วันที่ 25/03/2561 14.00น.</font>
                 </div>
               </div>
             </div>
@@ -76,15 +77,13 @@
               </div>
               <div class="col-md-9 col-12">
                 <div class="webboard-content">
-                  <p class="text-blue px-3 webboard-content-top15 webboard-message-responsive">ราคาถูกมาเลยค่ะ ชอบมากจุฟๆ !!</p>
+                  <p class="text-blue px-3 webboard-content-top15 webboard-message-responsive">สะดวกมากเลยครับ ทำงานรวดเร็วมาก ชอบมากจุฟๆ !!</p>
                 </div>
               </div>
 
               <div class="col-12">
                 <div class="text-right webboard-text-time pt-3">
-                  <font>วันที่</font>
-                  <font>25/03/2561</font>
-                  <font>14.00 น.</font>
+                  <font class="w-spacing-10px">วันที่ 25/03/2561 14.00น.</font>
                 </div>
               </div>
             </div>
@@ -105,7 +104,7 @@
               </div>
               <div class="col-md-9 col-12">
                 <div class="webboard-content">
-                  <p class="text-blue px-3 webboard-content-top15 webboard-message-responsive">ราคาถูกมาเลยค่ะ ชอบมากจุฟๆ !!</p>
+                  <p class="text-blue px-3 webboard-content-top15 webboard-message-responsive">บ้านดูโล่งขึ้นเยอะเลยค่ะ ชอบบริการนี้มาก</p>
                 </div>
               </div>
 
@@ -113,9 +112,7 @@
 
               <div class="col-12">
                 <div class="text-right webboard-text-time pt-3">
-                  <font>วันที่</font>
-                  <font>25/03/2561</font>
-                  <font>14.00 น.</font>
+                  <font class="w-spacing-10px">วันที่ 25/03/2561 14.00น.</font>
                 </div>
               </div>
             </div>
