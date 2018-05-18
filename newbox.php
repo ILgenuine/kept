@@ -300,7 +300,7 @@
 
                     <div class="row">
                       <div class="col-12 px-3 py-3">
-                         <div class="table-responsive">
+                         <div class="table-responsive" style="border: 1px solid #dee2e6;">
                            <table class="table table-modal">
                               <thead>
                                 <tr>

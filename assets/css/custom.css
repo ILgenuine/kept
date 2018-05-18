@@ -576,7 +576,14 @@ img{
 			margin-left: auto;
 			margin-right: auto;
 		}
-
+		.table-img {
+		    width: 100px;
+		    height: 100px;
+			overflow: hidden;
+			position: relative;
+			margin: auto;
+			border-radius: 5px;
+		}
 		.package-img img{
 			position:absolute;
 			width:auto;
