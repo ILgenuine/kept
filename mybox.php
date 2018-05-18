@@ -30,11 +30,12 @@
 
 
               <div class="col-lg-2">
-                
+
               </div>
 
 
               <div class="col-lg-10 my-5">
+
                 <div class="table-responsive" style="border: 1px solid #dee2e6;">
                    <table class="table">
                       <thead>
@@ -113,7 +114,7 @@
                           <td class="text-lightblue">กล่องหนังสือ</td>
                           <td class="text-lightblue">Confirm Order</td>
                           <td class=""><a href="#"  data-toggle="modal" data-target=".bd-example-modal-lg"><u class="text-lightblue">ดูรายละเอียด</u></a></td>
-                        </tr>                                      
+
                       </tbody>
                     </table>
                 </div>
@@ -130,7 +131,7 @@
           <div class="modal-dialog mybox-modal-lg">
 
             <div class="modal-content mybox-content">
-              
+
               <div class="mybox-modal-header">
                   <div class="col-md-6 text-right">
                     <div class="text-left text-blue mybox-head-font-responsive">
@@ -141,7 +142,7 @@
                     <button type="button" class="btn mybox-bnt-close" data-dismiss="modal" aria-hidden="true">
                       <i class="fa fa-times" aria-hidden="true"></i>
                     </button>
-                  </div>      
+                  </div>
               </div>
 
 
@@ -211,20 +212,25 @@
 
 
                               </td>
-                            </tr>                        
-                          </tbody>
-                        </table>  
 
-                      </div> 
-                  </div>
+                            </tr>
+                          </tbody>
+
+                        </table>
+
+                      </div>
+
                   <div class="col-1"></div>
                 </div>
               </div>
+            </div>
+
 
 
               <div class="modal-footer mb-4" style="border-top: none;">
                 <div class="col-1"></div>
                 <div class="col-10 mybox-modal-footer">
+
                   <div class="text-right mybox-modal-footer-responsive">
                     <button type="button" class="btn btn-lightblue mybox-btn-model">ตกลง</button>
                   </div>

@@ -238,6 +238,9 @@ img{
 			}
 
 
+
+
+
 			/*-------------- NAVBAR  ---------------*/
 
 				.navbar{
@@ -1079,7 +1082,7 @@ td, th {
 				---------- PROFILE -------------
 				------------------------------*/
 
-						
+
 						.profile-but-1024{
 							  width: 110%;
 						}
@@ -1175,6 +1178,11 @@ td, th {
 				.package-cost{
 					font-size:25px;
 				}
+
+				.why-frame{
+					width:630px;
+				}
+
 
 	/*-------------------------*/
 	/*------- END INDEX  1366 -------*/
@@ -1565,13 +1573,13 @@ td, th {
 
 				.flip-scroll{
 				 display:block;
-				 width: 100%; 
+				 width: 100%;
 				 }
 				 .flip-scroll thead{
-				 display: block; 
+				 display: block;
 				 float: left;
 				 }
-				 .flip-scroll thead th, 
+				 .flip-scroll thead th,
 				 .flip-scroll tbody td{
 				 line-height:20px;
 				 text-align:center;
@@ -1580,9 +1588,9 @@ td, th {
 				 display:block;
 				 }
 				 .flip-scroll tbody{
-				 display: block; 
+				 display: block;
 				 overflow-x: auto;
-				 white-space: nowrap; 
+				 white-space: nowrap;
 				 }
 				 .flip-scroll tbody tr{
 				 display:inline-block;
@@ -1763,7 +1771,7 @@ td, th {
 					}
 
 					.why-frame{
-						width:700px;
+						width:690px;
 					}
 
 		/*-------------------------*/
@@ -1921,7 +1929,7 @@ td, th {
 			padding-top: 100px;
 		}
 		.text-11 {
-		     margin-left: 0px; 
+		     margin-left: 0px;
 		    text-align: left;
 		}
 
@@ -1932,7 +1940,7 @@ td, th {
 		.profile-but-1024-cansle{
 			 width: 170%;
 			 margin-left: -93px;
-   			
+
 		}
 		.profile-but-1024{
 			 width: 110px;
@@ -1962,7 +1970,7 @@ td, th {
 	    border-radius: 5px;
 	}
 
-		
+
    /*----------------------------
     ----------END PROFILE -------------
     ------------------------------*/
@@ -2279,7 +2287,7 @@ td, th {
 	/*------ END NEW BO 414 ------*/
 	/*-------------------------*/
 
-	
+
 	/*--------------------------
 	--------- PROFILE 414 ------
 	----------------------------*/
@@ -2456,7 +2464,7 @@ td, th {
 				---------- PROFILE 375------------
 				------------------------------*/
 
-						
+
 						.profile-but-1024{
 							  width: 103px;
 						}
@@ -2466,7 +2474,7 @@ td, th {
 						.profile-gia2{
 							 margin-left: -75px;
 						}
-						
+
 
 
 
@@ -2678,7 +2686,7 @@ td, th {
 				---------- PROFILE 375------------
 				------------------------------*/
 
-						
+
 						.profile-but-1024{
 							  width: 90px;
 						}
@@ -2710,7 +2718,7 @@ td, th {
 				    margin-top: -15px;
 				    overflow: hidden;
 				    height: 342px;
-				}*/				
+				}*/
 
 				.mybox-head-font-responsive {
 					font-size: 15px;
