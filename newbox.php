@@ -300,7 +300,7 @@
 
                     <div class="row">
                       <div class="col-12 px-3 py-3">
-                         <div class="table-responsive" style="border: 1px solid #dee2e6;">
+                         <div class="table-responsive newbox-scoll-table">
                            <table class="table table-modal">
                               <thead>
                                 <tr>
@@ -311,146 +311,149 @@
                                   <th width="25.3%" class="text-center pr-4">จำนวน</th>
                                 </tr>
                               </thead>
-                              <tbody class="newbox-modal-body">
-                                <tr>
-                                  <td class="text-left text-center pb-4 px-4">
-                                    <label class="container-1">
-                                      <input type="checkbox">
-                                      <span class="checkmark"></span>
-                                    </label>
-                                  </td>
-                                  <td class="text-left text-center px-4">
-                                    <div class="table-img">
-                                        <img src="http://via.placeholder.com/100x100">
-                                    </div>
-                                  </td>
-                                  <td class="text-left text-center px-4"></td>
-                                  <td class="text-left text-center px-4"></td>
-                                  <td class="text-left text-center px-4">
-                                    <select class="custom-select" id="inputGroupSelect01">
-                                       <option selected>Choose...</option>
-                                       <option value="1">One</option>
-                                       <option value="2">Two</option>
-                                       <option value="3">Three</option>
-                                     </select>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td class="text-left text-center pb-4 px-4">
-                                    <label class="container-1">
-                                      <input type="checkbox">
-                                      <span class="checkmark"></span>
-                                    </label>
-                                  </td>
-                                  <td class="text-left text-center px-4">
-                                    <div class="table-img">
-                                        <img src="http://via.placeholder.com/100x100">
-                                    </div>
-                                  </td>
-                                  <td class="text-left text-center px-4"></td>
-                                  <td class="text-left text-center px-4"></td>
-                                  <td class="text-left text-center px-4">
-                                    <select class="custom-select" id="inputGroupSelect01">
-                                       <option selected>Choose...</option>
-                                       <option value="1">One</option>
-                                       <option value="2">Two</option>
-                                       <option value="3">Three</option>
-                                     </select>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td class="text-left text-center pb-4 px-4">
-                                    <label class="container-1">
-                                      <input type="checkbox">
-                                      <span class="checkmark"></span>
-                                    </label>
-                                  </td>
-                                  <td class="text-left text-center px-4">
-                                    <div class="table-img">
-                                        <img src="http://via.placeholder.com/100x100">
-                                    </div>
-                                  </td>
-                                  <td class="text-left text-center px-4"></td>
-                                  <td class="text-left text-center px-4"></td>
-                                  <td class="text-left text-center px-4">
-                                    <select class="custom-select" id="inputGroupSelect01">
-                                       <option selected>Choose...</option>
-                                       <option value="1">One</option>
-                                       <option value="2">Two</option>
-                                       <option value="3">Three</option>
-                                     </select>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td class="text-left text-center pb-4 px-4">
-                                    <label class="container-1">
-                                      <input type="checkbox">
-                                      <span class="checkmark"></span>
-                                    </label>
-                                  </td>
-                                  <td class="text-left text-center px-4">
-                                    <div class="table-img">
-                                        <img src="http://via.placeholder.com/100x100">
-                                    </div>
-                                  </td>
-                                  <td class="text-left text-center px-4"></td>
-                                  <td class="text-left text-center px-4"></td>
-                                  <td class="text-left text-center px-4">
-                                    <select class="custom-select" id="inputGroupSelect01">
-                                       <option selected>Choose...</option>
-                                       <option value="1">One</option>
-                                       <option value="2">Two</option>
-                                       <option value="3">Three</option>
-                                     </select>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td class="text-left text-center pb-4 px-4">
-                                    <label class="container-1">
-                                      <input type="checkbox">
-                                      <span class="checkmark"></span>
-                                    </label>
-                                  </td>
-                                  <td class="text-left text-center px-4">
-                                    <div class="table-img">
-                                        <img src="http://via.placeholder.com/100x100">
-                                    </div>
-                                  </td>
-                                  <td class="text-left text-center px-4"></td>
-                                  <td class="text-left text-center px-4"></td>
-                                  <td class="text-left text-center px-4">
-                                    <select class="custom-select" id="inputGroupSelect01">
-                                       <option selected>Choose...</option>
-                                       <option value="1">One</option>
-                                       <option value="2">Two</option>
-                                       <option value="3">Three</option>
-                                     </select>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td class="text-left text-center pb-4 px-4">
-                                    <label class="container-1">
-                                      <input type="checkbox">
-                                      <span class="checkmark"></span>
-                                    </label>
-                                  </td>
-                                  <td class="text-left text-center px-4">
-                                    <div class="table-img">
-                                        <img src="http://via.placeholder.com/100x100">
-                                    </div>
-                                  </td>
-                                  <td class="text-left text-center px-4"></td>
-                                  <td class="text-left text-center px-4"></td>
-                                  <td class="text-left text-center px-4">
-                                    <select class="custom-select" id="inputGroupSelect01">
-                                       <option selected>Choose...</option>
-                                       <option value="1">One</option>
-                                       <option value="2">Two</option>
-                                       <option value="3">Three</option>
-                                     </select>
-                                  </td>
-                                </tr>
-                              </tbody>
+                                <tbody class="newbox-modal-body">
+                                  <tr>
+                                    <td class="text-left text-center pb-4 px-4">
+                                      <label class="container-1">
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                      </label>
+                                    </td>
+                                    <td class="text-left text-center px-4">
+                                      <div class="table-img">
+                                          <img src="http://via.placeholder.com/100x100">
+                                      </div>
+                                    </td>
+                                    <td class="text-left text-center px-4"></td>
+                                    <td class="text-left text-center px-4"></td>
+                                    <td class="text-left text-center px-4">
+                                      <select class="custom-select" id="inputGroupSelect01">
+                                         <option selected>Choose...</option>
+                                         <option value="1">One</option>
+                                         <option value="2">Two</option>
+                                         <option value="3">Three</option>
+                                       </select>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td class="text-left text-center pb-4 px-4">
+                                      <label class="container-1">
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                      </label>
+                                    </td>
+                                    <td class="text-left text-center px-4">
+                                      <div class="table-img">
+                                          <img src="http://via.placeholder.com/100x100">
+                                      </div>
+                                    </td>
+                                    <td class="text-left text-center px-4"></td>
+                                    <td class="text-left text-center px-4"></td>
+                                    <td class="text-left text-center px-4">
+                                      <select class="custom-select" id="inputGroupSelect01">
+                                         <option selected>Choose...</option>
+                                         <option value="1">One</option>
+                                         <option value="2">Two</option>
+                                         <option value="3">Three</option>
+                                       </select>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td class="text-left text-center pb-4 px-4">
+                                      <label class="container-1">
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                      </label>
+                                    </td>
+                                    <td class="text-left text-center px-4">
+                                      <div class="table-img">
+                                          <img src="http://via.placeholder.com/100x100">
+                                      </div>
+                                    </td>
+                                    <td class="text-left text-center px-4"></td>
+                                    <td class="text-left text-center px-4"></td>
+                                    <td class="text-left text-center px-4">
+                                      <select class="custom-select" id="inputGroupSelect01">
+                                         <option selected>Choose...</option>
+                                         <option value="1">One</option>
+                                         <option value="2">Two</option>
+                                         <option value="3">Three</option>
+                                       </select>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td class="text-left text-center pb-4 px-4">
+                                      <label class="container-1">
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                      </label>
+                                    </td>
+                                    <td class="text-left text-center px-4">
+                                      <div class="table-img">
+                                          <img src="http://via.placeholder.com/100x100">
+                                      </div>
+                                    </td>
+                                    <td class="text-left text-center px-4"></td>
+                                    <td class="text-left text-center px-4"></td>
+                                    <td class="text-left text-center px-4">
+                                      <select class="custom-select" id="inputGroupSelect01">
+                                         <option selected>Choose...</option>
+                                         <option value="1">One</option>
+                                         <option value="2">Two</option>
+                                         <option value="3">Three</option>
+                                       </select>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td class="text-left text-center pb-4 px-4">
+                                      <label class="container-1">
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                      </label>
+                                    </td>
+                                    <td class="text-left text-center px-4">
+                                      <div class="table-img">
+                                          <img src="http://via.placeholder.com/100x100">
+                                      </div>
+                                    </td>
+                                    <td class="text-left text-center px-4"></td>
+                                    <td class="text-left text-center px-4"></td>
+                                    <td class="text-left text-center px-4">
+                                      <select class="custom-select" id="inputGroupSelect01">
+                                         <option selected>Choose...</option>
+                                         <option value="1">One</option>
+                                         <option value="2">Two</option>
+                                         <option value="3">Three</option>
+                                       </select>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td class="text-left text-center pb-4 px-4">
+                                      <label class="container-1">
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                      </label>
+                                    </td>
+                                    <td class="text-left text-center px-4">
+                                      <div class="table-img">
+                                          <img src="http://via.placeholder.com/100x100">
+                                      </div>
+                                    </td>
+                                    <td class="text-left text-center px-4"></td>
+                                    <td class="text-left text-center px-4"></td>
+                                    <td class="text-left text-center px-4">
+                                      <select class="custom-select" id="inputGroupSelect01">
+                                         <option selected>Choose...</option>
+                                         <option value="1">One</option>
+                                         <option value="2">Two</option>
+                                         <option value="3">Three</option>
+                                       </select>
+                                    </td>
+                                  </tr>
+                                </tbody>
+
+
+
                             </table>
                         </div>
                       </div>
@@ -510,7 +513,7 @@
 
 
 
-            <div class="table-responsive ">
+            <div class="table-responsive" style="border: 1px solid #dee2e6;">
                <table class="table">
                   <thead>
                     <tr>

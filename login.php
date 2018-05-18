@@ -19,14 +19,14 @@
 <div class="wrapper">
 
       <div class="container">
-      	<div class="row">
-      		<div class="text-blue col-lg-12 con-1 p-4">
+      	<div class="row login-py-80px">
+      		<div class="text-blue col-lg-12 con-1">
       			<h2>WELCOME</h2>
       		</div>
 
 	      		<div class="col-lg-12">
 	      			<form>
-	      				  <div class="form-group row p-2">
+	      				  <div class="form-group row pt-3">
 	      				  		<div class="col-lg-4 col-md-3 col-12 text-lg-right text-md-center text-center">
 		      				    	<label class="col-form-label text-11 text-lightblue login-text-cen">Email</label>
 	      				  		</div>
@@ -36,7 +36,7 @@
 	      				  </div>
 
 
-	      				  <div class="form-group row p-2">
+	      				  <div class="form-group row pt-3">
 	      				  		<div class="col-lg-4 col-md-3 col-12 text-lg-right text-md-center text-center">
 	      				  	     	<label class="col-form-label text-11 text-lightblue login-text-cen">Password</label>
 	      				  		</div>
@@ -50,15 +50,15 @@
 
 
 
-      			<div class="col-lg-12 con-1 p-2 ">
+      			<div class="col-lg-12 con-1 pt-3">
       				<a class="text-lightblue" href="#">forget Password?</a>
       			</div>
 
 
 
-      			<div class="col-lg-12 p-2">
+      			<div class="col-lg-12 pt-3">
       				<div class="text-center ">
-      					<button type="button" class="btn btn-blue " style=" width: 170px; margin-bottom: 70px;" >LOGIN</button>
+      					<button type="button" class="btn btn-blue " style=" width: 170px;" >LOGIN</button>
       				</div>
       			</div>
 

@@ -174,7 +174,6 @@
                           <tbody>
                             <tr>
                               <td class="text-left" colspan="5">
-
                                 <!-- mybox-model-px-bod -->
                                 <div class="row mybox-model-px-body">
                                   <div class="col-lg-4 col-6 pt-4 pb-4">

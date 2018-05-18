@@ -203,12 +203,12 @@ img{
 			}
 
 			/* On mouse-over, add a grey background color */
-			.container:hover input ~ .checkmark {
+			.container-1:hover input ~ .checkmark {
 			    background-color: white;
 			}
 
 			/* When the checkbox is checked, add a blue background */
-			.container input:checked ~ .checkmark {
+			.container-1 input:checked ~ .checkmark {
 			    background-color: white;
 			}
 
@@ -220,12 +220,12 @@ img{
 			}
 
 			/* Show the checkmark when checked */
-			.container input:checked ~ .checkmark:after {
+			.container-1 input:checked ~ .checkmark:after {
 			    display: block;
 			}
 
 			/* Style the checkmark/indicator */
-			.container .checkmark:after {
+			.container-1 .checkmark:after {
 			    left: 9px;
 			    top: 5px;
 			    width: 5px;
@@ -407,7 +407,10 @@ img{
 				width: 320px;
 			}
 
-
+			.login-py-80px {
+				padding-top: 80px;
+    			padding-bottom: 80px;
+			}
 
 			/*-------------------------*/
 			/*----- end login -----*/
@@ -615,7 +618,11 @@ img{
 		.enlarge-btn100{
 			width:100%;
 		}
-
+		.newbox-scoll-table {
+			border: 1px solid #dee2e6;
+		    overflow-y: scroll;
+		    height: 600px;
+		}
 /*-------------------------*/
 /*------ END NEW BOX ------*/
 /*-------------------------*/
@@ -994,11 +1001,14 @@ td, th {
 					.Register-icon{
 						margin-left: -24px;
 					}
-					.register-bnt-fix-size {
-						width: 320px;
-					}
-
-
+					.register-btn-gmail {
+		    			background-color: #F44336;
+		    			color: #fff;
+		    		}
+		    		.regidter-btn-facebook {
+		    			background-color: #3b5998;
+		    			color: #fff;
+		    		}
 			/*--------------------------
 			--------END  Register ---------
 			----------------------------*/
@@ -1458,7 +1468,7 @@ td, th {
 	}
 
 	.mybox-content {
-	    top: 160px;
+	    top: 200px;
 	}
 	.mybox-tab-style {
 	    cursor: pointer;
@@ -1483,9 +1493,7 @@ td, th {
 					.Register-icon{
 						margin-left: -22px;
 					}
-					.register-bnt-fix-size {
-						width: 300px;
-					}
+
 					.register-but-fix{
 						margin-left: -17px;
 					}
@@ -1866,7 +1874,7 @@ td, th {
 	----------- MYBOX 768--------
 	-----------------------------*/
 		.mybox-content {
-		    top: 55px;
+		    top: 80px;
 		}
 		.mybox-modal-lg {
 		    max-width: 720px;
@@ -2232,9 +2240,6 @@ td, th {
 	-------- REGISTER 414----------
 	----------------------------*/
 
-	.register-bnt-fix-size {
-    	width: 310px;
-	}
 	.register-but-fix {
     	margin-left: 0px;
     }
@@ -2263,6 +2268,11 @@ td, th {
 
 			.verdict h3{
 				font-size: 20px;
+			}
+			.newbox-scoll-table {
+			    border: 1px solid #dee2e6;
+			    overflow-y: scroll;
+			    height: 507px;
 			}
 
 	/*-------------------------*/
@@ -2429,9 +2439,7 @@ td, th {
 			/*----------------------------
 			--------- REGISTER 375 -------
 			------------------------------*/
-			.register-bnt-fix-size {
-			    width: 270px;
-			}
+
 			.register-but-fix {
 		   	    margin-left: 0px;
 			}
@@ -2497,7 +2505,17 @@ td, th {
 				    font-size: 19px;
 				    letter-spacing: 1px;
 				}
-
+				/*---------------------------
+				------- NEW-BOX 375 ---------
+				-----------------------------*/
+				.newbox-scoll-table {
+				    border: 1px solid #dee2e6;
+				    overflow-y: scroll;
+				    height: 411px;
+				}
+				/*---------------------------
+				----- END NEW-BOX 375 -------
+				-----------------------------*/
 }
 
 
@@ -2586,9 +2604,7 @@ td, th {
 		    margin-left: -14px;
 		    margin-right: 1px;
 		  	}
-			.register-bnt-fix-size {
-			    width: 235px;
-			}
+
 			.register-but-fix {
     			margin-left: -8px;
     		}
