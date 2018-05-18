@@ -35,7 +35,7 @@
 
 
               <div class="col-lg-10 my-5">
-                <div class="table-responsive">
+                <div class="table-responsive" style="border: 1px solid #dee2e6;">
                    <table class="table">
                       <thead>
                         <tr>
@@ -150,7 +150,7 @@
                 <div class="row">
                   <div class="col-1"></div>
                   <div class="col-10 px-3 py-3">
-                    <div class="table-responsive">
+                    <div class="table-responsive" style="border: 1px solid #dee2e6;">
                        <table class="table mybox-header">
                           <thead>
 

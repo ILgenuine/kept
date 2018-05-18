@@ -48,7 +48,15 @@ img{
     transform:translate(-50% ,-50%);
 }
 
-
+.gm-style .place-card div, .gm-style .place-card a, .gm-style .default-card div, .gm-style .default-card a {
+    color: #5B5B5B;
+    font-family: 'Kanit', sans-serif;
+    font-size: 12px;
+    -moz-user-select: text;
+    -webkit-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
 
 
 			.row{
@@ -610,9 +618,10 @@ img{
 ---------- PAYMENT ---------
 ----------------------------*/
 .table {
-    margin-bottom: 1rem;
+    margin-bottom: 0px;
     background-color: transparent;
-    border: 2px solid #dee2e6;
+    /*border: 2px solid #dee2e6;*/
+    border: none;
 }
 
 th {

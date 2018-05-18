@@ -18,7 +18,7 @@
         </div>
 
         <div class="col-md-12">
-          <div class="table-responsive">
+          <div class="table-responsive" style="border: 1px solid #dee2e6;">
             <table class="table">
               <thead>
                 <tr>
