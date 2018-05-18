@@ -1,8 +1,6 @@
 /*--------------------------
 --------   General ---------
 --------------------------*/
-
-
 /*------   Font -------*/
 
 		@font-face {
@@ -165,10 +163,18 @@ img{
 			    -moz-user-select: none;
 			    -ms-user-select: none;
 			    user-select: none;
-					width:25px;
-					height:25px;
+				width:25px;
+				height:25px;
 			}
-
+			.spacing {
+			    line-height: 35px;
+			    word-spacing: 15px;
+			    font-size: 23px;
+			    letter-spacing: 1px;
+			}
+			.w-spacing-10px {
+				word-spacing: 10px;
+			}
 			/* Hide the browser's default checkbox */
 			.container-1 input {
 			    position: absolute;
@@ -1061,7 +1067,15 @@ td, th {
 				----------END PROFILE ------------
 				------------------------------*/
 
-
+				/*---------------------------
+				--------- CONTACTUS ---------
+				-----------------------------*/
+				.contact-top {
+					margin-top: 50px;
+				}
+				.contact-font-size-head {
+					font-size: 40px;
+				}
 
 
 @media (max-width: 1366px) {
@@ -1928,8 +1942,21 @@ td, th {
    /*----------------------------
     ----------END PROFILE -------------
     ------------------------------*/
-
-
+    /*----------------------------
+    ---------- CONTACT -----------
+    ------------------------------*/
+    .contact-top {
+    	margin-top: 135px;
+    }
+	.spacing {
+	    line-height: 35px;
+	    word-spacing: 5px;
+	    font-size: 20px;
+	    letter-spacing: 1px;
+	}
+	/*----------------------------
+	-------- END CONTACT ---------
+	------------------------------*/
 }
 
 
@@ -2252,6 +2279,25 @@ td, th {
 	/*--------------------------
 	----- END PROFILE 414 ------
 	----------------------------*/
+	/*--------------------------
+	------- CONTACT ------------
+	----------------------------*/
+			.contact-font-size-head {
+			    font-size: 30px;
+			}
+			.spacing {
+			    line-height: 35px;
+			    word-spacing: 3px;
+			    font-size: 16px;
+			    letter-spacing: 1px;
+			}
+			.contact-top {
+			    margin-top: 150px;
+			    text-align: center;
+			}
+	/*--------------------------
+	--------- END CONTACT ------
+	----------------------------*/
 }
 
 
@@ -2426,7 +2472,15 @@ td, th {
 				/*-----------------------------
 				---------- END MYBOX ----------
 				-------------------------------*/
-
+				/*-----------------------------
+				--------- CONTACT -------------
+				-------------------------------*/
+				.spacing {
+				    line-height: 35px;
+				    word-spacing: 3px;
+				    font-size: 19px;
+				    letter-spacing: 1px;
+				}
 
 }
 
@@ -2610,7 +2664,7 @@ td, th {
 
 
 				/*----------------------------
-				----------END PROFILE -------------
+				----------END PROFILE --------
 				------------------------------*/
 
 				/*----------------------------
@@ -2627,8 +2681,8 @@ td, th {
 				}*/				
 
 				.mybox-head-font-responsive {
-					    font-size: 15px;
-    					padding-top: 15px;
+					font-size: 15px;
+    				padding-top: 15px;
 				}
 				.mybox-image-frame-model {
 				    width: 100%;
@@ -2641,6 +2695,19 @@ td, th {
 				}
 				/*----------------------------
 				------ END MYBOX 320 ---------
+				------------------------------*/
+
+				/*----------------------------
+				---------- CONTACT -----------
+				------------------------------*/
+				.spacing {
+				    line-height: 30px;
+				    word-spacing: 3px;
+				    font-size: 17px;
+				    letter-spacing: 1px;
+				}
+				/*----------------------------
+				--------- END CONTACT --------
 				------------------------------*/
 
 }
