@@ -11,7 +11,7 @@
     <div class="wrapper">
       <div class="p-5">
         <div class="row">
-          <div class="col-12  mb-3">
+          <div class="col-12  mb-2">
             <h2 class="text-blue">New Box</h2>
           </div>
           <div class="col-12">
@@ -86,7 +86,7 @@
                   <div class="col-lg-9 col-md-9 col-12  px-0 mb-4">
                     <textarea type="text" class="form-control" rows="6"></textarea>
                   </div>
-                  <div class="col-lg-12 px-0 mb-4 text-lg-right text-md-center text-center">
+                  <div class="col-lg-12 px-0 mb-1 text-lg-right text-md-center text-center">
                     <button type="button" class="btn btn-lightblue">เพิ่มกล่อง</button>
                   </div>
                 </div>
@@ -99,13 +99,13 @@
 
 
 
-          <div class="col-12 mb-5">
+          <div class="col-12 mb-1">
             <div class="newbox-hr text-center">
               <hr class="blue-hr">
             </div>
           </div>
 
-          <div class="col-12  mb-3">
+          <div class="col-12  mb-2">
             <h2 class="text-blue">My Box</h2>
           </div>
 
@@ -475,38 +475,7 @@
 
                 </div>
               </div>
-            </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            </div><!-- END Modal -->
 
 
 
@@ -605,7 +574,6 @@
                         </div>
                     </div>
                   </div>
-
                   <div class="col-12 verdict">
                     <div class="row">
                         <div class="col-7  px-1">
@@ -622,11 +590,8 @@
                 </div>
             </div>
           </div>
-
-
           <div class="col-12 mb-4">
               <div class="row">
-
                 <div class="col-lg-3 col-md-1 col-12 mr-md-4">
                 </div>
 
@@ -647,17 +612,8 @@
 
               </div>
           </div>
-
-
-
-
-
         </div>
-
-
-
       </div>
-
     </div>
 
 

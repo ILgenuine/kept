@@ -30,7 +30,7 @@
 
 
               <div class="col-lg-2">
-                
+
               </div>
 
 
@@ -113,7 +113,7 @@
                           <td class="text-lightblue">กล่องหนังสือ</td>
                           <td class="text-lightblue">Confirm Order</td>
                           <td class=""><a href="#"  data-toggle="modal" data-target=".bd-example-modal-lg"><u class="text-lightblue">ดูรายละเอียด</u></a></td>
-                        </tr>                                      
+                        </tr>
                       </tbody>
                     </table>
                 </div>
@@ -130,7 +130,7 @@
           <div class="modal-dialog mybox-modal-lg">
 
             <div class="modal-content mybox-content">
-              
+
               <div class="mybox-modal-header">
                   <div class="col-md-6 text-right">
                     <div class="text-left text-blue">
@@ -141,7 +141,7 @@
                     <button type="button" class="btn mybox-bnt-close" data-dismiss="modal" aria-hidden="true">
                       <i class="fa fa-times" aria-hidden="true"></i>
                     </button>
-                  </div>      
+                  </div>
               </div>
 
 
@@ -166,9 +166,9 @@
                           <tbody>
                             <tr>
                               <td class="text-left px-4" colspan="5">รายละเอียด</td>
-                            </tr>                        
+                            </tr>
                           </tbody>
-                        </table>  
+                        </table>
                         <div class="text-left mybox-scroll mybox-t-body">
                           <div class="row mybox-model-px-body py-3">
                             <div class="col-lg-4 col-6 pt-4 pb-4">
@@ -204,7 +204,7 @@
                             </div>
 
                           </div>
-                        </div>      
+                        </div>
                     </div>
                   </div>
                   <div class="col-1"></div>
