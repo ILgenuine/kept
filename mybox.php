@@ -219,30 +219,13 @@
 
                         </table>
 
-                      </div> 
-                            <div class="col-lg-4 col-6 pt-4 pb-4">
-                              <div class="mybox-image-frame-model">
-                                <img class="mybox-img-test" src="http://via.placeholder.com/300x300" alt="">
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 pt-4 pb-4">
-                              <div class="mybox-image-frame-model">
-                                <img class="mybox-img-test" src="http://via.placeholder.com/300x300" alt="">
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 pt-4 pb-4">
-                              <div class="mybox-image-frame-model">
-                                <img class="mybox-img-test" src="http://via.placeholder.com/300x300" alt="">
-                              </div>
-                            </div>
+                      </div>
 
-                          </div>
-                        </div>
-                    </div>
-                  </div>
                   <div class="col-1"></div>
                 </div>
               </div>
+            </div>
+
 
 
               <div class="modal-footer mb-4" style="border-top: none;">
