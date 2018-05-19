@@ -1082,7 +1082,7 @@ td, th {
 			------ END PROFILE --------
 			---------------------------*/
 
-					/*----------------------------
+				/*----------------------------
 				---------- PROFILE -------------
 				------------------------------*/
 
@@ -1118,6 +1118,50 @@ td, th {
 				/*----------------------------
 				------- END CONTACT ----------
 				-----------------------------*/
+			
+
+
+
+
+				/*----------------------------
+				---------- aboutus-------------
+				------------------------------*/
+
+
+						.about-image-box {
+							width: 350px;
+							height: 350px;
+							overflow: hidden;
+							position: relative;
+							margin: auto;
+						}
+						.about-img-fix {
+							position: absolute;
+							top: 50%;
+							left: 50%;
+							transform: translate(-50% , -50%);
+							width: 350px;
+    						height: 350px;
+						}
+
+						.jumbotron {
+							padding: 2rem 1rem;
+						    margin-bottom: 3rem;
+						    background-color: #ffffff;
+						    border-radius: .3rem;
+						    letter-spacing: 0px;
+						    border: 2px solid;
+						    border-radius: 62px;
+						 }
+	
+
+
+
+				/*----------------------------
+				----------END aboutus ------------
+				------------------------------*/
+
+
 
 @media (max-width: 1366px) {
 				/* Style the indicator (dot/circle) */
