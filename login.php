@@ -27,7 +27,7 @@
 	      		<div class="col-lg-12">
 	      			<form>
 	      				  <div class="form-group row pt-3">
-	      				  		<div class="col-lg-4 col-md-3 col-12 text-lg-right text-md-center text-center">
+	      				  		<div class="col-lg-4 col-md-3 col-12 text-md-right text-sm-center text-center">
 		      				    	<label class="col-form-label text-11 text-lightblue login-text-cen">Email</label>
 	      				  		</div>
 		      				    <div class="col-lg-4 col-md-6 col-12 ">
@@ -37,7 +37,7 @@
 
 
 	      				  <div class="form-group row pt-3">
-	      				  		<div class="col-lg-4 col-md-3 col-12 text-lg-right text-md-center text-center">
+	      				  		<div class="col-lg-4 col-md-3 col-12 text-md-right text-sm-center text-center">
 	      				  	     	<label class="col-form-label text-11 text-lightblue login-text-cen">Password</label>
 	      				  		</div>
 		      				    <div class="col-lg-4 col-md-6 col-12 ">

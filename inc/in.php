@@ -14,15 +14,7 @@
                     <div class="carousel-item active">
                       <img width='100%' height='100%' src="assets/images/all.jpg" alt="">
                     </div>
-                    <div class="carousel-item">
-                      <img width='100%' height='100%' src="assets/images/slide.jpg" alt="">
-                    </div>
-                    <div class="carousel-item">
-                      <img width='100%' height='100%' src="assets/images/logo/color.png" alt="">
-                    </div>
-                    <div class="carousel-item">
-                      <img width='100%' height='100%' src="assets/images/slide.jpg" alt="">
-                    </div>
+                   
                     <div class="carousel-item">
                       <img width='100%' height='100%' src="assets/images/slide.jpg" alt="">
                     </div>
@@ -39,9 +31,7 @@
                     <li data-target="#demo" data-slide-to="1"></li>
                     <li data-target="#demo" data-slide-to="2"></li>
                     <li data-target="#demo" data-slide-to="3"></li>
-                    <li data-target="#demo" data-slide-to="4"></li>
-                    <li data-target="#demo" data-slide-to="5"></li>
-                    <li data-target="#demo" data-slide-to="6"></li>
+           
                   </ul>
                 </div>
             </div>

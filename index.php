@@ -31,6 +31,9 @@
                 </div>
             </div>
 
+
+
+
             <div class="col-lg-3 text-center px-lg-5 mb-3 padding-1204">
                 <div class="step-frame mx-auto">
                   <img class="img-fluid" src="assets/images/icon/icon (2).png" alt="">
@@ -138,7 +141,6 @@
 
           <div class="col-lg-6 col-md-12 col-12 text-lg-left text-md-center text-center">
             <font class="how text-blue">" KEPT "</font><font class="how">COMMENTS</font>
-
             <div class="row py-3">
                 <div class="col-lg-3 col-md-12 col-12 webboard-top-414">
                   <div><p class="text-lightblue text-center webboard-content-top15">คุณแป๋ม</p></div>
@@ -168,10 +170,6 @@
                   <button type="button" class="btn btn-lightblue get-btn">MORE..</button>
                 </div>
             </div>
-
-
-
-
           </div>
         </div>
 

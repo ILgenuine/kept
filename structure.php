@@ -9,7 +9,7 @@
    <?php include_once('inc/navbar.php');
     include_once('inc/in.php'); ?>
 
-    <div class="wrapper">
+  <div class="wrapper">
 
 
     <div class="container p-5">

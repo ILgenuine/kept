@@ -25,16 +25,18 @@
 
 
 	<div class="col-lg-6 order-md-1 order-2 col-sm-7 col-12 pt-4">
-			<div class="col-12 pt-2">
-				<div class="form-group row p-2" >
-					<label class="col-lg-4 col-form-label text-11 text-lightblue  text-mail11">คำนำหน้า</label>
+			<div class="col-12 pt-4">
+				<div class="form-group row">
+					<div class="col-lg-4 text-lg-right text-md-center">
+						<label class="col-form-label text-lightblue" style="padding-top: 2px;">คำนำหน้า</label>
+					</div>
 					<div class="col-lg-8 ">
-							<select  class="custom-select profile-input-responsive" id="inputGroupSelect01" style="width: 200px; ">
-					           <option selected></option>
-					           <option value="1">One</option>
-					           <option value="2">Two</option>
-					           <option value="3">Three</option>
-					        </select>
+						<select  class="custom-select profile-input-responsive" id="inputGroupSelect01">
+					      <option selected></option>
+					      <option value="1">One</option>
+					      <option value="2">Two</option>
+					      <option value="3">Three</option>
+					    </select>
 					</div>
 	
 				</div>
@@ -43,9 +45,11 @@
 
 
 
-			<div class="col-12 pt-2">
-				<div class="form-group row p-2">
-					<label class="col-lg-4 col-form-label text-11 text-lightblue  text-mail11">ชื่อ</label>
+			<div class="col-12 pt-4">
+				<div class="form-group row">
+					<div class="col-lg-4 text-lg-right text-md-center">
+						<label class="col-form-label text-lightblue" style="padding-top: 2px;">ชื่อ</label>
+					</div>
 					<div class="col-lg-8 ">
 						<input type="text"  class="form-control">
 					</div>
@@ -55,9 +59,11 @@
 
 
 
-			<div class="col-12 pt-2">
-				<div class="form-group row  p-2">
-					<label class="col-lg-4 col-form-label text-11 text-lightblue  text-mail11">นามสกุล</label>
+			<div class="col-12 pt-4">
+				<div class="form-group row">
+					<div class="col-lg-4 text-lg-right text-md-center">
+						<label class="col-form-label text-lightblue" style="padding-top: 2px;">นามสกุล</label>
+					</div>
 					<div class="col-lg-8 ">
 						<input type="text" class="form-control">
 					</div>
@@ -68,9 +74,11 @@
 
 
 
-			<div class="col-12 pt-2">
-				<div class="form-group row  p-2">
-					<label class="col-lg-4 col-form-label text-11 text-lightblue  text-mail11">เบอร์โทร</label>
+			<div class="col-12 pt-4">
+				<div class="form-group row">
+					<div class="col-lg-4 text-lg-right text-md-center">
+						<label class="col-form-label text-lightblue" style="padding-top: 2px;">เบอร์โทร</label>
+					</div>
 					<div class="col-lg-8 ">
 						<input type="text" class="form-control">
 					</div>
@@ -80,9 +88,11 @@
 
 
 
-			<div class="col-12 pt-2">
-				<div class="form-group row  p-2">
-					<label class="col-lg-4 col-form-label text-11 text-lightblue  text-mail11">อีเมล์</label>
+			<div class="col-12 pt-4">
+				<div class="form-group row">
+					<div class="col-lg-4 text-lg-right text-md-center">
+						<label class="col-form-label text-lightblue" style="padding-top: 2px;">อีเมล์</label>
+					</div>
 					<div class="col-lg-8 ">
 						<input type="text"  class="form-control">
 					</div>
@@ -93,9 +103,11 @@
 
 
 
-			<div class="col-12 pt-2">
-				<div class="form-group row  p-2">
-					<label class="col-lg-4 col-form-label text-11 text-lightblue  text-mail11">ที่อยุ่ 1</label>
+			<div class="col-12 pt-4">
+				<div class="form-group row">
+					<div class="col-lg-4 text-lg-right text-md-center">
+						<label class="col-form-label text-lightblue" style="padding-top: 2px;">ที่อยุ่ 1</label>
+					</div>
 					<div class="col-lg-8 ">
 						<textarea type="text" class="form-control" rows="6"></textarea>
 					</div>
@@ -105,10 +117,12 @@
 
 
 					
-			<div class="col-12 pt-2">
+			<div class="col-12 pt-4">
 				<form>
-				  <div class="form-group row pt-3">
-				    <label for="colFormLabelSm" class="col-lg-4 col-form-label col-form-label-sm"></label>
+				  <div class="form-group row pb-3">
+				  	<div class="col-lg-4 text-lg-right text-md-center display-none">
+				    	<label class="col-form-label col-form-label-sm" style="padding-top: 2px;"></label>
+					</div>
 				    <div class="col-lg-8 text-right">
 				    	<div class="">
 				      		<button class="button plus-btn mr-2" style="background-color: #21a4c0;"><i class="fa fa-plus"></i></button>
@@ -120,10 +134,10 @@
 				</form>
 			</div>
 
-			<div class="col-12 pt-1">
-				  <div class="form-group row">
-				  	<div class="col-lg-4">
-				    	<label for="colFormLabelSm" class="col-form-label col-form-label-sm"></label>
+			<div class="col-12">
+				  <div class="form-group row pb-3">
+				  	<div class="col-lg-4 text-lg-right text-md-center display-none">
+				    	<label vclass="col-form-label col-form-label-sm" style="padding-top: 2px;"></label>
 					</div>
 				    <div class="col-lg-8 text-right">
 						<div class="profile-hr-size">
@@ -134,10 +148,10 @@
 			</div>
 
 
-			<div class="col-12 pt-2">
-				<div class="form-group row  p-2">
-					<div class="col-lg-4 text-11">
-						<label class="col-form-label text-lightblue  text-mail11 profile-text-1366">ชื่อผู้ใช้งาน</label>
+			<div class="col-12 pt-4 pt-25-rps">
+				<div class="form-group row">
+					<div class="col-lg-4 text-lg-right text-md-center">
+						<label class="col-form-label text-lightblue" style="padding-top: 2px;">ชื่อผู้ใช้งาน</label>
 					</div>
 					<div class="col-lg-8 ">
 						<input type="text"  class="form-control ">
@@ -147,10 +161,12 @@
 
 
 
-			<div class="col-12 pt-2">
-				<div class="form-group row  p-2" >
-					<label class="col-lg-4 col-form-label text-11 text-lightblue  text-mail11">รหัสผ่าน</label>
-					<div class="col-lg-8 ">
+			<div class="col-12 pt-4">
+				<div class="form-group row">
+					<div class="col-lg-4 text-lg-right text-md-center">
+						<label class="col-form-label text-lightblue" style="padding-top: 2px;">รหัสผ่าน</label>
+					</div>
+					<div class="col-lg-8">
 						<input type="text"  class="form-control">
 					</div>
 				</div>
@@ -167,15 +183,13 @@
 
 
 			<div class="col-12 pt-4">
-				<div class="form-s row px-2 pb-5">
-					<div class="col-lg-4 col-md-12">
+				<div class="form-s row pb-5">
+					<div class="col-lg-4 col-md-12 display-none">
 					</div>  
-
-
-					<div class="col-lg-4 col-md-6 col-6 profile-set-bnt-320">
+					<div class="col-lg-4 col-md-6 col-12 profile-py-sm-3">
 						<button type="button" class="btn btn-ghost" style="width: 100%;">ยกเลิก</button>
 					</div>
-					<div class="col-lg-4 col-md-6 col-6 profile-set-bnt-320">
+					<div class="col-lg-4 col-md-6 col-12 profile-py-sm-3">
 						<button type="button" class="btn btn-blue" style="width: 100%;">แก้ไขข้อมุล</button>
 					</div>
 					

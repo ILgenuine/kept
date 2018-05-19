@@ -36,27 +36,27 @@
 
         <ul class="navbar-nav nav-r">
             <!--register button-->
-            <!-- <li class="nav-item-r">
+ <li class="nav-item-r">
               <div class="nav-register <?php if($actual_link == "http://localhost/kept/register.php" || $actual_link == "http://localhost/kept/register.php") echo "active-r-menu"; else ""; ?>">
                 <a class="text-black"  href="index.php">Register</a>
               </div>
-            </li> -->
+            </li> 
 
             <!--login button-->
-            <!-- <li class="nav-item-r">
+           <li class="nav-item-r">
               <div class="nav-login <?php if($actual_link == "http://localhost/kept/login.php" || $actual_link == "http://localhost/kept/login.php") echo "active-r-menu"; else ""; ?>">
                 <a class="text-blue" href="productcategories.php">Login</a>
               </div>
-            </li> -->
+            </li> 
 
           <!--loggedin button-->
-          <li class="nav-item-r">
+<!--           <li class="nav-item-r">
               <div class="dropdown">
                   <button class="btn dropdown-toggle logged-in-button" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       <div class="profile-icon">
                         <img class="img-fluid" src="assets/images/avatar.png" alt="">
                       </div>
-                     <!-- string cut  include in footer-script-->
+                 
                        <font class="text-blue profile-name"  id="profile-name">
                         Mana JaideeJaideeJaideeJaideeJaideeJaideeJaidee
                        </font>
@@ -67,7 +67,7 @@
                       <button class="dropdown-item py-2 text-grey" type="button">Logout</button>
                   </div>
               </div>
-          </li>
+          </li> -->
 
 
          </ul>
