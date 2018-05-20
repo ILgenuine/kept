@@ -422,6 +422,8 @@ img{
 /*-------------------------*/
 /*--------  INDEX-- -------*/
 /*-------------------------*/
+
+
 		.header-box{
 			background-color:#d0f7fc;
 		}
@@ -477,6 +479,8 @@ img{
 		.get-start .btn-lightblue{
 			width:150px;
 			font-family: 'kanitlight';
+			width:180px;
+			font-size: 30px;
 		}
 
 		.how{
@@ -495,6 +499,7 @@ img{
 		.step-des {
 		    height: 90px;
 		    overflow: hidden;
+				text-align:left!important;
 		}
 
 
@@ -530,8 +535,10 @@ img{
 		}
 
 		.package-description{
+			height:120px;
+			overflow: hidden;
 			width:100%;
-			padding-right: 20%;;
+			padding-right: 20%;
 			margin-left: auto;
 			margin-right: auto;
 		}
@@ -542,7 +549,8 @@ img{
 		}
 
 		.get-btn{
-			width:90px;
+			font-size:30px;
+			width:150px;
 		}
 
 		.package-left{
@@ -566,6 +574,11 @@ img{
 		.fix-step-head-index {
 			overflow: hidden;
     		height: 58px;
+		}
+
+		.index-comment-fix{
+			max-height:120px;
+			overflow:hidden;
 		}
 
 /*-------------------------*/
@@ -1114,9 +1127,6 @@ td, th {
 
 
 
-
-
-
 				/*----------------------------
 				----------END PROFILE ------------
 				------------------------------*/
@@ -1139,7 +1149,7 @@ td, th {
 				/*----------------------------
 				------- END CONTACT ----------
 				-----------------------------*/
-			
+
 
 
 
@@ -1174,7 +1184,7 @@ td, th {
 						    border: 2px solid;
 						    border-radius: 62px;
 						 }
-	
+
 
 
 
@@ -1253,13 +1263,32 @@ td, th {
 				}
 
 				.package-cost{
-					font-size:25px;
+					font-size:22px;
 				}
 
 				.why-frame{
 					width:630px;
 				}
 
+				.step-des{
+					height:180px;
+				}
+
+				.step-frame{
+					width:210px;
+					height:210px;
+				}
+
+
+				.index-comment-fix{
+					max-height:180px;
+					overflow:hidden;
+				}
+
+
+				.package-description{
+					height:125px;
+				}
 
 	/*-------------------------*/
 	/*------- END INDEX  1366 -------*/
@@ -1446,7 +1475,7 @@ td, th {
 				}
 
 				.step-des{
-					height:unset;
+					height:180px;
 				}
 
 				.padding-1204{
@@ -1481,6 +1510,17 @@ td, th {
 					width:450px;
 					height:450px;
 				}
+
+
+				.index-comment-fix{
+					max-height:280px;
+					overflow:hidden;
+				}
+
+				.package-description{
+					height:160px;
+				}
+
 
 	/*-------------------------*/
 	/*------- END INDEX 1024 -------*/
@@ -1853,6 +1893,21 @@ td, th {
 						width:690px;
 					}
 
+					.step-des{
+						padding:0px 50px 0px 50px;
+						height:90px;
+					}
+
+					.index-comment-fix{
+						max-height:120px;
+						overflow:hidden;
+					}
+
+					.package-description{
+						height:220px;
+					}
+
+
 		/*-------------------------*/
 		/*------- END INDEX 768 -------*/
 		/*-------------------------*/
@@ -1992,6 +2047,12 @@ td, th {
 		    margin-top: -2px;
 		    width: 180px;
 		}
+
+		.index-comment-fix{
+			max-height:200px;
+			overflow:hidden;
+		}
+
 	/*---------------------------
 	-------- END MYBOX 768-------
 	-----------------------------*/
@@ -2209,6 +2270,23 @@ td, th {
 					font-size: 30px;
 				}
 
+
+				.step-des{
+					padding:0px 15px 0px 15px;
+					height:120px;
+				}
+
+
+				.index-comment-fix{
+					max-height:220px;
+					overflow:hidden;
+				}
+
+
+				.package-description{
+					height:180px;
+				}
+
 		/*-------------------------*/
 		/*------- END INDEX 414 -------*/
 		/*-------------------------*/
@@ -2312,79 +2390,90 @@ td, th {
 	------------ MYBOX ---------
 	----------------------------*/
 
-	.mybox-model-px-body {
-	    padding: 0px;
-	    margin-left: 15px;
-	    margin-right: 0px;
-	}
-	.mybox-scroll {
-	    overflow-y: scroll;
-	    height: 450px;
-	    width: 413px;
-	}
-	.mybox-image-frame-model {
-	    width: 100%;
-	    height: 140px;
-	    overflow: hidden;
-	    position: relative;
-	    margin: auto;
-	    border: 1px solid #58585a;
-	    border-radius: 5px;
+		.mybox-model-px-body {
+		    padding: 0px;
+		    margin-left: 15px;
+		    margin-right: 0px;
+		}
+		.mybox-scroll {
+		    overflow-y: scroll;
+		    height: 450px;
+		    width: 413px;
+		}
+		.mybox-image-frame-model {
+		    width: 100%;
+		    height: 140px;
+		    overflow: hidden;
+		    position: relative;
+		    margin: auto;
+		    border: 1px solid #58585a;
+		    border-radius: 5px;
 
-	}
-	.mybox-content {
-	    top: 0px;
-	}
-	.mybox-table-position-rps {
-		margin-left:-38px!important;
-	}
-	.mybox-table-model-rps {
-		margin-left: -40px;
-    	width: 377px;
-    	display: block;
-		overflow-x: auto;
-		-webkit-overflow-scrolling: touch;
-    	-ms-overflow-style: -ms-autohiding-scrollbar;
-	}
-/*	.mybox-modal-body {
-	    position: relative;
-	    -ms-flex: 1 1 auto;
-	    flex: 1 1 auto;
-	    padding: 0rem;
-	    margin-top: -15px;
-	    overflow: hidden;
-	    height: 540px;
-	}*/
-	.mybox-modal-footer-responsive {
-		display: block;
-		overflow-x: auto;
-		text-align: center!important;
-	    margin-top: 30px;
-	    margin-bottom: 15px;
-	}
-	.mybox-model-px-body {
-	    padding: 0px;
-	    margin-left: -10px;
-	    margin-right: -10px;
-	}
-	.mybox-modal-header {
-	    display: -ms-flexbox;
-	    display: flex;
-	    -ms-flex-align: start;
-	    align-items: flex-start;
-	    -ms-flex-pack: justify;
-	    justify-content: space-between;
-	    padding: 1rem;
-	    border-top-left-radius: 0.3rem;
-	    border-top-right-radius: .3rem;
-	    padding-top: 30px;
-	    margin-left: -20px;
-	    margin-right: -20px;
-	}
-	.mybox-btn-model {
-	    width: 100%;
-	    height: 50px;
-	}
+		}
+		.mybox-content {
+		    top: 0px;
+		}
+		.mybox-table-position-rps {
+			margin-left:-38px!important;
+		}
+		.mybox-table-model-rps {
+			margin-left: -40px;
+	    	width: 377px;
+	    	display: block;
+			overflow-x: auto;
+			-webkit-overflow-scrolling: touch;
+	    	-ms-overflow-style: -ms-autohiding-scrollbar;
+		}
+	/*	.mybox-modal-body {
+		    position: relative;
+		    -ms-flex: 1 1 auto;
+		    flex: 1 1 auto;
+		    padding: 0rem;
+		    margin-top: -15px;
+		    overflow: hidden;
+		    height: 540px;
+		}*/
+		.mybox-modal-footer-responsive {
+			display: block;
+			overflow-x: auto;
+			text-align: center!important;
+		    margin-top: 30px;
+		    margin-bottom: 15px;
+		}
+		.mybox-model-px-body {
+		    padding: 0px;
+		    margin-left: -10px;
+		    margin-right: -10px;
+		}
+		.mybox-modal-header {
+		    display: -ms-flexbox;
+		    display: flex;
+		    -ms-flex-align: start;
+		    align-items: flex-start;
+		    -ms-flex-pack: justify;
+		    justify-content: space-between;
+		    padding: 1rem;
+		    border-top-left-radius: 0.3rem;
+		    border-top-right-radius: .3rem;
+		    padding-top: 30px;
+		    margin-left: -20px;
+		    margin-right: -20px;
+		}
+		.mybox-btn-model {
+		    width: 100%;
+		    height: 50px;
+		}
+
+		.step-des{
+			padding:0px 10px 0px 10px;
+			height:150px;
+		}
+
+		.index-comment-fix{
+			max-height:200px;
+			overflow:hidden;
+		}
+
 	/*--------------------------
 	-------- END MYBOX ---------
 	----------------------------*/
@@ -2565,6 +2654,16 @@ td, th {
 			.why-frame{
 				width:297px;
 			}
+
+			.index-comment-fix{
+				max-height:230px;
+				overflow:hidden;
+			}
+
+			.package-description{
+				height:220px;
+			}
+
 
 	/*-------------------------*/
 	/*------- END INDEX -------*/
@@ -2769,6 +2868,22 @@ td, th {
 
 			.why-frame{
 				width:243px;
+			}
+
+
+			.step-des{
+				padding:0px 10px 0px 10px;
+				height:180px;
+			}
+
+
+			.index-comment-fix{
+				max-height:300px;
+				overflow:hidden;
+			}
+
+			.package-description{
+				height:300px;
 			}
 
 
