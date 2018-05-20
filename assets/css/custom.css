@@ -2490,6 +2490,11 @@ td, th {
 	.text-11 {
     	margin-left: 0px;
 	}
+	.re-top{
+    	 margin-top: -30px;
+	}
+
+
 
 
 	/*-------------------------*/
@@ -2553,6 +2558,11 @@ td, th {
 			.profile-py-sm-3 {
 				padding-top: 20px;
 				/*padding-bottom: 15px;*/
+			}
+
+			.pro-p-cen{
+
+				text-align: center;
 			}
 	/*--------------------------
 	----- END PROFILE 414 ------
@@ -2717,6 +2727,9 @@ td, th {
 			.text-11 {
 			    margin-left: 0px;
 			}
+			.re-top{
+    		    margin-top: -30px;
+			}
 			/*----------------------------
 			---------END REGISTER 375 ----
 			------------------------------*/
@@ -2737,6 +2750,7 @@ td, th {
 						.profile-gia2{
 							 margin-left: -75px;
 						}
+
 
 
 
@@ -2927,6 +2941,9 @@ td, th {
 			.register{
 				margin-left: 6px;
     		}
+    		.re-top{
+    		    margin-top: -30px;
+			}
 
 	/*-----------------------------
 	------------ WEBBOARD 320 -----
@@ -3067,5 +3084,30 @@ td, th {
 				/*----------------------------
 				--------- END CONTACT --------
 				------------------------------*/
+
+
+
+				/*----------------------------
+				---------- ABOUTUS -----------
+				------------------------------*/
+				.about-img-fix-1{
+					position: absolute;
+				    top: 50%;
+				    left: 50%;
+				    transform: translate(-50% , -50%);
+				  width: 290px;
+				    height: 285px;
+				}
+
+				.about-image-box-1{
+				 width: 290px;
+				}
+
+
+
+				/*----------------------------
+				--------- END ABOUTUS --------
+				------------------------------*/
+
 
 }
