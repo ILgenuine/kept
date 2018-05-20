@@ -45,7 +45,7 @@
                 </div>
               </div>
               <div class="col-md-2 col-8 webboard-top-414">
-                <div><p class="text-lightblue text-center webboard-content-top15">คุณแป๋ม</p></div>
+                <div class="webboard-font-responsive"><p class="text-lightblue text-center webboard-content-top15">คุณแป๋ม</p></div>
               </div>
               <div class="col-md-9 col-12">
                 <div class="webboard-content">
@@ -75,7 +75,7 @@
                 </div>
               </div>
               <div class="col-md-2 col-8 webboard-top-414">
-                <div><p class="text-lightblue text-center webboard-content-top15">คุณนัท</p></div>
+                <div class="webboard-font-responsive"><p class="text-lightblue text-center webboard-content-top15">คุณนัท</p></div>
               </div>
               <div class="col-md-9 col-12">
                 <div class="webboard-content">
@@ -103,7 +103,7 @@
                 </div>
               </div>
               <div class="col-md-2 col-8 webboard-top-414">
-                <div><p class="text-lightblue text-center webboard-content-top15">คุณสิริ</p></div>
+                <div class="webboard-font-responsive"><p class="text-lightblue text-center webboard-content-top15">คุณสิริ</p></div>
               </div>
               <div class="col-md-9 col-12">
                 <div class="webboard-content">
@@ -149,7 +149,7 @@
                 </div>
               </div>
               <div class="col-md-2 col-8 webboard-top-414">
-                <div><p class="text-lightblue text-center webboard-content-top15">คุณมานะ</p></div>
+                <div class="webboard-font-responsive"><p class="text-lightblue text-center webboard-content-top15">คุณมานะ</p></div>
               </div>
               <div class="col-md-9 col-12">
                 <div class="webboard-textarea-right">

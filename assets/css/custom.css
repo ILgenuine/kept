@@ -2280,6 +2280,9 @@ td, th {
 	/*---------------------------
 	-------- WEBBOARD 414 -------
 	----------------------------*/
+		.webboard-font-responsive {
+			font-size:17px;
+		}
 		.responsive-display-none {
 			display: none;
 		}
@@ -2303,6 +2306,11 @@ td, th {
 		}
 		.res-center {
 			text-align: center;
+		}
+		.webboard-text-time {
+		    padding-right: 20px;
+		    color: grey;
+		    font-size: 17px;
 		}
 	/*---------------------------
 	------ END WEBBOARD 414 -----
