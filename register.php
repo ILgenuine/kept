@@ -7,7 +7,7 @@
   <body>
 
     <?php include_once('inc/navbar.php'); 
-    include_once('inc/in.php'); ?>
+    // include_once('inc/in.php'); ?>
 
 
 
@@ -60,7 +60,7 @@
 	      				  	     	<label class="col-form-label text-lightblue login-text-cen"></label>
 	      				  		</div>
 		      				    <div class="col-lg-4 col-md-6 col-12 ">
-									<div class="text-center">
+									<div class="text-center re-top">
 										<div class="profile-hr-size">
 											<hr class="blue-hr">
 										</div>	
@@ -70,12 +70,12 @@
 
 
 
-	      				  <div class="form-group row pt-3">
-	      				  		<div class="col-lg-4 col-md-3 col-12 text-md-right text-sm-center text-center">
+	      				  <div class="form-group row pt-3 ">
+	      				  		<div class="col-lg-4 col-md-3 col-12 text-md-right text-sm-center text-center ">
 	      				  	     	<label class="col-form-label text-lightblue login-text-cen"></label>
 	      				  		</div>
 		      				    <div class="col-lg-4 col-md-6 col-12 ">
-									<div class="text-center">
+									<div class="text-center re-top ">
 										<button type="button" class="btn regidter-btn-facebook w100 register-1">
 											<i class="fab fa-facebook-square re-tap320"></i>
 											<font class="re-tap ">Sing Up with Facebook</font>
@@ -86,12 +86,12 @@
 
 
 	      				  <div class="form-group row pt-3">
-	      				  		<div class="col-lg-4 col-md-3 col-12 text-md-right text-sm-center text-center">
+	      				  		<div class="col-lg-4 col-md-3 col-12 text-md-right text-sm-center text-center ">
 	      				  	     	<label class="col-form-label text-lightblue login-text-cen"></label>
 	      				  		</div>
 		      				    <div class="col-lg-4 col-md-6 col-12 ">
-									<div class="text-center">
-										<button type="button" class="btn w100 register-btn-gmail">
+									<div class="text-center re-top">
+										<button type="button" class="btn w100 register-btn-gmail ">
 											<i class="fab fa-google Register-icon Register-icon1 "></i>
 											<font class="re-tap ">Sing Up with google</font>
 										</button>
