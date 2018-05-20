@@ -121,11 +121,11 @@
 				<form>
 				  <div class="form-group row pb-3">
 				  	<div class="col-lg-4 text-lg-right text-md-center display-none">
-				    	<label class="col-form-label col-form-label-sm" style="padding-top: 2px;"></label>
+				    	<label class="col-form-label col-form-label-sm " style="padding-top: 2px;"></label>
 					</div>
-				    <div class="col-lg-8 text-right">
-				    	<div style="text-align: center;">
-				      		<button class="button plus-btn mr-2 pro-p-cen" style="background-color: #21a4c0;"><i class="fa fa-plus"></i></button>
+				    <div class="col-lg-8">
+				    	<div class="profile-text-center text-right">
+				      		<button class="button plus-btn mr-2 " style="background-color: #21a4c0;"><i class="fa fa-plus"></i></button>
 				      	</div>
 				    </div>
 				    	

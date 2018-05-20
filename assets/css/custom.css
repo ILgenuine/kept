@@ -1125,6 +1125,11 @@ td, th {
 							  width: 110%;
 						}
 
+						.profile-center-pp{
+							text-align: right;
+
+						}
+
 
 
 				/*----------------------------
@@ -2099,6 +2104,10 @@ td, th {
 	.pt-25-rps {
 		margin-top: -25px;
 	}
+
+	.profile-center-pp{
+		text-align: center;
+	}
    /*----------------------------
     ----------END PROFILE -------------
     ------------------------------*/
@@ -2575,9 +2584,10 @@ td, th {
 				/*padding-bottom: 15px;*/
 			}
 
-			.pro-p-cen{
+			
 
-				text-align: center;
+			.profile-text-center{
+				text-align: center!important;
 			}
 	/*--------------------------
 	----- END PROFILE 414 ------
@@ -2764,6 +2774,10 @@ td, th {
 						}
 						.profile-gia2{
 							 margin-left: -75px;
+						}
+
+						.profile-center-pp{
+							text-align: center;
 						}
 
 
