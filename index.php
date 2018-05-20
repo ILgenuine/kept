@@ -25,7 +25,9 @@
                 <div class="step-frame mx-auto">
                   <img class="img-fluid" src="assets/images/icon/icon (1).png" alt="">
                 </div>
-                <h2 class="text-lightblue mt-3">ขั้นตอนที่ 1</h2>
+                <div class="fix-step-head-index">
+                  <h3 class="text-lightblue mt-3" style="line-height: 1.5;">ขั้นตอนที่ 1</h3>
+                </div>
                 <div class="step-des">
                   <font class="text-blue">ขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้5ตอนขั้นตอน</font>
                 </div>
@@ -38,7 +40,9 @@
                 <div class="step-frame mx-auto">
                   <img class="img-fluid" src="assets/images/icon/icon (2).png" alt="">
                 </div>
-                <h2 class="text-lightblue mt-3">ขั้นตอนที่ 2</h2>
+                <div class="fix-step-head-index">
+                  <h3 class="text-lightblue mt-3" style="line-height: 1.5;">ขั้นตอนที่ 2</h3>
+                </div>
                 <div class="step-des">
                   <font class="text-blue">ขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้5ตอนขั้นตอน</font>
                 </div>
@@ -48,7 +52,9 @@
                 <div class="step-frame mx-auto">
                   <img class="img-fluid" src="assets/images/icon/icon (3).png" alt="">
                 </div>
-                <h2 class="text-lightblue mt-3">ขั้นตอนที่ 3</h2>
+                <div class="fix-step-head-index">
+                  <h3 class="text-lightblue mt-3" style="line-height: 1.5;">ขั้นตอนที่ 3</h3>
+                </div>
                 <div class="step-des">
                   <font class="text-blue">ขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้5ตอนขั้นตอน</font>
                 </div>
@@ -58,7 +64,9 @@
                 <div class="step-frame mx-auto">
                   <img class="img-fluid" src="assets/images/icon/icon (4).png" alt="">
                 </div>
-                <h2 class="text-lightblue mt-3">ขั้นตอนที่ 4</h2>
+                <div class="fix-step-head-index">
+                  <h3 class="text-lightblue mt-3" style="line-height: 1.5;">ขั้นตอนที่ 4</h3>
+                </div>
                 <div class="step-des">
                   <font class="text-blue">ขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้5ตอนขั้นตอน</font>
                 </div>

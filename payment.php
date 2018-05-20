@@ -115,7 +115,7 @@
 
 
                     <div class="form-group row mb-3 payment-position-bottom">
-                      <div class="col-lg-4 col-md-3">
+                      <div class="col-lg-4 col-md-3 responsive-display-none">
                         <label class="col-form-label text-right"></label>
                       </div>
                       <div class="col-lg-8 col-md-9">
@@ -155,11 +155,11 @@
 
 
                     <div class="form-group row mb-3 payment-position-bottom">
-                      <div class="col-lg-4 col-md-3 text-right payment-text-center-414">
+                      <div class="col-lg-4 col-md-3 text-right payment-text-center-414 responsive-display-none">
                         <label class="col-form-label"></label>
                       </div>
                       <div class="col-lg-8 col-md-9">
-                        <div class="text-center"><button type="button" class="btn btn-blue w100">LOGIN</button></div>
+                        <div class="text-center rps-pt-10"><button type="button" class="btn btn-blue w100">LOGIN</button></div>
                       </div>
                     </div>
 
@@ -167,7 +167,7 @@
 
 
                     <div class="form-group row payment-position-bottom">
-                      <div class="col-lg-4 col-md-3 text-right payment-text-center-414">
+                      <div class="col-lg-4 col-md-3 text-right payment-text-center-414 responsive-display-none">
                         <label class="col-form-label"></label>
                       </div>
                       <div class="col-lg-8 col-md-9 payment-crad-responsive-sm">
