@@ -300,7 +300,7 @@
 
                     <div class="row">
                       <div class="col-12 px-3 py-3">
-                         <div class="table-responsive newbox-scoll-table">
+                         <div class="table-responsive newbox-scoll-tablen">
                            <table class="table table-modal">
                               <thead>
                                 <tr>
@@ -482,8 +482,8 @@
 
 
 
-            <div class="table-responsive" style="border: 1px solid #dee2e6;">
-               <table class="table">
+            <div class="table-responsive minus-margin" style="border: 1px solid #dee2e6;">
+               <table class="table ">
                   <thead>
                     <tr>
                       <th class="text-grey">ชื่อ</th>

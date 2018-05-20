@@ -2496,6 +2496,10 @@ td, th {
 	/*------- NEW BOX 414 -------*/
 	/*-------------------------*/
 
+			.minus-margin{
+				margin-left: -55px;
+			}
+
 			.package-img{
 				margin:15px auto;
 			}
@@ -2747,6 +2751,9 @@ td, th {
 				/*-----------------------------
 				---------- MYBOX --------------
 				-------------------------------*/
+
+
+
 /*				.mybox-modal-body {
 				    position: relative;
 				    -ms-flex: 1 1 auto;
@@ -2771,6 +2778,12 @@ td, th {
 					    -webkit-overflow-scrolling: touch;
 					    -ms-overflow-style: -ms-autohiding-scrollbar;
 					}
+
+					.minus-margin{
+						margin-left: -55px;
+					}
+
+
 				/*-----------------------------
 				---------- END MYBOX ----------
 				-------------------------------*/
@@ -2960,6 +2973,10 @@ td, th {
 	/*-------------------------*/
 	/*------- NEW BOX 414 -------*/
 	/*-------------------------*/
+
+			.minus-margin{
+				margin-left: -57px;
+			}
 
 
 			.sum-box font{
