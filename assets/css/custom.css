@@ -1005,7 +1005,7 @@ td, th {
 			    border: 2px solid #37adc5;
 			    border-radius: 0px!important;
 			    color: #000;
-			    font-size: 18px;
+			    font-size: 14px;
 			    width: 160px;
 			}
 			.mybox-tab-position {
@@ -2535,7 +2535,14 @@ td, th {
 			    overflow-y: scroll;
 			    height: 507px;
 			}
-
+			.newbox-table-responsive {
+			    display: block;
+			    width: 380px!important;
+			    overflow-x: auto;
+			    -webkit-overflow-scrolling: touch;
+			    -ms-overflow-style: -ms-autohiding-scrollbar;
+			    margin-left: -8px!important;
+			}
 	/*-------------------------*/
 	/*------ END NEW BO 414 ------*/
 	/*-------------------------*/
@@ -2824,7 +2831,15 @@ td, th {
 				.newbox-scoll-table {
 				    border: 1px solid #dee2e6;
 				    overflow-y: scroll;
-				    height: 411px;
+				    height: 550px;
+				}
+				.newbox-table-responsive {
+				    display: block;
+				    width: 341px!important;
+				    overflow-x: auto;
+				    -webkit-overflow-scrolling: touch;
+				    -ms-overflow-style: -ms-autohiding-scrollbar;
+				    margin-left: -8px!important;
 				}
 				/*---------------------------
 				----- END NEW-BOX 375 -------
@@ -3011,7 +3026,14 @@ td, th {
 			.verdict h3{
 				font-size: 15px;
 			}
-
+			.newbox-table-responsive {
+			    display: block;
+			    width: 286px!important;
+			    overflow-x: auto;
+			    -webkit-overflow-scrolling: touch;
+			    -ms-overflow-style: -ms-autohiding-scrollbar;
+			    margin-left: -8px!important;
+			}
 	/*-------------------------*/
 	/*------ END NEW BO 414 ------*/
 	/*-------------------------*/
