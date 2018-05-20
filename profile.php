@@ -124,8 +124,8 @@
 				    	<label class="col-form-label col-form-label-sm" style="padding-top: 2px;"></label>
 					</div>
 				    <div class="col-lg-8 text-right">
-				    	<div class="">
-				      		<button class="button plus-btn mr-2" style="background-color: #21a4c0;"><i class="fa fa-plus"></i></button>
+				    	<div style="text-align: center;">
+				      		<button class="button plus-btn mr-2 pro-p-cen" style="background-color: #21a4c0;"><i class="fa fa-plus"></i></button>
 				      	</div>
 				    </div>
 				    	

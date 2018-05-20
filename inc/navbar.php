@@ -38,16 +38,16 @@
             <!--register button-->
  <li class="nav-item-r">
               <div class="nav-register <?php if($actual_link == "http://localhost/kept/register.php" || $actual_link == "http://localhost/kept/register.php") echo "active-r-menu"; else ""; ?>">
-                <a class="text-black"  href="index.php">Register</a>
+                <a class="text-black"  href="register.php">Register</a>
               </div>
-            </li> 
+            </li>
 
             <!--login button-->
            <li class="nav-item-r">
               <div class="nav-login <?php if($actual_link == "http://localhost/kept/login.php" || $actual_link == "http://localhost/kept/login.php") echo "active-r-menu"; else ""; ?>">
-                <a class="text-blue" href="productcategories.php">Login</a>
+                <a class="text-blue" href="login.php">Login</a>
               </div>
-            </li> 
+            </li>
 
           <!--loggedin button-->
 <!--           <li class="nav-item-r">
@@ -56,7 +56,7 @@
                       <div class="profile-icon">
                         <img class="img-fluid" src="assets/images/avatar.png" alt="">
                       </div>
-                 
+
                        <font class="text-blue profile-name"  id="profile-name">
                         Mana JaideeJaideeJaideeJaideeJaideeJaideeJaidee
                        </font>

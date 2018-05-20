@@ -14,4 +14,10 @@
           text = text.substr(15,20) + '....';
           $(profile).text(text);
 
+
+          var comment = ".index-comment-fix";
+          var text = $(comment).text();
+          text = text.substr(0,250) + '....';
+          $(comment).text(text);
+
     </script>

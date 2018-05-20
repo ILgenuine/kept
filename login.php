@@ -7,7 +7,7 @@
   <body>
 
     <?php include_once('inc/navbar.php'); 
-    include_once('inc/in.php'); ?>
+    // include_once('inc/in.php'); ?>
 
     
 

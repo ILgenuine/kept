@@ -29,7 +29,7 @@
                   <h3 class="text-lightblue mt-3" style="line-height: 1.5;">ขั้นตอนที่ 1</h3>
                 </div>
                 <div class="step-des">
-                  <font class="text-blue">ขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้5ตอนขั้นตอน</font>
+                  <font class="text-blue">ขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นSSS</font>
                 </div>
             </div>
 
@@ -44,7 +44,7 @@
                   <h3 class="text-lightblue mt-3" style="line-height: 1.5;">ขั้นตอนที่ 2</h3>
                 </div>
                 <div class="step-des">
-                  <font class="text-blue">ขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้5ตอนขั้นตอน</font>
+                  <font class="text-blue">ขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นSSS</font>
                 </div>
             </div>
 
@@ -56,7 +56,7 @@
                   <h3 class="text-lightblue mt-3" style="line-height: 1.5;">ขั้นตอนที่ 3</h3>
                 </div>
                 <div class="step-des">
-                  <font class="text-blue">ขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้5ตอนขั้นตอน</font>
+                  <font class="text-blue">ขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นSSS</font>
                 </div>
             </div>
 
@@ -68,7 +68,7 @@
                   <h3 class="text-lightblue mt-3" style="line-height: 1.5;">ขั้นตอนที่ 4</h3>
                 </div>
                 <div class="step-des">
-                  <font class="text-blue">ขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้5ตอนขั้นตอน</font>
+                  <font class="text-blue">ขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นSSSขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นตอนขั้นSSS</font>
                 </div>
             </div>
 
@@ -85,8 +85,8 @@
           <div class="col-lg-6 col-md-6 col-12  package-left">
                 <div class="row package-box p-5">
                       <div class="col-lg-6 col-12 ">
-                        <div class="standard-icon">
-                          <img class="img-fluid" src="assets/images/logo/logo-icon.png" alt="">
+                        <div class="standard-icon mb-2">
+                          <img class="img-fluid" src="http://via.placeholder.com/600x600" alt="">
                         </div>
                       </div>
                       <div class="col-lg-6 col-12  right-package px-5">
@@ -110,7 +110,7 @@
           <div class="col-lg-6 col-md-6 col-12  package-right">
                 <div class="row package-box p-5 ">
                       <div class="col-lg-6 col-12 ">
-                        <div class="standard-icon">
+                        <div class="standard-icon mb-2">
                           <img class="img-fluid" src="assets/images/logo/logo-icon-grey.png" alt="">
                         </div>
                       </div>
@@ -155,7 +155,8 @@
                 </div>
                 <div class="col-lg-9 col-md-12 col-12 mb-lg-4 mb-md-2 mb-3">
                   <div class="webboard-content w-100">
-                    <p class="text-blue px-3 webboard-content-top15 webboard-message-responsive">ราคาถูกมาเลยค่ะ ชอบมาก!!</p>
+                    <!-- text slice iclude in script-->
+                    <p class="text-blue px-3 webboard-content-top15 webboard-message-responsive index-comment-fix" id="index-comment-fix">ราคาถูกมาเลยค่ะ ชอบมาก!!ราคาถูกมาเลยค่ะ ชอบมาก!!ราคาถูกมาเลยค่ะ ชอบมาก!!ราคาถูกมาเลยค่ะ ชอบมาก!!ราคาถูกมาเลยค่ะ ชอบมาก!!ราคาถูกมาเลยค่ะ ราคาถูกมาเลยค่ะ ราคาถูกมาเลยค่ะ ราคาถูกมาเลยค่ะ ราคาถูกมาเลยค่ะ ราคาถูกมาเลยค่ะ ราคาถูกมาเลยค่ะ ราคาถูกมาเลยค่ะ ราคาถูกมาเ... </p>
                   </div>
                 </div>
                 <div class="col-lg-3 col-md-12 col-12 webboard-top-414">
@@ -163,7 +164,7 @@
                 </div>
                 <div class="col-lg-9 col-md-12 col-12 mb-lg-4 mb-md-2 mb-3">
                   <div class="webboard-content w-100">
-                    <p class="text-blue px-3 webboard-content-top15 webboard-message-responsive">สะดวกมากเลยครับ ทำงานรวดเร็วมาก ชอบมากจุฟๆ !!</p>
+                    <p class="text-blue px-3 webboard-content-top15 webboard-message-responsive index-comment-fix"></p>
                   </div>
                 </div>
                 <div class="col-lg-3 col-md-12 col-12 webboard-top-414">
@@ -171,7 +172,7 @@
                 </div>
                 <div class="col-lg-9 col-md-12 col-12 mb-lg-4 mb-md-2 mb-3">
                   <div class="webboard-content w-100">
-                    <p class="text-blue px-3 webboard-content-top15 webboard-message-responsive">บ้านดูโล่งขึ้นเยอะเลยค่ะ ชอบบริการนี้มาก</p>
+                    <p class="text-blue px-3 webboard-content-top15 webboard-message-responsive index-comment-fix"></p>
                   </div>
                 </div>
                 <div class="col-12 text-lg-right text-md-center text-center">

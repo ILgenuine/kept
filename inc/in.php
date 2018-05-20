@@ -12,9 +12,9 @@
                   <!-- The slideshow -->
                   <div class="carousel-inner mb-3">
                     <div class="carousel-item active">
-                      <img width='100%' height='100%' src="assets/images/all.jpg" alt="">
+                      <img width='100%' height='100%' src="http://via.placeholder.com/1200x600" alt="">
                     </div>
-                   
+
                     <div class="carousel-item">
                       <img width='100%' height='100%' src="assets/images/slide.jpg" alt="">
                     </div>
@@ -31,7 +31,7 @@
                     <li data-target="#demo" data-slide-to="1"></li>
                     <li data-target="#demo" data-slide-to="2"></li>
                     <li data-target="#demo" data-slide-to="3"></li>
-           
+
                   </ul>
                 </div>
             </div>
@@ -39,9 +39,9 @@
                 <div class=""><font class="header-title text-blue">KEPT</font></div>
                 <div class="mb-4"><font class="header-excerpt text-blue">Keep Everything Perfectly Tidy</font></div>
                 <div class="get-start mb-md-4 mb-4">
-                  <button type="button" class="btn btn-lightblue ">GET  START</button>
+                  <button type="button" class="btn btn-lightblue">GET  START</button>
                 </div>
             </div>
           </div>
       </div>
- </body>     
+ </body>
