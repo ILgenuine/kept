@@ -29,14 +29,14 @@
               </div>
 
 
-              <div class="col-lg-2">
+              <div class="col-lg-2 col-12 responsive-display-none">
 
               </div>
 
 
-              <div class="col-lg-10 my-5">
+              <div class="col-lg-10 col-12 my-5">
 
-                <div class="table-responsive" style="border: 1px solid #dee2e6;">
+                <div class="table-responsive mybox-table-position-rps" style="border: 1px solid #dee2e6;">
                    <table class="table">
                       <thead>
                         <tr>
@@ -135,7 +135,7 @@
               <div class="mybox-modal-header">
                   <div class="col-md-6 text-right">
                     <div class="text-left text-blue mybox-head-font-responsive">
-                      <p>รายละเอียดกล่อง</p>
+                      <p class="mybox-font-responsive">รายละเอียดกล่อง</p>
                     </div>
                   </div>
                   <div class="col-md-6 text-right">
@@ -151,7 +151,7 @@
                 <div class="row">
                   <div class="col-1"></div>
                   <div class="col-10 px-3 py-3">
-                    <div class="table-responsive" style="border: 1px solid #dee2e6;">
+                    <div class="mybox-table-model-rps" style="border: 1px solid #dee2e6;">
                        <table class="table mybox-header">
                           <thead>
 

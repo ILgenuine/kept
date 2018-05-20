@@ -492,9 +492,9 @@ img{
 			border-radius: 12px;
 		}
 
-		.step-des{
-			height:120px;
-			overflow:hidden;
+		.step-des {
+		    height: 90px;
+		    overflow: hidden;
 		}
 
 
@@ -562,6 +562,10 @@ img{
 			overflow: hidden;
 			width: 100%;
 			height:450px;
+		}
+		.fix-step-head-index {
+			overflow: hidden;
+    		height: 58px;
 		}
 
 /*-------------------------*/
@@ -859,6 +863,23 @@ td, th {
 			}
 			.webboard-position{
 				padding-top: 80px;
+			}
+			.webboard-image-frame img {
+			    position: absolute;
+			    top: 50%;
+			    left: 50%;
+			    transform: translate(-50%,-50%);
+			    width: 100%;
+    			height: auto;
+
+			}
+			.webboard-image-frame {
+			    width: 50px;
+			    height: 50px;
+			    overflow: hidden;
+			    position: relative;
+			    margin: auto;
+			    border-radius: 50px;
 			}
 			/*--------------------------
 			-------- END WEBBOARD ------
@@ -2089,7 +2110,23 @@ td, th {
 
 					/*------------ END FOOTER 414  -------------*/
 
-
+					.table-responsive {
+					    display: block;
+					    width: 400px;
+					    overflow-x: auto;
+					    -webkit-overflow-scrolling: touch;
+					    -ms-overflow-style: -ms-autohiding-scrollbar;
+					    margin-left: -33px;
+					}
+					td, th {
+					    vertical-align: middle!important;
+					    border-bottom: none;
+					    font-size: 14px;
+					    font-weight: 350;
+					    text-align: center;
+					    border-right: 1px solid #e7eaec;
+					    padding-top: 15px;
+					}
 
 		/*-------------------------*/
 		/*------  END Structure 414 -------*/
@@ -2195,7 +2232,7 @@ td, th {
 				.payment-card-body {
 				    -ms-flex: 1 1 auto;
 				    flex: 1 1 auto;
-				    padding: 5px 0px 35px 0px;
+				    padding: 35px 0px 35px 0px;
 				}
 				.payment-from-responsive {
 				    padding-right: 15px!important;
@@ -2203,16 +2240,37 @@ td, th {
 				}
 				.payment-text-center-414 {
 					text-align: center!important;
+					margin-top: -15px;
 				}
 				.payment-position-bottom {
 				    padding-bottom: 0px;
 				}
 				.payment-loginsize {
 				    font-size: 14px;
-				    margin-top: -30px;
+				    margin-top: 0px;
 				}
+
 				.payment-cvv {
 					width: 100%;
+				}
+				.payment-card {
+				    position: relative;
+				    display: -ms-flexbox;
+				    display: flex;
+				    -ms-flex-direction: column;
+				    flex-direction: column;
+				    min-width: 0;
+				    word-wrap: break-word;
+				    background-color: #fff;
+				    background-clip: border-box;
+				    border: 2px solid rgba(0,0,0,.125);
+				    border-radius: .25rem;
+				    height: 500px;
+				    padding-top: 10px;
+				}
+
+				.rps-pt-10 {
+					margin-top: 20px;
 				}
 	/*---------------------------
 	-------- END PAYMENT 414 ----
@@ -2225,9 +2283,16 @@ td, th {
 		.responsive-display-none {
 			display: none;
 		}
+		.webboard-content {
+		    border: 2px solid #585859;
+		    border-radius: 5px;
+		    margin-right: 0px;
+		    margin-left: 0px;
+		}
 		.webboard-message-responsive {
-		    padding-left: 20px!important;
-		    padding-right: 20px!important;
+		    padding-left: 15px!important;
+		    padding-right: 15px!important;
+		    font-size: 17px;
 		}
 		.webboard-top-414 {
 			margin-bottom: 15px;
@@ -2259,7 +2324,7 @@ td, th {
 	}
 	.mybox-image-frame-model {
 	    width: 100%;
-	    height: 155px;
+	    height: 140px;
 	    overflow: hidden;
 	    position: relative;
 	    margin: auto;
@@ -2269,6 +2334,17 @@ td, th {
 	}
 	.mybox-content {
 	    top: 0px;
+	}
+	.mybox-table-position-rps {
+		margin-left:-38px!important;
+	}
+	.mybox-table-model-rps {
+		margin-left: -40px;
+    	width: 377px;
+    	display: block;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+    	-ms-overflow-style: -ms-autohiding-scrollbar;
 	}
 /*	.mybox-modal-body {
 	    position: relative;
@@ -2280,9 +2356,34 @@ td, th {
 	    height: 540px;
 	}*/
 	.mybox-modal-footer-responsive {
+		display: block;
+		overflow-x: auto;
 		text-align: center!important;
 	    margin-top: 30px;
 	    margin-bottom: 15px;
+	}
+	.mybox-model-px-body {
+	    padding: 0px;
+	    margin-left: -10px;
+	    margin-right: -10px;
+	}
+	.mybox-modal-header {
+	    display: -ms-flexbox;
+	    display: flex;
+	    -ms-flex-align: start;
+	    align-items: flex-start;
+	    -ms-flex-pack: justify;
+	    justify-content: space-between;
+	    padding: 1rem;
+	    border-top-left-radius: 0.3rem;
+	    border-top-right-radius: .3rem;
+	    padding-top: 30px;
+	    margin-left: -20px;
+	    margin-right: -20px;
+	}
+	.mybox-btn-model {
+	    width: 100%;
+	    height: 50px;
 	}
 	/*--------------------------
 	-------- END MYBOX ---------
@@ -2417,6 +2518,15 @@ td, th {
 				/*------------ END FOOTER 375  -------------*/
 
 
+				.table-responsive {
+				    display: block;
+				    width: 360px;
+				    overflow-x: auto;
+				    -webkit-overflow-scrolling: touch;
+				    -ms-overflow-style: -ms-autohiding-scrollbar;
+				    margin-left: -33px;
+				}
+
 
 	/*-------------------------*/
 	/*------  END Structure 375 -------*/
@@ -2536,7 +2646,7 @@ td, th {
 
 
 				/*-----------------------------
-				---------- M YBOX --------------
+				---------- MYBOX --------------
 				-------------------------------*/
 /*				.mybox-modal-body {
 				    position: relative;
@@ -2548,8 +2658,19 @@ td, th {
 				    height: 440px;
 				}*/
 					.mybox-head-font-responsive {
-					    font-size: 17px;
+					    font-size: 12px;
 					    padding-top: 10px;
+					}
+					.mybox-font-responsive {
+						font-size: 17px;
+					}
+					.mybox-table-model-rps {
+					    margin-left: -40px;
+					    width: 345px;
+					    display: block;
+					    overflow-x: auto;
+					    -webkit-overflow-scrolling: touch;
+					    -ms-overflow-style: -ms-autohiding-scrollbar;
 					}
 				/*-----------------------------
 				---------- END MYBOX ----------
@@ -2606,7 +2727,14 @@ td, th {
 
 				/*------------ END FOOTER 320  -------------*/
 
-
+				.table-responsive {
+				    display: block;
+				    width: 309px;
+				    overflow-x: auto;
+				    -webkit-overflow-scrolling: touch;
+				    -ms-overflow-style: -ms-autohiding-scrollbar;
+				    margin-left: -33px;
+				}
 
 	/*-------------------------*/
 	/*------  END Structure 320 -------*/
@@ -2771,17 +2899,25 @@ td, th {
 				}*/
 
 				.mybox-head-font-responsive {
-					font-size: 15px;
+					font-size: 12px;
     				padding-top: 15px;
 				}
 				.mybox-image-frame-model {
 				    width: 100%;
-				    height: 148px;
+				    height: 140px;
 				    overflow: hidden;
 				    position: relative;
 				    margin: auto;
 				    border: 1px solid #58585a;
 				    border-radius: 5px;
+				}
+				.mybox-table-model-rps {
+				    margin-left: -40px;
+				    width: 289px;
+				    display: block;
+				    overflow-x: auto;
+				    -webkit-overflow-scrolling: touch;
+				    -ms-overflow-style: -ms-autohiding-scrollbar;
 				}
 				/*----------------------------
 				------ END MYBOX 320 ---------

@@ -40,7 +40,8 @@
 
             <div class="row">
               <div class="col-md-1 col-4 webboard-top-414">
-                <div class="text-lightblue text-center"><i class="fa fa-user-circle webboard-content-top10" style="font-size: 45px;"></i>
+                <div class="text-center webboard-image-frame">
+                    <img class="webboard-image-frame" src="assets/images/user.png">
                 </div>
               </div>
               <div class="col-md-2 col-8 webboard-top-414">
@@ -69,7 +70,8 @@
 
             <div class="row">
               <div class="col-md-1 col-4 webboard-top-414">
-                <div class="text-lightblue text-center"><i class="fa fa-user-circle webboard-content-top10" style="font-size: 45px;"></i>
+                <div class="text-center webboard-image-frame">
+                    <img class="webboard-image-frame" src="assets/images/img-test-user.jpg">
                 </div>
               </div>
               <div class="col-md-2 col-8 webboard-top-414">
@@ -96,7 +98,8 @@
 
             <div class="row">
               <div class="col-md-1 col-4 webboard-top-414">
-                <div class="text-lightblue text-center"><i class="fa fa-user-circle webboard-content-top10" style="font-size: 45px;"></i>
+                <div class="text-center webboard-image-frame">
+                    <img class="webboard-image-frame" src="assets/images/hto.jpg">
                 </div>
               </div>
               <div class="col-md-2 col-8 webboard-top-414">
@@ -139,7 +142,10 @@
 
             <div class="row">
               <div class="col-md-1 col-4 webboard-top-414">
-                <div class="text-lightblue text-center"><i class="fa fa-user-circle webboard-content-top10" style="font-size: 45px;"></i>
+                <div class="text-lightblue text-center">
+                  <div class="text-center webboard-image-frame">
+                      <img class="webboard-image-frame" src="assets/images/user.png">
+                  </div>
                 </div>
               </div>
               <div class="col-md-2 col-8 webboard-top-414">
